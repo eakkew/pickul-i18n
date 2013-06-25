@@ -6340,19 +6340,19 @@ msgstr ""
 
 #: r2/templates/promotelinkform.html:370
 msgid "width"
-msgstr ""
+msgstr "ความกว้าง"
 
 #: r2/templates/promotelinkform.html:378
 msgid "height"
-msgstr ""
+msgstr "ความสูง"
 
 #: r2/templates/promotelinkform.html:424 r2/templates/promotelinkform.html:508
 msgid "promotion history"
-msgstr ""
+msgstr "ประวัติโปรโมชั่น"
 
 #: r2/templates/promotelinkform.html:473
 msgid "bidding history"
-msgstr ""
+msgstr "ประวัติการประมูล"
 
 #: r2/templates/promotraffichelp.html:32
 msgid ""
@@ -6360,6 +6360,9 @@ msgid ""
 " and that daily totals will be preliminary until 24 hours after the link has"
 " finished its run."
 msgstr ""
+"หมายเหตุ ผลรวม traffic จะช้ากว่าปัจจุบันสองถึงสามชั่วโมง "
+"และผลรวมต่อวันจะไม่เป็นยอดจริงจนกว่าจะผ่านไปแล้ว 24 ชั่วโมงหลังจากที่ ลิงค์"
+"ถ้าถูกโปรโมทเสร็จแล้ว"
 
 #: r2/templates/promotraffichelp.html:37
 msgid ""
@@ -6368,12 +6371,12 @@ msgstr ""
 
 #: r2/templates/promotraffichelp.html:41
 msgid "Questions? Email self serve support:"
-msgstr ""
+msgstr "มีคำถาม? ส่งอีเมล์หาระบบช่วยเหลือตนเอง"
 
 #: r2/templates/promotrafficsettings.html:26
 #, python-format
 msgid "Traffic url for link %s"
-msgstr ""
+msgstr "Traffic url สำหรับลิงค์ %s"
 
 #: r2/templates/promotrafficsettings.html:30
 msgid ""
@@ -6381,10 +6384,13 @@ msgid ""
 "the viewer list below and then sharing the traffic url with them. They will "
 "be able to see this stats page but will not be able to edit the promotion."
 msgstr ""
+"คุณสามารถแบ่งปันหน้า traffic แก่ชาวพิกุลท่านอื่นโดยการเพื่มพวกเขาไปใน"
+"รายการผู้ชมด้านล่าง และแบ่งปัน traffic url กับพวกเขา ชาวพิกุลท่านอื่นจะ"
+"สามารถมองเห็นสถิตินี้ แต่ไม่สามารถแก้ไขได้"
 
 #: r2/templates/reddit.html:158 r2/templates/reddit.html:169
 msgid "close this window"
-msgstr ""
+msgstr "ปิดหน้านี้"
 
 #: r2/templates/redditfooter.html:48
 #, python-format
@@ -6392,148 +6398,150 @@ msgid ""
 "Use of this site constitutes acceptance of our %(user_agreement)s and "
 "%(privacy_policy)s"
 msgstr ""
+"การใช้เวบนี้ ฉันเข้าใจและยอมรับ %(user_agreement)s และ "
+"​%(privacy_policy)s"
 
 #: r2/templates/redditfooter.html:50
 msgid "User Agreement {Genitive}"
-msgstr ""
+msgstr "ข้อตกลงของผู้ใช้งาน {Genitive}"
 
 #: r2/templates/redditfooter.html:52
 msgid "Privacy Policy {Genitive}"
-msgstr ""
+msgstr "นโยบายสิทธิส่วนบุคคล {Genitive}"
 
 #: r2/templates/redditfooter.html:54
 #, python-format
 msgid "%(year)d reddit inc. All rights reserved."
-msgstr ""
+msgstr "%(year)d บริษัทพิกุล All rights reserved."
 
 #: r2/templates/redditheader.html:33
 msgid "jump to content"
-msgstr ""
+msgstr "กระโดดไปที่เนื้อหานี้"
 
 #: r2/templates/redditheader.html:72
 #, python-format
 msgid "want to join? %(login_or_register)s in seconds"
-msgstr ""
+msgstr "อยากจะเข้าร่วม? %(login_or_register)s ใช้แค่ไม่กี่วินาที"
 
 #: r2/templates/redditheader.html:110
 msgid "mod messages"
-msgstr ""
+msgstr "ข้อความจากผู้ดูแล"
 
 #: r2/templates/reddittraffic.html:43
 #, python-format
 msgid "traffic statistics for %(place)s"
-msgstr ""
+msgstr "สถิติ traffic ต่อ %(place)s"
 
 #: r2/templates/reddittraffic.html:86
 msgid "traffic by day of week"
-msgstr ""
+msgstr "traffic โดยแต่ละวัน"
 
 #: r2/templates/reddittraffic.html:106
 msgid "daily mean"
-msgstr ""
+msgstr "ค่าเฉลี่ยประจำวัน"
 
 #: r2/templates/roadblocks.html:35
 msgid "create a roadblock"
-msgstr ""
+msgstr "สร้าง roadblock"
 
 #: r2/templates/roadblocks.html:94
 msgid "existing roadblocks"
-msgstr ""
+msgstr "มี roadblocks"
 
 #: r2/templates/rulespage.html:111
 msgid "here at reddit, we inscribe our rules on a brick. screw tablets."
-msgstr ""
+msgstr "เราเดินตามรอยพ่อขุนรามคำแหงด้วยการจารึกกฏลงบนศิลาจารึก"
 
 #: r2/templates/rulespage.html:111
 msgid "this brick has no semantic value"
-msgstr ""
+msgstr "ศิลาจารึกนี้มีค่าแค่ไว้ทับกระดาษ"
 
 #: r2/templates/searchbar.html:36
 #, python-format
 msgid "about %(num)d results in %(second)s"
-msgstr ""
+msgstr "ค้นหาได้ %(num)d ภายใน %(second)s"
 
 #: r2/templates/searchbar.html:46
 msgid "satisfied?"
-msgstr ""
+msgstr "พอใจไหมล่ะ?"
 
 #: r2/templates/searchbar.html:50
 msgid "thanks for your feedback!"
-msgstr ""
+msgstr "ขอบคุณสำหรับคำติชม!"
 
 #: r2/templates/searchbar.html:58
 #, python-format
 msgid "converted query to %(syntax)s syntax: %(converted)s"
-msgstr ""
+msgstr "แก้รูปแบบคำค้นหาจาก %(syntax)s syntax: %(converted)s"
 
 #: r2/templates/searchbar.html:79
 msgid "too many results? narrow it down to a subreddit!"
-msgstr ""
+msgstr "ผลการค้นหาเยอะไป? ลดผลการค้นหาด้วยการเลือกเพียงกลีบพิกุลเดียวสิ!"
 
 #: r2/templates/searchform.html:34
 msgid "find submissions in \"subreddit\""
-msgstr ""
+msgstr "ค้นหากระทู้ใน \"กลีบพิกุล\""
 
 #: r2/templates/searchform.html:36
 msgid "find submissions by \"username\""
-msgstr ""
+msgstr "ค้นหากระทู้โดย \"ชื่อผู้ใช้\""
 
 #: r2/templates/searchform.html:38
 msgid "find submissions from \"example.com\""
-msgstr ""
+msgstr "ค้นหากระทู้จาก \"example.com\""
 
 #: r2/templates/searchform.html:40
 msgid "search for \"text\" in url"
-msgstr ""
+msgstr "ค้นหา \"ข้อความ\" ใน url"
 
 #: r2/templates/searchform.html:42
 msgid "search for \"text\" in self post contents"
-msgstr ""
+msgstr "ค้นหา \"ข้อความ\" ในเนื้อหาของกระทู้ความเห็น"
 
 #: r2/templates/searchform.html:44
 msgid "include (or exclude) self posts"
-msgstr ""
+msgstr "รวม (หรือคัดออก๗ กระทู้ความเห็น"
 
 #: r2/templates/searchform.html:46
 msgid "include (or exclude) results marked as NSFW"
-msgstr ""
+msgstr "รวม (หรือคัดออก) การค้นหาที่ไม่ปลอดภัยสำหรับที่สาธารณะ"
 
 #: r2/templates/searchform.html:50
 msgid "see the search faq for details."
-msgstr ""
+msgstr "โปรดค้นหา faq สำหรับรายละเอียด"
 
 #: r2/templates/searchform.html:53
 msgid "advanced search: by author, subreddit..."
-msgstr ""
+msgstr "การค้นหาขั้นสูง: โดยเจ้าของกระทู้, กลีบพิกุล..."
 
 #: r2/templates/searchform.html:61 r2/templates/searchform.html:81
 msgid "search reddit"
-msgstr ""
+msgstr "ค้นหากลีบพิกุล"
 
 #: r2/templates/searchform.html:67 r2/templates/searchform.html:78
 #, python-format
 msgid "limit my search to %(path)s"
-msgstr ""
+msgstr "จำกัดการค้นหาอยู่ที่ %(path)s"
 
 #: r2/templates/sharelink.html:37
 msgid "send this link to"
-msgstr ""
+msgstr "ส่งลิงค์นี้ไปหา"
 
 #: r2/templates/sharelink.html:40
 msgid "(list of emails or usernames)"
-msgstr ""
+msgstr "รายการอีเมล์หรือชื่อผู้ใช้"
 
 #: r2/templates/sharelink.html:77
 msgid "your email"
-msgstr ""
+msgstr "อีเมล์ของคุณ"
 
 #: r2/templates/sharelink.html:96
 msgid "message {share form}"
-msgstr ""
+msgstr "ข้อความ {share form}"
 
 #: r2/templates/sitewidetraffic.html:33
 msgid "top subreddits"
-msgstr ""
+msgstr "กลีบพิกุลยอดนิยม"
 
 #: r2/templates/spotlightlisting.html:56
 #, python-format
@@ -6541,6 +6549,8 @@ msgid ""
 "This sponsored link is an advertisement generated with our "
 "%(self_serve_advertisement_tool)s."
 msgstr ""
+"ลิงค์ผู้สนับสนุนนี้คือโฆษณาที่เราสร้างขึ้นอัตโนมัติด้วย"
+"%(self_serve_advertisement_tool)s"
 
 #: r2/templates/spotlightlisting.html:57
 msgid "self-serve advertisement tool"
