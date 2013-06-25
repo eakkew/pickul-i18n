@@ -1388,7 +1388,7 @@ msgstr "ที่ถูกแนะนำ"
 
 #: r2/lib/menus.py:60
 msgid "rising"
-msgstr "มาลังมาแรง"
+msgstr "กำลังมาแรง"
 
 #: r2/lib/menus.py:61
 msgid "admin"
