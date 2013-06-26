@@ -5503,41 +5503,43 @@ msgstr ""
 
 #: r2/templates/prefdelete.html:35
 msgid "sorry to see you go!"
-msgstr ""
+msgstr "จะไปจริงเหรอครับ :("
 
 #: r2/templates/prefdelete.html:37
 msgid ""
 " * if you're having a problem on reddit, please consider [contacting us](/feedback) about it before deleting your account.\n"
 " * deleting your account will not delete the content of posts and comments you've made on reddit. to do so, please delete them individually."
 msgstr ""
+" * หากคุณมีปัญหาในการใช้พิกุล โปรด[ติดต่อพวกเรา](/feedback)เกี่ยวกับปัญหาก่อนที่จะลบบัญชีผู้ใช้ของคุณ\n"
+" * การลบบัญชีผู้ใช้ของคุณจะไม่ลบความเห็น หรือกระทู้ที่คุณโพสไว้บนพิกุล หากคุณต้องการ โปรดลบกระทู้นั้นด้วยตัวเอง"
 
 #: r2/templates/prefdelete.html:46
 msgid "why are you deleting this account?"
-msgstr ""
+msgstr "ทำไมคุณถึงจะลบบัญชีผู้ใช้"
 
 #: r2/templates/prefdelete.html:53
 msgid "for security purposes"
-msgstr ""
+msgstr "สำหรับความปลอดภัย"
 
 #: r2/templates/prefdelete.html:53
 msgid "account credentials"
-msgstr ""
+msgstr "ความน่าเชื่อถือของบัญชีผู้ใช้"
 
 #: r2/templates/prefdelete.html:64
 msgid "confirmation"
-msgstr ""
+msgstr "การยืนยัน"
 
 #: r2/templates/prefdelete.html:67
 msgid "I understand that deleted accounts are not recoverable."
-msgstr ""
+msgstr "ฉันยอมรับและเข้าใจว่าการลบบัญชีผู้ใช้ไม่สามารถย้อนกลับได้"
 
 #: r2/templates/prefdelete.html:74
 msgid "delete account"
-msgstr ""
+msgstr "ลบบัญชีผู้ใช้"
 
 #: r2/templates/preffeeds.html:29
 msgid "Private RSS feeds"
-msgstr ""
+msgstr "RSS feed ส่วนตัว"
 
 #: r2/templates/preffeeds.html:31
 msgid ""
@@ -5545,303 +5547,310 @@ msgid ""
 "your content (personalized front page, message panel, saved listing, etc.) "
 "without having to deal with cookies or other auth."
 msgstr ""
+"บนหน้านี้คือลิงค์ไปยัง RSS feed ส่วนตัวของคุณ ที่คุณจะสามารถรับติดตามรายการ"
+"สาระที่คุณติดตาม (หน้าแรกของคุณ หน้าข้อความ รายการที่คุณบันทึกไว้ เป็นต้น)"
+"โดยที่ไม่ต้องใช้ cookies หรือการใช้ระบบรับรองอื่น"
 
 #: r2/templates/preffeeds.html:32
 msgid ""
 "Keep in mind that these urls are intended to be private, so **share at your "
 "own risk.**"
 msgstr ""
+"โปรดทราบว่า url เหล่านี้ไม่เปิดเผยต่อสาธารณะ เพราะฉะนั้น **โปรดระมัดระวัง"
+"หากคุณต้องการะจะแบ่งปันให้ผู้อื่น**"
 
 #: r2/templates/preffeeds.html:33
 msgid "All feeds are invalidated if you change your password, however."
-msgstr ""
+msgstr "อย่างไรก็ตาม ข้อมูลที่จะป้อนให้จะไม่ถูกต้องหากคุณเปลี่ยนรหัสผ่าน"
 
 #: r2/templates/preffeeds.html:54
 msgid "your front page"
-msgstr ""
+msgstr "หน้าแรกของคุณ"
 
 #: r2/templates/preffeeds.html:57
 msgid "your saved links"
-msgstr ""
+msgstr "ลิงค์ที่คุณบันทึกไว้"
 
 #: r2/templates/preffeeds.html:64
 msgid "links you've liked"
-msgstr ""
+msgstr "ลิงค์ที่คุณถูกใจ"
 
 #: r2/templates/preffeeds.html:67
 msgid "links you've disliked"
-msgstr ""
+msgstr "ลิงค์ที่คุณไม่ถูกใจ"
 
 #: r2/templates/preffeeds.html:70
 msgid "links you've hidden"
-msgstr ""
+msgstr "ลิงค์ที่คุณซ่อนไว้"
 
 #: r2/templates/preffeeds.html:77 r2/templates/preffeeds.html:97
 msgid "everything"
-msgstr ""
+msgstr "ทุกอย่าง"
 
 #: r2/templates/preffeeds.html:80 r2/templates/preffeeds.html:100
 msgid "unread messages"
-msgstr ""
+msgstr "ข้อความที่ยังไม่ได้อ่าน"
 
 #: r2/templates/preffeeds.html:83
 msgid "messages only"
-msgstr ""
+msgstr "ข้อความเท่านั้น"
 
 #: r2/templates/preffeeds.html:86
 msgid "comment replies only"
-msgstr ""
+msgstr "ความเห็นตอบกลับเท่านั้น"
 
 #: r2/templates/preffeeds.html:89
 msgid "self-post replies only"
-msgstr ""
+msgstr "ความเห็นตอบกระทู้แสดงความเห็นเท่านั้น"
 
 #: r2/templates/prefoptions.html:72
 msgid "your preferences have been updated"
-msgstr ""
+msgstr "การตั้งค่าของคุณได้เป็นปัจจุบันแล้ว"
 
 #: r2/templates/prefoptions.html:90
 msgid "interface language"
-msgstr ""
+msgstr "ภาษาที่ใช้สำหรับเมนู"
 
 #: r2/templates/prefoptions.html:94
 msgid "incomplete"
-msgstr ""
+msgstr "ไม่สมบูรณ์"
 
 #: r2/templates/prefoptions.html:95
 msgid "volunteer to translate"
-msgstr ""
+msgstr "อาสาสมัครเพื่อแปลภาษา"
 
 #: r2/templates/prefoptions.html:99
 msgid "content language"
-msgstr ""
+msgstr "ภาษาของเนื้อหา"
 
 #: r2/templates/prefoptions.html:106
 msgid "clicking options"
-msgstr ""
+msgstr "การตั้งค่าการกด click"
 
 #: r2/templates/prefoptions.html:108
 msgid "display links with a reddit toolbar"
-msgstr ""
+msgstr "แสดงลิงค์บน พิกุล toolbar"
 
 #: r2/templates/prefoptions.html:114 r2/templates/promotelinkform.html:361
 msgid "media"
-msgstr ""
+msgstr "สื่อต่างๆ"
 
 #: r2/templates/prefoptions.html:117
 msgid "show thumbnails next to links"
-msgstr ""
+msgstr "แสดงรูปขนาดเล็กข้างลิงค์"
 
 #: r2/templates/prefoptions.html:118
 msgid "don't show thumbnails next to links"
-msgstr ""
+msgstr "อย่าแสดงรูปขนาดเล็กข้างลิงค์"
 
 #: r2/templates/prefoptions.html:119
 msgid "show thumbnails based on that subreddit's media preferences"
-msgstr ""
+msgstr "แสดงรูปขนาดเล็กโดยอ้างจากการตั้งค่าของกลีบพิกุลนั้น"
 
 #: r2/templates/prefoptions.html:120
 msgid "make safe(r) for work "
-msgstr ""
+msgstr "ทำให้ปลอดภัยในที่สาธารณะ"
 
 #: r2/templates/prefoptions.html:123
 msgid "(Don't show thumbnails next to anything labeled NSFW)"
-msgstr ""
+msgstr "(อย่าแสดงรูปขนาดเล็กถ้าเป็นเนื้อหาที่ไม่ปลอดภัยสำหรับที่สาธารณะ)"
 
 #: r2/templates/prefoptions.html:126
 msgid "to enable thumbnails, disable compressed link display"
-msgstr ""
+msgstr "เพื่อเปิดใช้รูปขนาดเล็ก กรุณายกเลิกการแสดงลิงค์แบบย่อ"
 
 #: r2/templates/prefoptions.html:133
 msgid "link options"
-msgstr ""
+msgstr "ตั้งค่าลิงค์"
 
 #: r2/templates/prefoptions.html:137
 msgid "show the spotlight box on the front page"
-msgstr ""
+msgstr "แสดงกล่องแนะนำบนหน้าแรก"
 
 #: r2/templates/prefoptions.html:140
 msgid ""
 "(it shows new and promoted links, and gives you a say in what's spam and "
 "what isn't.)"
 msgstr ""
+"(กล่องนี้จะแสดงลิงค์ใหม่และลิงค์ที่โปรโมท และให้คุณตัดสินว่ามันเป็น spam"
+"หรือไม่ใช่)"
 
 #: r2/templates/prefoptions.html:144
 msgid "show me new links on the front page"
-msgstr ""
+msgstr "แสดงลิงค์ใหม่บนหน้าแรกให้ฉัน"
 
 #: r2/templates/prefoptions.html:147
 msgid "show me links I've recently viewed"
-msgstr ""
+msgstr "แสดงลิงค์ที่ฉันพึ่งเยี่ยมชม"
 
 #: r2/templates/prefoptions.html:148
 msgid "compress the link display"
-msgstr ""
+msgstr "ย่อลิงค์ที่แสดงอยู่"
 
 #: r2/templates/prefoptions.html:149
 msgid "don't show links after I've liked them"
-msgstr ""
+msgstr "อย่าแสดงลิงค์หลังจากที่ฉันกดถูกใจ"
 
 #: r2/templates/prefoptions.html:151 r2/templates/prefoptions.html:155
 msgid "(except my own)"
-msgstr ""
+msgstr "(ยกเว้นของฉันเอง)"
 
 #: r2/templates/prefoptions.html:153
 msgid "don't show links after I've disliked them"
-msgstr ""
+msgstr "ไม่ต้องแสดงลิงค์หลังจากที่ฉันกดไม่ถูกใจ"
 
 #: r2/templates/prefoptions.html:159
 msgid "display"
-msgstr ""
+msgstr "แสดงค่า"
 
 #: r2/templates/prefoptions.html:160
 msgid "links at once"
-msgstr ""
+msgstr "ลิงค์ทั้งหมดทีเดียว"
 
 #: r2/templates/prefoptions.html:161
 msgid "don't show me sites with a score less than"
-msgstr ""
+msgstr "อย่าแสดงลิงค์ที่มีคะแนนน้อยกว่า"
 
 #: r2/templates/prefoptions.html:162
 msgid "don't show me comments with a score less than"
-msgstr ""
+msgstr "อย่าแสดงความคิดเห็นที่มีคะแนนน้อยกว่า"
 
 #: r2/templates/prefoptions.html:163
 msgid "comments by default"
-msgstr ""
+msgstr "ความคิดเห็นจากการตั้งค่าเริ่มต้น"
 
 #: r2/templates/prefoptions.html:166
 #, python-format
 msgid "display %(num)s links at once"
-msgstr ""
+msgstr "แสดง %(num)s ลิงค์ต่อครั้ง"
 
 #: r2/templates/prefoptions.html:174
 #, python-format
 msgid "don't show me sites with a score less than %(num)s"
-msgstr ""
+msgstr "อย่าแสดงลิงค์ที่มีคะแนนต่ำกว่า %(num)s"
 
 #: r2/templates/prefoptions.html:175 r2/templates/prefoptions.html:188
 msgid "(blank for none)"
-msgstr ""
+msgstr "(จะเว้นว่างไว้ หากไม่มี)"
 
 #: r2/templates/prefoptions.html:180
 msgid "comment options"
-msgstr ""
+msgstr "ตั้งค่าเกี่ยวกับความคิดเห็น"
 
 #: r2/templates/prefoptions.html:187
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
-msgstr ""
+msgstr "อย่าแสดงความคิดเห็นที่มีคะแนนน้อยกว่า %(num)s"
 
 #: r2/templates/prefoptions.html:196
 #, python-format
 msgid "display %(num)s comments by default"
-msgstr ""
+msgstr "แสดง %(num)s ความคิดเห็นโดยค่าเริ่มต้น"
 
 #: r2/templates/prefoptions.html:202
 msgid "the smaller the number, the faster your comments pages will load"
-msgstr ""
+msgstr "ยิ่งมีจำนวนน้อย หน้าความคิดเห็นคุณจะมาเร็วขึ้น"
 
 #: r2/templates/prefoptions.html:207
 msgid "messaging options"
-msgstr ""
+msgstr "ตั้งค่าการส่งข้อความ"
 
 #: r2/templates/prefoptions.html:209
 msgid "show message conversations in the inbox"
-msgstr ""
+msgstr "แสดงข้อความบทสนทนาในกล่องข้อความ"
 
 #: r2/templates/prefoptions.html:212
 msgid "(only applies when you go to the 'messages' panel)"
-msgstr ""
+msgstr "(ใช้ได้เฉพาะเมื่อคุณเข้าไปในหน้า 'ข้อความ' เท่านั้น)"
 
 #: r2/templates/prefoptions.html:216
 msgid "collapse messages after I've read them"
-msgstr ""
+msgstr "ย่อข้อความหลังจากที่คุณอ่านอัตโนมัติ"
 
 #: r2/templates/prefoptions.html:219
 msgid "(otherwise, you'll have to collapse them yourself)"
-msgstr ""
+msgstr "(ไม่เช่นนั้น คุณจะต้องย่อข้อความด้วยตัวคุณเอง)"
 
 #: r2/templates/prefoptions.html:223
 msgid "mark messages as read when I open my inbox"
-msgstr ""
+msgstr "ทำเครื่องหมายว่าอ่านแล้วเมื่อคุณเปิดเข้ามาในกล่องข้อความ"
 
 #: r2/templates/prefoptions.html:226
 msgid "(otherwise, they will be marked as read when you click them)"
-msgstr ""
+msgstr "(ไม่เช่นนั้น ข้อความจะถูกทำเครื่องหมายว่าอ่านแล้วเมื่อคุณกดที่ข้อความนั้นเท่านั้น)"
 
 #: r2/templates/prefoptions.html:231 r2/templates/widgetdemopanel.html:194
 msgid "display options"
-msgstr ""
+msgstr "แสดงการตั้งค่า"
 
 #: r2/templates/prefoptions.html:233
 msgid "allow subreddits to show me custom styles"
-msgstr ""
+msgstr "อนุณาติให้กลีบพิกุลแสดงสไตล์ของห้องนั้น"
 
 #: r2/templates/prefoptions.html:235
 msgid "show user flair"
-msgstr ""
+msgstr "แสดงไอคอนผู้ใช้"
 
 #: r2/templates/prefoptions.html:237
 msgid "show link flair"
-msgstr ""
+msgstr "แสดงไอคอนที่มีลิงค์"
 
 #: r2/templates/prefoptions.html:240
 msgid "show promote tab on front page"
-msgstr ""
+msgstr "แสดงแถบโปรโมทบนหน้าแรก"
 
 #: r2/templates/prefoptions.html:248
 msgid "I am over eighteen years old and willing to view adult content"
-msgstr ""
+msgstr "ฉันอายุมากกว่า 18 ปีและยอมรับที่จะรับชมเนื้อหาสำหรับผู้ใหญ่"
 
 #: r2/templates/prefoptions.html:249
 msgid "required to view some subreddits"
-msgstr ""
+msgstr "จำเป็นในการเข้าชมกลีบพิกุลบางห้อง"
 
 #: r2/templates/prefoptions.html:251
 msgid "label posts that are not safe for work (NSFW)"
-msgstr ""
+msgstr "กระทู้ที่ถูกตั้งว่าไม่ปลอดภัยสำหรับที่สาธารณะ"
 
 #: r2/templates/prefoptions.html:253
 msgid "enable private RSS feeds"
-msgstr ""
+msgstr "เปิดการใช้งาน RSS feeds แบบส่วนตัว"
 
 #: r2/templates/prefoptions.html:255
 msgid "(available from the 'RSS feed' tab in prefs)"
-msgstr ""
+msgstr "(ใช้ได้จากแถบ RSS feed ในการตั้งค่า)"
 
 #: r2/templates/prefoptions.html:258
 msgid "privacy options"
-msgstr ""
+msgstr "ตั้งค่าความเป็นส่วนตัว"
 
 #: r2/templates/prefoptions.html:260
 msgid "make my votes public"
-msgstr ""
+msgstr "เปิดเผยการโหวตของฉันให้ผู้อื่นเห็น"
 
 #: r2/templates/prefoptions.html:267
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
-msgstr ""
+msgstr "อนุญาติให้ทุกคนเห็น %(link1)s และ %(link2)s"
 
 #: r2/templates/prefoptions.html:270
 msgid "allow my data to be used for research purposes"
-msgstr ""
+msgstr "ฉันอนุณาติให้ใช้ข้อมูลของฉันเพื่อใช้ในการค้นควาข้อมูล"
 
 #: r2/templates/prefoptions.html:280
 msgid "don't allow search engines to index my user profile"
-msgstr ""
+msgstr "ฉันไม่อนุญาติให้ search engine ค้นหาฉันด้วยข้อมูลของฉันได้"
 
 #: r2/templates/prefoptions.html:288
 msgid "load core JS libraries from reddit servers"
-msgstr ""
+msgstr "โหลดระบบ JS libraries จาก server พิกุล"
 
 #: r2/templates/prefoptions.html:302
 msgid "gold options"
-msgstr ""
+msgstr "การตั้งค่าพิกุลทอง"
 
 #: r2/templates/prefoptions.html:304
 msgid "show the right sidebar ad box"
-msgstr ""
+msgstr "แสดงกล่องโฆษณาที่แถบด้านขวา"
 
 #: r2/templates/prefoptions.html:305
 msgid "the attractive 300x250 one that usually only has reddit t-shirts in it"
@@ -5849,49 +5858,55 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:307
 msgid "show sponsored links"
-msgstr ""
+msgstr "แสดงลิงค์ของผู้สนับสนุน"
 
 #: r2/templates/prefoptions.html:308
 msgid "the blue advertisements that sometimes appear on the top of the page"
-msgstr ""
+msgstr "โฆษณาสีฟ้าที่มักจะขึ้นมาที่ด้านบนของหน้านี้"
 
 #: r2/templates/prefoptions.html:310
 msgid "show sponsorships"
-msgstr ""
+msgstr "แสดงผู้สนับสนุน"
 
 #: r2/templates/prefoptions.html:311
 msgid "the 300x100 'sponsored by...' images that sometimes appear in sidebars"
-msgstr ""
+msgstr "รูป 'สนับสนุนโดย...' ขนาด 300x100 ที่มักจะโผล่ที่แถบด้านข้าง"
 
 #: r2/templates/prefoptions.html:314
 msgid "highlight new comments"
-msgstr ""
+msgstr "เน้นความคิดเห็นใหม่"
 
 #: r2/templates/prefoptions.html:316
 msgid ""
 "we'll remember your visits for 48 hours and show you which comments you "
 "haven't seen yet"
 msgstr ""
+"เราจะจำการเยี่ยมชมของคุณใน 48 ชั่วโมงที่ผ่านมาและ แสดงความคิดเห็นที่คุณ"
+"ยังไม่ได้อ่านก่อนนี้"
 
 #: r2/templates/prefotp.html:36
 msgid ""
 "two-factor authentication is currently **enabled**. fill out the form below "
 "if you would like to disable it."
 msgstr ""
+"two-factor authentication กำลังถูก**ใช้งาน**อยู่ กรุณาใส่ข้อมูลข้างล่าง"
+"หากคุณต้องการระงับการใช้งาน"
 
 #: r2/templates/prefotp.html:50
 msgid "disable"
-msgstr ""
+msgstr "ระงับการใช้งาน"
 
 #: r2/templates/prefotp.html:55
 msgid ""
 "enter your current password below to start the activation process for two-"
 "factor authentication."
 msgstr ""
+"ใส่รหัสผ่านปัจจุบันของคุณที่ด้านล่างข้อความนี้ เพื่อเปิดการใช้งาน"
+"two-factor authentication"
 
 #: r2/templates/prefotp.html:62
 msgid "activate"
-msgstr ""
+msgstr "เปิดการใช้งาน"
 
 #: r2/templates/prefotp.html:69
 msgid ""
@@ -5899,318 +5914,321 @@ msgid ""
 "with Google Authenticator or enter the key below manually. you WILL NOT have"
 " another chance to see this secret."
 msgstr ""
+"ข้างล่างข้อความนี้เป็น two-factor authenticationลับ คุณสามารถสแกน QR code"
+"ด้วย Google Authenticator หรือใส่รหัสข้างล่างด้วยตัวคุณเอง คุณจะไม่เห็น"
+"รหัสลับนี้อีกเป็นครั้งที่สอง"
 
 #: r2/templates/prefotp.html:78
 msgid "enable"
-msgstr ""
+msgstr "เปิดใช้งาน"
 
 #: r2/templates/prefupdate.html:28
 msgid "update your email or password"
-msgstr ""
+msgstr "อัพเดทอีเมล์หรือรหัสผ่านของคุณ"
 
 #: r2/templates/prefupdate.html:31
 msgid "verify your email"
-msgstr ""
+msgstr "ยืนยันอีเมล์ของคุณ"
 
 #: r2/templates/prefupdate.html:33
 msgid "update your email"
-msgstr ""
+msgstr "เปลี่ยนอีเมล์ของคุณ"
 
 #: r2/templates/prefupdate.html:36
 msgid "update your password"
-msgstr ""
+msgstr "เปลี่ยนรหัสผ่านของคุณ"
 
 #: r2/templates/prefupdate.html:45
 msgid "not set"
-msgstr ""
+msgstr "ไม่ได้ถูกตั้งค่า"
 
 #: r2/templates/prefupdate.html:48
 msgid "verified"
-msgstr ""
+msgstr "ยืนยันแล้ว"
 
 #: r2/templates/prefupdate.html:51
 msgid "verification pending"
-msgstr ""
+msgstr "กำลังดำเนินการทำกานยืนยัน"
 
 #: r2/templates/prefupdate.html:52
 msgid "click to resend"
-msgstr ""
+msgstr "คลิกเพื่อส่งใหม่"
 
 #: r2/templates/prefupdate.html:54
 msgid "unverified"
-msgstr ""
+msgstr "ยกเลิกการยืนยัน"
 
 #: r2/templates/prefupdate.html:55
 msgid "click to verify"
-msgstr ""
+msgstr "คลิกเพื่อยืนยัน"
 
 #: r2/templates/prefupdate.html:65 r2/templates/useriphistory.html:67
 msgid "current password"
-msgstr ""
+msgstr "รหัสผ่านปัจจุบัน"
 
 #: r2/templates/prefupdate.html:80 r2/templates/resetpassword.html:38
 msgid "new password"
-msgstr ""
+msgstr "รหัสผ่านใหม่"
 
 #: r2/templates/prefupdate.html:96
 msgid "send verification email"
-msgstr ""
+msgstr "ส่งอีเมล์สำหรับการยืนยัน"
 
 #: r2/templates/printable.html:153
 msgid "upvote"
-msgstr ""
+msgstr "โหวตขึ้น"
 
 #: r2/templates/printable.html:155
 msgid "downvote"
-msgstr ""
+msgstr "โหวตลง"
 
 #: r2/templates/printablebuttons.html:40
 #: r2/templates/printablebuttons.html:155
 msgid "spammed"
-msgstr ""
+msgstr "spammed"
 
 #: r2/templates/printablebuttons.html:49
 msgid "approve"
-msgstr ""
+msgstr "อนุมัติ"
 
 #: r2/templates/printablebuttons.html:56
 msgid "report"
-msgstr ""
+msgstr "แจ้งความ"
 
 #: r2/templates/printablebuttons.html:60
 msgid "nsfw"
-msgstr ""
+msgstr "ไม่ปลอดภัยสำหรับที่สาธารณะ"
 
 #: r2/templates/printablebuttons.html:60
 msgid "marked"
-msgstr ""
+msgstr "ถูกกาเครื่องหมายแล้ว"
 
 #: r2/templates/printablebuttons.html:63
 msgid "un-nsfw"
-msgstr ""
+msgstr "เอาแท็กไม่ปลอดภัยสำหรับที่สาธารณะออก"
 
 #: r2/templates/printablebuttons.html:63
 msgid "unmarked"
-msgstr ""
+msgstr "เอาเครื่องหมายออก"
 
 #: r2/templates/printablebuttons.html:85
 msgid "distinguishing..."
-msgstr ""
+msgstr "กำลังทำการจำแนก"
 
 #: r2/templates/printablebuttons.html:89
 msgid "distinguish this?"
-msgstr ""
+msgstr "จำแนกสิ่งนี้?"
 
 #: r2/templates/printablebuttons.html:135
 msgid "confirm spam"
-msgstr ""
+msgstr "ยืนยัน spam"
 
 #: r2/templates/printablebuttons.html:136
 msgid "remove ham"
-msgstr ""
+msgstr "ลบ ham ออก"
 
 #: r2/templates/printablebuttons.html:143
 #, python-format
 msgid "reapprove %(obj)s"
-msgstr ""
+msgstr "อนุมัติ %(obj)s ใหม่"
 
 #: r2/templates/printablebuttons.html:146
 #, python-format
 msgid "approve %(obj)s"
-msgstr ""
+msgstr "อนุมัติ %(obj)s"
 
 #: r2/templates/printablebuttons.html:182
 #: r2/templates/printablebuttons.html:228 r2/templates/sharelink.html:123
 msgid "cancel"
-msgstr ""
+msgstr "ยกเลิก"
 
 #: r2/templates/printablebuttons.html:199
 msgid "hidden"
-msgstr ""
+msgstr "ถูกซ่อน"
 
 #: r2/templates/printablebuttons.html:228
 msgid "reject"
-msgstr ""
+msgstr "ปฏิเสธ"
 
 #: r2/templates/printablebuttons.html:233
 msgid "accepted"
-msgstr ""
+msgstr "ตกลง"
 
 #: r2/templates/printablebuttons.html:239
 msgid "traffic"
-msgstr ""
+msgstr "traffic"
 
 #: r2/templates/printablebuttons.html:259
 #: r2/templates/printablebuttons.html:337
 msgid "permalink"
-msgstr ""
+msgstr "เปอร์มาลิงค์"
 
 #: r2/templates/printablebuttons.html:272
 #: r2/templates/printablebuttons.html:333 r2/templates/starkcomment.html:34
 msgid "context"
-msgstr ""
+msgstr "ความคิดเห็นแม่"
 
 #: r2/templates/printablebuttons.html:275
 msgid "full comments"
-msgstr ""
+msgstr "ความคิดเห็นแบบเต็ม"
 
 #: r2/templates/printablebuttons.html:285
 #: r2/templates/printablebuttons.html:292
 msgid "parent"
-msgstr ""
+msgstr "ความเห็นแม่"
 
 #: r2/templates/printablebuttons.html:306
 msgid "give reddit gold in appreciation of this comment."
-msgstr ""
+msgstr "มอบพิกุลทองด้วยความถูกใจในความคิดเห็นนี้"
 
 #: r2/templates/printablebuttons.html:308
 msgid "give gold"
-msgstr ""
+msgstr "มอบพิกุลทอง"
 
 #: r2/templates/printablebuttons.html:313
 #: r2/templates/printablebuttons.html:355
 msgid "reply {verb}"
-msgstr ""
+msgstr "ตอบกลับ {verb}"
 
 #: r2/templates/printablebuttons.html:344
 msgid "block user"
-msgstr ""
+msgstr "ผู้ใช้งานที่ถูกบล๊อค"
 
 #: r2/templates/printablebuttons.html:344
 msgid "blocked"
-msgstr ""
+msgstr "ถูกบล๊อค"
 
 #: r2/templates/printablebuttons.html:348
 msgid "mark unread"
-msgstr ""
+msgstr "ตั้งให้ยังไม่ได้อ่าน"
 
 #: r2/templates/printablebuttons.html:406
 #: r2/templates/printablebuttons.html:424
 msgid "are you sure?"
-msgstr ""
+msgstr "คุณแน่ใจรึเปล่า?"
 
 #: r2/templates/printablebuttons.html:519
 msgid "toggle"
-msgstr ""
+msgstr "ใช้งาน"
 
 #: r2/templates/profilebar.html:52
 msgid "+ friends"
-msgstr ""
+msgstr "+ เพื่อน"
 
 #: r2/templates/profilebar.html:52
 msgid "- friends"
-msgstr ""
+msgstr "- เพื่อน"
 
 #: r2/templates/profilebar.html:62 r2/templates/redditheader.html:80
 msgid "link karma"
-msgstr ""
+msgstr "คะแนนลิงค์"
 
 #: r2/templates/profilebar.html:67
 msgid "comment karma"
-msgstr ""
+msgstr "คะแนนความคิดเห็น"
 
 #: r2/templates/profilebar.html:125
 msgid "of reddit gold remaining"
-msgstr ""
+msgstr "ของเวลาพิกุลทองที่เหลืออยู่"
 
 #: r2/templates/profilebar.html:133
 msgid "Recurring Paypal subscription"
-msgstr ""
+msgstr "ระบบชำระเงินอัตโนมัติบน Paypal"
 
 #: r2/templates/profilebar.html:160 r2/templates/usertableitem.html:50
 msgid "send message"
-msgstr ""
+msgstr "ส่งข้อความ"
 
 #: r2/templates/profilebar.html:164
 msgid "redditor for"
-msgstr ""
+msgstr "เป็นชาวพิกุลมา"
 
 #: r2/templates/promocampaigntraffictable.html:32
 #, python-format
 msgid "No campaigns for this link. Would you like to [create one](%(url)s)?"
-msgstr ""
+msgstr "ไม่มีโปรโมชั่นสำหรับลิงค์นี้ คุณต้องการจะ [สร้างโปรโมชั่น](%(url)s)หรือไม่?"
 
 #: r2/templates/promocampaigntraffictable.html:37
 msgid "id"
-msgstr ""
+msgstr "id"
 
 #: r2/templates/promocampaigntraffictable.html:38
 msgid "start"
-msgstr ""
+msgstr "เริ่ม"
 
 #: r2/templates/promocampaigntraffictable.html:39
 msgid "end"
-msgstr ""
+msgstr "จบ"
 
 #: r2/templates/promocampaigntraffictable.html:40
 msgid "target"
-msgstr ""
+msgstr "เป้าหมาย"
 
 #: r2/templates/promocampaigntraffictable.html:41
 msgid "bid"
-msgstr ""
+msgstr "ประมูล"
 
 #: r2/templates/promocampaigntraffictable.html:43
 msgid "cpm"
-msgstr ""
+msgstr "cpm"
 
 #: r2/templates/promocampaigntraffictable.html:45
 msgid "ctr"
-msgstr ""
+msgstr "ctr"
 
 #: r2/templates/promocampaigntraffictable.html:46
 msgid "cpc"
-msgstr ""
+msgstr "cpc"
 
 #: r2/templates/promocampaigntraffictable.html:57
 msgid "(live now)"
-msgstr ""
+msgstr "(สดขณะนี้)"
 
 #: r2/templates/promocampaigntraffictable.html:101
 #: r2/templates/promolinktrafficsummary.html:119
 #: r2/templates/promotedlinktraffic.html:102
 msgid "totals are preliminary until 24 hours after the end of the promotion."
-msgstr ""
+msgstr "ผลรวมจะไม่เป็นทางการจนกว่าจะผ่านไป 24 ชั่วโมงหลังจากจบโปรโมชั่น"
 
 #: r2/templates/promolinktrafficsummary.html:40
 #, python-format
 msgid "Data is updated hourly. Last update: %s"
-msgstr ""
+msgstr "ข้อมูลจะถูกอัพเดททุกชั่วโมง อัพเดทล่าสุด: %s"
 
 #: r2/templates/promolinktrafficsummary.html:48
 msgid "Lifetime Stats:"
-msgstr ""
+msgstr "สถิติทั้งหมด"
 
 #: r2/templates/promolinktrafficsummary.html:49
 #, python-format
 msgid "%s impression"
 msgid_plural "%s impressions"
-msgstr[0] ""
+msgstr[0] "%s คนสนใจ"
 
 #: r2/templates/promolinktrafficsummary.html:50
 #, python-format
 msgid "%s click"
 msgid_plural "%s clicks"
-msgstr[0] ""
+msgstr[0] "%s ครั้งที่กด"
 
 #: r2/templates/promolinktrafficsummary.html:51
 msgid "CTR: "
-msgstr ""
+msgstr "CTR: "
 
 #: r2/templates/promolinktrafficsummary.html:60
 msgid "(download data as .csv)"
-msgstr ""
+msgstr "(ดาวโหลดข้อมูลเป็น .csv)"
 
 #: r2/templates/promolinktrafficsummary.html:74
 #: r2/templates/promotedlinktraffic.html:57
 msgid "click-through (%)"
-msgstr ""
+msgstr "กดเข้าชม (%)"
 
 #: r2/templates/promolinktrafficsummary.html:77
 #: r2/templates/promotedlinktraffic.html:60
 #: r2/templates/timeserieschart.html:37
 msgid "date"
-msgstr ""
+msgstr "วันที่"
 
 #: r2/templates/promolinktrafficsummary.html:78
 #: r2/templates/promolinktrafficsummary.html:80
@@ -6219,7 +6237,7 @@ msgstr ""
 #: r2/templates/promotedlinktraffic.html:63
 #: r2/templates/promotedlinktraffic.html:65
 msgid "unique"
-msgstr ""
+msgstr "จำนวนการดู"
 
 #: r2/templates/promolinktrafficsummary.html:79
 #: r2/templates/promolinktrafficsummary.html:81
@@ -6230,129 +6248,129 @@ msgstr ""
 #: r2/templates/promotedlinktraffic.html:66
 #: r2/templates/promotedlinktraffic.html:82
 msgid "total"
-msgstr ""
+msgstr "ผลรวม"
 
 #: r2/templates/promote_graph.html:34
 msgid "Sponsored link calendar"
-msgstr ""
+msgstr "ปฏิทินลิงค์ผู้สนับสนุน"
 
 #: r2/templates/promote_graph.html:60
 msgid "Viewing calendar for dates:"
-msgstr ""
+msgstr "กำลังดูปฏิทินสำหรับวันที่:"
 
 #: r2/templates/promote_graph.html:64
 #, python-format
 msgid "Sorry, I couldn't make sense of the date range: %(start)s - %(end)s"
-msgstr ""
+msgstr "ขอโทษครับ ผมไม่เข้าใจวันที่ที่ให้มานี้​: %(start)s - %(end)s"
 
 #: r2/templates/promote_graph.html:89
 msgid "Date"
-msgstr ""
+msgstr "วันที่"
 
 #: r2/templates/promote_graph.html:98
 msgid "Count"
-msgstr ""
+msgstr "จำนวน"
 
 #: r2/templates/promote_graph.html:108
 msgid "Scheduled"
-msgstr ""
+msgstr "วางกำหนดการแล้ว"
 
 #: r2/templates/promote_graph.html:109
 msgid "Inventory"
-msgstr ""
+msgstr "รายการสินค้า"
 
 #. TRANSLATORS: Advertising term; "ad impressions delivered / shown"
 #: r2/templates/promote_graph.html:122
 msgid "Impressions"
-msgstr ""
+msgstr "จำนวนคนสนใจ"
 
 #: r2/templates/promote_graph.html:139
 msgid "Clicks"
-msgstr ""
+msgstr "จำนวนครั้งที่กด"
 
 #. TRANSLATORS: Advertising term: Total value of scheduled ads
 #: r2/templates/promote_graph.html:157
 msgid "Total Commit"
-msgstr ""
+msgstr "จำนวนที่ถูกโปรโมท"
 
 #. TRANSLATORS: Advertising term: Amount spent on scheduled ads
 #: r2/templates/promote_graph.html:160
 msgid "Your Commit"
-msgstr ""
+msgstr "ลิงค์โปรโมทของคุณ"
 
 #: r2/templates/promote_graph.html:203
 msgid "historical site performance"
-msgstr ""
+msgstr "ประวัติผลงานของไซท์"
 
 #: r2/templates/promotedlink.html:37
 #, python-format
 msgid "to be promoted by %(author)s"
-msgstr ""
+msgstr "จะถูกโปรโมทโดย %(author)s"
 
 #: r2/templates/promotedlink.html:39
 #, python-format
 msgid "promoted by %(author)s"
-msgstr ""
+msgstr "ถูกโปรโมทโดย %(author)s"
 
 #: r2/templates/promotedlink.html:59
 msgid "deleted sponsored link"
-msgstr ""
+msgstr "ลิงค์ผู้สนับสนุนที่ถูกลบ"
 
 #: r2/templates/promotedlink.html:61
 msgid "unpaid sponsored link"
-msgstr ""
+msgstr "ลิงค์ผู้สนับสนุนที่ยังไม่ได้รับการชำระเงิน"
 
 #: r2/templates/promotedlink.html:63
 msgid "unapproved sponsored link"
-msgstr ""
+msgstr "ลิงค์ผู้สนับสนุนที่ยังไม่ถูกอนุมัติ"
 
 #: r2/templates/promotedlink.html:65
 msgid "rejected sponsored link"
-msgstr ""
+msgstr "ลิงค์ผู้สนับสนุนที่ถูกปฏิเสธ"
 
 #: r2/templates/promotedlink.html:67 r2/templates/promotedlink.html:72
 msgid "sponsored link"
-msgstr ""
+msgstr "ลิงค์ของผู้สนับสนุน"
 
 #: r2/templates/promotedlink.html:69
 msgid "accepted sponsored link"
-msgstr ""
+msgstr "ลิงค์ผู้สนับสนุนที่ได้รับการตอบรับ"
 
 #: r2/templates/promotedlinktraffic.html:39
 msgid "promotion traffic"
-msgstr ""
+msgstr "traffic ของโปรโมชั่น"
 
 #: r2/templates/promotedlinktraffic.html:41
 msgid "(download as .csv)"
-msgstr ""
+msgstr "(ดาวโหลดเป็น .csv)"
 
 #: r2/templates/promotelinkform.html:69
 msgid "create a promotion"
-msgstr ""
+msgstr "สร้างโปรโมชั่น"
 
 #: r2/templates/promotelinkform.html:69
 msgid "edit promotion"
-msgstr ""
+msgstr "แก้ไขโปรโมชั่น"
 
 #: r2/templates/promotelinkform.html:81
 msgid "campaign dashboard"
-msgstr ""
+msgstr "หน้าแรกของโปรโมชั่น"
 
 #: r2/templates/promotelinkform.html:219
 msgid "You have too many campaigns for this link."
-msgstr ""
+msgstr "คุณได้สร้างโปรโมชั่นมากเกินไปสำหรับลิงค์นี้"
 
 #: r2/templates/promotelinkform.html:220
 msgid "It's time to start fresh!"
-msgstr ""
+msgstr "ได้เวลาเริ่มงานกันแล้ว!"
 
 #: r2/templates/promotelinkform.html:308
 msgid "upload header image:"
-msgstr ""
+msgstr "อัพโหลดรูปเฮดเดอร์"
 
 #: r2/templates/promotelinkform.html:338
 msgid "disable comments"
-msgstr ""
+msgstr "ระงับการให้ความคิดเห็น"
 
 #: r2/templates/promotelinkform.html:370
 msgid "width"
@@ -6384,6 +6402,7 @@ msgstr ""
 msgid ""
 "Campaigns created before Sept 12, 2012 will not be included in these totals."
 msgstr ""
+"โปรโมชั่นที่คุณสร้างก่อน 12 กันยายน 2555 จะไม่ถูกรวมอยู่ในผลรวม"
 
 #: r2/templates/promotraffichelp.html:41
 msgid "Questions? Email self serve support:"
