@@ -5045,155 +5045,155 @@ msgstr ""
 
 #: r2/templates/login.html:133 r2/templates/register.html:133
 msgid "create account"
-msgstr ""
+msgstr "สร้างบัญชีผู้ใช้"
 
 #: r2/templates/login.html:133 r2/templates/login.html:157
 #: r2/templates/loginformwide.html:57 r2/templates/register.html:133
 #: r2/templates/register.html:157
 msgid "login"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้"
 
 #: r2/templates/login.html:145 r2/templates/register.html:145
 msgid "create a new account"
-msgstr ""
+msgstr "สร้างบัญชีผู้ใช้ใหม่"
 
 #: r2/templates/login.html:147 r2/templates/register.html:147
 msgid "all it takes is a username and password"
-msgstr ""
+msgstr "เราใช้เพียงแค่ชื่อผู้ใช้และรหัสผ่าน"
 
 #: r2/templates/login.html:152 r2/templates/register.html:152
 msgid "is it really that easy? only one way to find out..."
-msgstr ""
+msgstr "มันจะง่ายขนาดนั้นเลยเหรอ? ลองดูเองสิ"
 
 #: r2/templates/login.html:159 r2/templates/register.html:159
 msgid "already have an account and just want to login?"
-msgstr ""
+msgstr "คุณมีบัญชีผู้ใช้และเพียงแค่จะลงชื่อเข้าใช้หรือไม่?"
 
 #: r2/templates/message.html:101
 msgid "expand all"
-msgstr ""
+msgstr "ขยายข้อความทั้งหมด"
 
 #: r2/templates/message.html:104
 msgid "collapse all"
-msgstr ""
+msgstr "ยุบข้อความทั้งหมด"
 
 #: r2/templates/message.html:119
 msgid "show parent"
-msgstr ""
+msgstr "แสดงข้อความก่อนหน้า"
 
 #: r2/templates/messagecompose.html:32
 msgid "send a message"
-msgstr ""
+msgstr "ส่งข้อความ"
 
 #: r2/templates/messagecompose.html:54
 msgid "(username, or /r/name for that subreddit's mods)"
-msgstr ""
+msgstr "(ชื่อผู้ใช้ หรือ /r/name สำหรับผู้ดูแลกลีบพิกุลนั้น)"
 
 #: r2/templates/messagecompose.html:54
 msgid "to"
-msgstr ""
+msgstr "ถึง"
 
 #: r2/templates/messagecompose.html:66
 msgid "subject"
-msgstr ""
+msgstr "หัวข้อ"
 
 #: r2/templates/modlist.html:30 r2/templates/subredditinfobar.html:56
 msgid "leave"
-msgstr ""
+msgstr "ออก"
 
 #: r2/templates/modlist.html:31
 msgid "you are no longer a moderator"
-msgstr ""
+msgstr "คุณไม่ได้เป็นผู้ดูแลแล้ว"
 
 #: r2/templates/modlist.html:32
 msgid "stop being a moderator?"
-msgstr ""
+msgstr "เลิกเป็นผู้ดูแล?"
 
 #: r2/templates/modlist.html:44 r2/templates/printablebuttons.html:233
 msgid "accept"
-msgstr ""
+msgstr "ตอบรับ"
 
 #: r2/templates/modlist.html:45
 msgid "you are now a moderator. welcome to the team!"
-msgstr ""
+msgstr "คุณได้เป็นผู้ดูแลแล้ว ยินดีต้อนรับเข้าทีม"
 
 #: r2/templates/modlist.html:46
 #, python-format
 msgid "become a moderator of %s?"
-msgstr ""
+msgstr "เป็นผู้ดูแลของ %s"
 
 #: r2/templates/modlist.html:47
 #, python-format
 msgid "you are invited to become a moderator. %(action)s"
-msgstr ""
+msgstr "คุณได้ถูกเชิญชวนมาเป็นผู้ดูแล %(action)s"
 
 #: r2/templates/modlist.html:56
 msgid "invite"
-msgstr ""
+msgstr "คำเชิญ"
 
 #: r2/templates/modlist.html:61
 msgid "pending invitations"
-msgstr ""
+msgstr "คำเชิญชวนที่กำลังรอคำตอบรับ"
 
 #: r2/templates/morechildren.html:39
 msgid "load more comments"
-msgstr ""
+msgstr "โหลดความคิดเห็นเพิ่ม"
 
 #: r2/templates/morechildren.html:40
 msgid "reply"
 msgid_plural "replies"
-msgstr[0] ""
+msgstr[0] "ข้อความตอบรับ"
 
 #: r2/templates/moremessages.html:38
 msgid "[+] load the full conversation."
-msgstr ""
+msgstr "[+] โหลดบทสนทนาตัวเต็ม"
 
 #: r2/templates/morerecursion.html:29
 msgid "continue this thread"
-msgstr ""
+msgstr "อ่านกระทู้นี้ต่อ"
 
 #: r2/templates/newlink.html:36
 msgid "reddit"
-msgstr ""
+msgstr "พิกุล"
 
 #: r2/templates/newlink.html:38
 #, python-format
 msgid "submit to %(sr)s"
-msgstr ""
+msgstr "ส่งไปยัง %(sr)s"
 
 #: r2/templates/newlink.html:70 r2/templates/promotelinkform.html:277
 msgid "url"
-msgstr ""
+msgstr "url"
 
 #: r2/templates/newlink.html:82
 msgid "suggest title"
-msgstr ""
+msgstr "หัวข้อที่เราแนะนำ"
 
 #: r2/templates/newlink.html:90 r2/templates/paymentform.html:120
 #: r2/templates/paymentform.html:126 r2/templates/sharelink.html:62
 #: r2/templates/sharelink.html:80 r2/templates/sharelink.html:99
 msgid "(optional)"
-msgstr ""
+msgstr "(ไม่จำเป็น)"
 
 #: r2/templates/newlink.html:90
 msgid "text"
-msgstr ""
+msgstr "ข้อความ"
 
 #: r2/templates/newlink.html:101
 msgid "choose a subreddit"
-msgstr ""
+msgstr "เลือกกลีบพิกุล"
 
 #: r2/templates/newlink.html:111
 msgid "send replies to my inbox"
-msgstr ""
+msgstr "ส่งการตอบรับไปยังกล่องจดหมายของฉัน"
 
 #: r2/templates/newlink.html:113
 msgid "beta"
-msgstr ""
+msgstr "ช่วงทดลอง"
 
 #: r2/templates/newlink.html:122
 msgid "why a brick? read to the bottom of the rules page to find out!"
-msgstr ""
+msgstr "ทำไมต้องเป็นหลักศิลา? อ่านด้านล่างของหน้ากฏเพื่อทราบคำตอบ"
 
 #: r2/templates/newlink.html:123
 #, python-format
@@ -5201,100 +5201,105 @@ msgid ""
 "please be mindful of reddit's %(few_rules)s and practice "
 "%(good_reddiquette)s."
 msgstr ""
+"โปรดทราบว่าพิกุลมี %(few_rule)s และปฏิบัติ"
+"%(good_reddiquette)s"
 
 #: r2/templates/newlink.html:125
 msgid "few rules"
-msgstr ""
+msgstr "กฏต่างๆ"
 
 #: r2/templates/newlink.html:129
 msgid "good reddiquette"
-msgstr ""
+msgstr "จริยธรรมการเป็นลูกพิกุลที่ดี"
 
 #: r2/templates/oauth2authorization.html:45
 #, python-format
 msgid "%(app)s requests to connect with your reddit account."
-msgstr ""
+msgstr "%(app)s ขออนุมัติการเชื่อมต่อกับบัญชีผู้ใช้พิกุลของคุณ"
 
 #: r2/templates/oauth2authorization.html:49
 #, python-format
 msgid "Allow %(app)s to:"
-msgstr ""
+msgstr "อนุญาติ %(app)s ให้กับ:"
 
 #: r2/templates/oauth2authorization.html:53
 #, python-format
 msgid "%(app)s will not be able to access your reddit password."
-msgstr ""
+msgstr "%(app)s จะไม่สามารถเข้าถึงรหัสผ่านพิกุลของคุณ"
 
 #: r2/templates/oauth2authorization.html:65
 msgid "Allow"
-msgstr ""
+msgstr "อนุญาติ"
 
 #: r2/templates/oauth2authorization.html:67
 msgid "Decline"
-msgstr ""
+msgstr "ปฏิเสธ"
 
 #: r2/templates/optout.html:27
 #, python-format
 msgid "The address '%(email)s' will no longer receive email from us."
-msgstr ""
+msgstr "ที่อยู่ '%(email)s' นี้จะไม่ได้รับอีเมล์จากเราอีก"
 
 #: r2/templates/optout.html:30
 msgid ""
 "A confirmation email has been queued up and should be reaching you shortly."
 "  It will be the last you hear of us."
 msgstr ""
+"อีเมล์ยืนยันได้ถูกเตรียมการและกำลังจะส่งไปถึงคุณอีกไม่นานนี้"
+"นั่นจะเป็นสิ่งสุดท้ายที่คุณจะได้รับจากเรา"
 
 #: r2/templates/optout.html:34
 #, python-format
 msgid ""
 "Would you like the address %(email)s to no longer receive email from us?"
 msgstr ""
+"คุณที่ต้องที่จะไม่ให้เราส่งจดหมายหาคุณไปยัง %(email)s หรือไม่?"
 
 #: r2/templates/optout.html:37 r2/templates/optout.html:53
 #: r2/templates/printablebuttons.html:408
 #: r2/templates/printablebuttons.html:442
 msgid "yes"
-msgstr ""
+msgstr "ใช่"
 
 #: r2/templates/optout.html:40 r2/templates/optout.html:56
 #: r2/templates/printablebuttons.html:410
 #: r2/templates/printablebuttons.html:445
 msgid "no"
-msgstr ""
+msgstr "ไม่"
 
 #: r2/templates/optout.html:46
 #, python-format
 msgid "'%(email)s' has been removed from our block list."
-msgstr ""
+msgstr "'%(email)s' ได้ถูกลบออกจากรายการที่ถูกบล๊อคของเรา"
 
 #: r2/templates/optout.html:50
 #, python-format
 msgid "Allow '%(email)s' to receive email from us?"
-msgstr ""
+msgstr "อนุญาติให้เราส่งจดหมายไปยัง '%(email)s' หรือไม่?"
 
 #: r2/templates/over18.html:27
 msgid "you must be at least eighteen to view this subreddit"
-msgstr ""
+msgstr "คุณต้องอายุอย่างน้อย 18 ปีเพื่อที่จะเข้ากลีบพิกุลนี้"
 
 #: r2/templates/over18.html:35
 msgid "are you over eighteen and willing to see adult content?"
-msgstr ""
+msgstr "คุณอายุมากกว่า 18 ปี และสมัครใจที่จะอ่านเนื้อหาสำหรับผู้ใหญ่หรือไม่?"
 
 #: r2/templates/password.html:29
 msgid "what's my password?"
-msgstr ""
+msgstr "อะไรคือรหัสผ่านของฉัน?"
 
 #: r2/templates/password.html:30
 msgid "enter your user name below to receive your login information"
-msgstr ""
+msgstr "โปรดใส่รหัสผู้ใช้ของคุณด้านล่างข้อความนี้เพื่อ รับข้อมูลการเข้าใช้"
 
 #: r2/templates/password.html:33
 msgid "password reset link expired. please try again"
-msgstr ""
+msgstr "ลิงค์ขอรหัสผ่านใหม่หมดอายุ โปรดลองอีกครั้ง"
 
 #: r2/templates/password.html:45
 msgid "email me"
-msgstr ""
+msgstr "ส่งอีเมล์มาหาฉัน"
 
 #: r2/templates/passwordverificationform.html:38
 #: r2/templates/passwordverificationform.html:47 r2/templates/prefotp.html:38
@@ -5302,204 +5307,206 @@ msgstr ""
 #: r2/templates/prefotp.html:72 r2/templates/prefupdate.html:65
 #: r2/templates/useriphistory.html:67
 msgid "(required)"
-msgstr ""
+msgstr "(จำเป็น)"
 
 #: r2/templates/passwordverificationform.html:47 r2/templates/prefotp.html:43
 #: r2/templates/prefotp.html:72
 msgid "one-time password"
-msgstr ""
+msgstr "รหัสผ่านชั่วคราว"
 
 #: r2/templates/passwordverificationform.html:63
 msgid "remember this computer"
-msgstr ""
+msgstr "จำการลงชื่อเข้าใช้จากเครื่องนี้"
 
 #: r2/templates/paymentform.html:35
 msgid "set up payment for this link"
-msgstr ""
+msgstr "ตั้งค่าการชำระเงินสำหรับลิงค์นี้"
 
 #: r2/templates/paymentform.html:46
 #, python-format
 msgid "Your current bid is $%(bid)s"
-msgstr ""
+msgstr "การประมูลปัจจุบันของคุณคือ ฿%(bid)s"
 
 #: r2/templates/paymentform.html:49
 msgid "(total for the duration provided)"
-msgstr ""
+msgstr "(ผลรวมของระยะเวลาที่ให้มา)"
 
 #: r2/templates/paymentform.html:54
 msgid "Please pick your credit card:"
-msgstr ""
+msgstr "โปรดเลือกบัตรเครดิตของคุณ"
 
 #: r2/templates/paymentform.html:56
 msgid "select..."
-msgstr ""
+msgstr "เลือก..."
 
 #: r2/templates/paymentform.html:63
 #, python-format
 msgid "profile limit (%d) reached"
-msgstr ""
+msgstr "ข้อมูฃจำกัดที่ (%d) ครั้งแล้ว"
 
 #: r2/templates/paymentform.html:65
 msgid "create a new one..."
-msgstr ""
+msgstr "สร้างใหม่..."
 
 #: r2/templates/paymentform.html:71
 msgid "please create a new payment profile"
-msgstr ""
+msgstr "โปรดสร้างประวัติการจ่ายเงินใหม่"
 
 #: r2/templates/paymentform.html:75
 msgid ""
 "NOTE: your card will not be charged until the link has been queued for "
 "promotion."
 msgstr ""
+"หมายเหตุ: บัตรเครดิตของคุณจะไม่ถูกตัดเงินจนกว่าลิงค์ของคุณจะเข้าคิวสำหรับ"
+"โปรโมชั่น"
 
 #: r2/templates/paymentform.html:118
 msgid "first name"
-msgstr ""
+msgstr "ชื่อจริง"
 
 #: r2/templates/paymentform.html:119
 msgid "last name"
-msgstr ""
+msgstr "นามสกุล"
 
 #: r2/templates/paymentform.html:120
 msgid "company"
-msgstr ""
+msgstr "บริษัท"
 
 #: r2/templates/paymentform.html:121
 msgid "address"
-msgstr ""
+msgstr "ที่อยู่"
 
 #: r2/templates/paymentform.html:123
 msgid "state"
-msgstr ""
+msgstr "รัฐ"
 
 #: r2/templates/paymentform.html:126
 msgid "phone"
-msgstr ""
+msgstr "โทรศัพท์"
 
 #: r2/templates/paymentform.html:127
 msgid "(14-17 digits)"
-msgstr ""
+msgstr "(14-17 ตัวเลข)"
 
 #: r2/templates/paymentform.html:129
 msgid "CCV"
-msgstr ""
+msgstr "CCV"
 
 #: r2/templates/paymentform.html:129
 msgid "(3 or 4 digits)"
-msgstr ""
+msgstr "(3 หรือ 4 ตัวเลข)"
 
 #: r2/templates/paymentform.html:188
 msgid "authorize payment"
-msgstr ""
+msgstr "อนุมัติการชำระเงิน"
 
 #: r2/templates/permalinkmessage.html:24
 msgid "you are viewing a single comment's thread."
-msgstr ""
+msgstr "คุณกำลังดูกระทู้ความคิดเห็นเดียว"
 
 #: r2/templates/permalinkmessage.html:26
 msgid "view the rest of the comments"
-msgstr ""
+msgstr "แสดงความคิดเห็นที่เหลือ"
 
 #: r2/templates/prefapps.html:63
 msgid "(that's you!)"
-msgstr ""
+msgstr "(นั่นคือคุณ!)"
 
 #: r2/templates/prefapps.html:109
 msgid "updating..."
-msgstr ""
+msgstr "กำลังอัพเดท..."
 
 #: r2/templates/prefapps.html:114
 msgid "secret"
-msgstr ""
+msgstr "ลับ"
 
 #: r2/templates/prefapps.html:131 r2/templates/prefapps.html:318
 msgid "about url"
-msgstr ""
+msgstr "เกี่ยวกับ uri"
 
 #: r2/templates/prefapps.html:138 r2/templates/prefapps.html:325
 msgid "redirect uri"
-msgstr ""
+msgstr "เปลี่ยนทิศ uri"
 
 #: r2/templates/prefapps.html:147
 msgid "update app"
-msgstr ""
+msgstr "อัพเดท app"
 
 #: r2/templates/prefapps.html:154
 msgid "developers"
-msgstr ""
+msgstr "ผู้พัฒนา"
 
 #: r2/templates/prefapps.html:164
 msgid "adding..."
-msgstr ""
+msgstr "กำลังเพิ่ม..."
 
 #: r2/templates/prefapps.html:167
 msgid "add developer"
-msgstr ""
+msgstr "เพิ่มผู้พัฒนา"
 
 #: r2/templates/prefapps.html:181
 msgid "delete app"
-msgstr ""
+msgstr "ลบapp"
 
 #: r2/templates/prefapps.html:205
 msgid "Only in the subreddits:"
-msgstr ""
+msgstr "เฉพาะในกลีบพิกุล:"
 
 #: r2/templates/prefapps.html:222 r2/templates/prefapps.html:239
 msgid "Expires in:"
-msgstr ""
+msgstr "หมดอายุ:"
 
 #: r2/templates/prefapps.html:225
 msgid "Maintain this access indefinitely (or until manually revoked)."
-msgstr ""
+msgstr "คงสภาพสิทธิการเข้าถึงอย่างไม่มีกำหนด (หรือจนกว่าจะทำการเพิกถอนด้วยตัวเอง)"
 
 #: r2/templates/prefapps.html:234
 msgid "Only in:"
-msgstr ""
+msgstr "เฉพาะใน:"
 
 #: r2/templates/prefapps.html:263
 msgid "revoke access"
-msgstr ""
+msgstr "เพิกถอนสิทธิ"
 
 #: r2/templates/prefapps.html:264
 msgid "revoked"
-msgstr ""
+msgstr "ถูกเพิกถอน"
 
 #: r2/templates/prefapps.html:273
 msgid "authorized applications"
-msgstr ""
+msgstr "อนุมัติ application"
 
 #: r2/templates/prefapps.html:282
 msgid "developed applications"
-msgstr ""
+msgstr "application ที่พัฒนาแล้ว"
 
 #: r2/templates/prefapps.html:294
 msgid "create another app..."
-msgstr ""
+msgstr "ต้องการสร้าง app เพิ่ม..."
 
 #: r2/templates/prefapps.html:296
 msgid "are you a developer? create an app..."
-msgstr ""
+msgstr "คุณเป็นผู้พัฒนา? สร้าง app สิครับ"
 
 #: r2/templates/prefapps.html:300
 msgid "creating..."
-msgstr ""
+msgstr "กำลังสร้าง"
 
 #: r2/templates/prefapps.html:301
 msgid "create application"
-msgstr ""
+msgstr "สร้าง application"
 
 #: r2/templates/prefapps.html:333
 msgid "create app"
-msgstr ""
+msgstr "สร้าง app"
 
 #: r2/templates/prefdelete.html:29
 msgid "delete your reddit account"
-msgstr ""
+msgstr "ลบบัญชีผู้ใช้พิกุล"
 
 #: r2/templates/prefdelete.html:32
 msgid "deleting..."
-msgstr ""
+msgstr "กำลังทำการลบ"
 
 #: r2/templates/prefdelete.html:35
 msgid "sorry to see you go!"
