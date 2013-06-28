@@ -4311,55 +4311,56 @@ msgstr ""
 msgid ""
 "Only mods, approved wiki contributors, or those on a page's edit list may "
 "edit"
-msgstr ""
+msgstr "เฉพาะผู้ดูแล และผู้ที่ได้รับอนุญาติเท่านั้น ในการที่จะแก้ไขได้"
+
 
 #: r2/templates/createsubreddit.html:184
 msgid "anyone"
-msgstr ""
+msgstr "ใครก็ได้"
 
 #: r2/templates/createsubreddit.html:185
 msgid "Anyone who can submit to the subreddit may edit"
-msgstr ""
+msgstr "อนุญาติให้ทุกคนที่สามารถส่งลิงค์มาหากลีบพิกุล สามารถแก้ไขได้"
 
 #: r2/templates/createsubreddit.html:192
 msgid "Subreddit karma required to edit and create wiki pages:"
-msgstr ""
+msgstr "กำหนดคะแนนบวกต่ำสุดที่จะแก้ไขหรือสร้างหน้า wikiได้:"
 
 #: r2/templates/createsubreddit.html:202
 msgid "Account age (days) required to edit and create wiki pages:"
-msgstr ""
+msgstr "กำหนดอายุของการเป็นสมาชิกต่ำสุด (วัน) ถึงจะแก้และสร้างหน้า wiki ได้ :"
 
 #: r2/templates/createsubreddit.html:213
 msgid "other options"
-msgstr ""
+msgstr "ตัวเลือกอื่นๆ"
 
 #: r2/templates/createsubreddit.html:224
 msgid "viewers must be over eighteen years old"
-msgstr ""
+msgstr "ผู้อ่านต้องอายุมากกว่า 18 ปีขึ้นไป"
 
 #: r2/templates/createsubreddit.html:235
 msgid "allow this subreddit to be shown in the default set"
-msgstr ""
+msgstr "อนุญาติให้กลีบพิกุลแสดงบนการตั้งค่าตั้งต้น"
 
 #: r2/templates/createsubreddit.html:246
 msgid "show thumbnail images of content"
-msgstr ""
+msgstr "แสดงรูปขนาดเล็กของเนื้อหา"
 
 #: r2/templates/createsubreddit.html:257
 msgid "exclude posts by site-wide banned users from modqueue"
-msgstr ""
+msgstr "ไม่รวมกระทู้ที่ถูกแบนอยู่ใน modqueue"
 
 #: r2/templates/createsubreddit.html:275
 msgid "make custom CSS styles apply only when accessed from the cname."
-msgstr ""
+msgstr "ใช้ custom CSS style เฉพาะเวลาที่เข้าพิกุลผ่าน cname เท่านั้น"
 
 #: r2/templates/createsubreddit.html:285
 msgid "show sidebar when accessed from the cname."
-msgstr ""
+msgstr "แสดงแถบด้านข้างเมื่อเข้าพิกุลผ่าน cname"
 
 #: r2/templates/createsubreddit.html:297 r2/templates/usertext.html:74
 msgid "hide help"
-msgstr ""
+msgstr "ซ่อนตัวช่วยเหลือ"
 
 #: r2/templates/createsubreddit.html:301
 msgid ""
@@ -4367,72 +4368,75 @@ msgid ""
 "CNAME record aliasing your domain to rhs.reddit.com. You will be able to "
 "access your reddit through your domain."
 msgstr ""
+"เป็นเจ้าของ domain หรือครับ?​ ใส่ domain ที่นี่และไปยัง DNS provider ของคุณและเพิ่ม"
+"CNAME ให้ aliasing domain ของคุณไปที่ rhs.pickul.com คุณจะสามารถ"
+"คุณจะสามารถเข้าถึงพิกุลผ่านทาง domain ของคุณ"
 
 #: r2/templates/createsubreddit.html:309 r2/templates/promotelinkform.html:305
 msgid "look and feel"
-msgstr ""
+msgstr "รูปแบบบ"
 
 #: r2/templates/createsubreddit.html:312
 msgid "edit the stylesheet"
-msgstr ""
+msgstr "แก้ สไตล์ชีท"
 
 #: r2/templates/createsubreddit.html:316
 msgid "leaves this page"
-msgstr ""
+msgstr "ออกจากหน้านี้"
 
 #: r2/templates/createsubreddit.html:335
 msgid "restore default header"
-msgstr ""
+msgstr "ปรับ header ให้กลับเป็นค่าเริ่มต้ัน"
 
 #: r2/templates/createsubreddit.html:358 r2/templates/flairpane.html:88
 #: r2/templates/prefoptions.html:324 r2/templates/promotelinkform.html:404
 msgid "save options"
-msgstr ""
+msgstr "ตัวเลือกการบันทึก"
 
 #: r2/templates/errorpage.html:41
 #, python-format
 msgid "a message from the moderators of /r/%s"
-msgstr ""
+msgstr "ข้อความจากผู้ดูแลของ /r/%s"
 
 #: r2/templates/feedback.html:46 r2/templates/sharelink.html:59
 msgid "your name"
-msgstr ""
+msgstr "ชื่อของคุณ"
 
 #: r2/templates/feedback.html:53
 msgid "(only used to reply)"
-msgstr ""
+msgstr "(ใช้เพื่อการสื่อสารเท่านั้น)"
 
 #: r2/templates/feedback.html:53 r2/templates/prefupdate.html:72
 msgid "email"
-msgstr ""
+msgstr "อีเมล์"
 
 #: r2/templates/feedback.html:70 r2/templates/messagecompose.html:146
 msgid "send"
-msgstr ""
+msgstr "ส่ง"
 
 #: r2/templates/feedbackblurb.html:70
 msgid "send reddit feedback"
-msgstr ""
+msgstr "ส่งคำติแนะนำหาพิกุล"
 
 #: r2/templates/flairlist.html:26
 msgid "jump to user (or add):"
-msgstr ""
+msgstr "ข้ามไปยังผู้ใช้ (หรือเพิ่ม):"
 
 #: r2/templates/flairlist.html:35
 msgid "back to full list"
-msgstr ""
+msgstr "กลับไปรายการเต็ม"
 
 #: r2/templates/flairlist.html:38
 msgid "back to the beginning"
-msgstr ""
+msgstr "กลับไปที่หัวข้อ"
 
 #: r2/templates/flairlist.html:46 r2/templates/flairtemplatelist.html:37
 msgid "flair text"
-msgstr ""
+msgstr "ข้อความไอคอน"
 
 #: r2/templates/flairlist.html:47 r2/templates/flairtemplatelist.html:38
 msgid "css class"
-msgstr ""
+msgstr "css calss"
 
 #: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:52
 #: r2/templates/frametoolbar.html:198
@@ -4443,226 +4447,226 @@ msgstr ""
 #: r2/templates/printablebuttons.html:267
 #: r2/templates/subredditstylesheet.html:87
 msgid "save"
-msgstr ""
+msgstr "บันทึก"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:41
 #: r2/templates/promotedlinktraffic.html:113
 #: r2/templates/spotlightlisting.html:46 r2/templates/tablelisting.html:53
 msgid "prev"
-msgstr ""
+msgstr "หน้าก่อน"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:47
 #: r2/templates/promotedlinktraffic.html:119
 #: r2/templates/promotelinkform.html:407 r2/templates/spotlightlisting.html:47
 #: r2/templates/tablelisting.html:59
 msgid "next"
-msgstr ""
+msgstr "หน้าต่อไป"
 
 #: r2/templates/flairpane.html:25
 msgid "flair settings"
-msgstr ""
+msgstr "การตั้งค่าเกี่ยวกับไอคอน"
 
 #: r2/templates/flairpane.html:30
 msgid "flair options"
-msgstr ""
+msgstr "ตัวเลือกเกี่ยวกับไอคอน"
 
 #: r2/templates/flairpane.html:39
 msgid "enable user flair in this subreddit"
-msgstr ""
+msgstr "เปิดการใช้งานไอคอนในกลีบพิกุลนี้"
 
 #: r2/templates/flairpane.html:50
 msgid "allow users to assign their own flair"
-msgstr ""
+msgstr "อนุญาติให้ผู้ใช้กำหนดไอคอนของตัวเอง"
 
 #: r2/templates/flairpane.html:61
 msgid "allow submitters to assign their own link flair"
-msgstr ""
+msgstr "อนุญาติให้ผู้โพสกำหนดลิงค์ไอคอนของคัวเอง"
 
 #: r2/templates/flairpane.html:64
 msgid "user flair position"
-msgstr ""
+msgstr "ใช้ระบบจัดตำแหน่งไอคอน"
 
 #: r2/templates/flairpane.html:66 r2/templates/flairpane.html:79
 msgid "left"
-msgstr ""
+msgstr "ซ้าย"
 
 #: r2/templates/flairpane.html:67
 msgid "position flair to the left of the username"
-msgstr ""
+msgstr "วางไอคนไว้ทางซ้ายของชื่อผู้ใช้"
 
 #: r2/templates/flairpane.html:69 r2/templates/flairpane.html:82
 msgid "right"
-msgstr ""
+msgstr "ขวา"
 
 #: r2/templates/flairpane.html:70
 msgid "position flair to the right of the username"
-msgstr ""
+msgstr "วางไอคอนไว้ที่ด้านขวาของชื่อผู้ใช้"
 
 #: r2/templates/flairpane.html:74
 msgid "link flair position"
-msgstr ""
+msgstr "ตำแหน่งไอคอนลิงค์"
 
 #: r2/templates/flairpane.html:76
 msgid "none"
-msgstr ""
+msgstr "ไม่มี"
 
 #: r2/templates/flairpane.html:77
 msgid "don't show link flair"
-msgstr ""
+msgstr "ไม่แสดงไอคอนลิงค์"
 
 #: r2/templates/flairpane.html:80
 msgid "position flair to the left of the link"
-msgstr ""
+msgstr "วางไอคอนไว้ที่ด้านซ้ายของลิงค์"
 
 #: r2/templates/flairpane.html:83
 msgid "position flair to the right of the link"
-msgstr ""
+msgstr "วางไอคอนไว้ที่ด้านขวาของลิงค์"
 
 #: r2/templates/flairprefs.html:30
 msgid "Show my flair on this subreddit. It looks like:"
-msgstr ""
+msgstr "แสดงไอคอนของฉันบนกลีบพิกุลนี้ ผลที่ได้:"
 
 #: r2/templates/flairselector.html:23
 msgid "select flair"
-msgstr ""
+msgstr "เลือกไอคอน"
 
 #: r2/templates/flairselector.html:44
 msgid "remove flair"
-msgstr ""
+msgstr "เอาไอคอนออก"
 
 #: r2/templates/flairselector.html:56
 msgid "flair selection unavailable"
-msgstr ""
+msgstr "ไอคอนที่คุณเลือกไม่สามารถใช้ได้"
 
 #: r2/templates/flairtemplatelist.html:36
 msgid "user can edit?"
-msgstr ""
+msgstr "ผู้ใช้สามารถแก้ไขได้หรือไม่?"
 
 #: r2/templates/flairtemplatelist.html:55
 msgid "clear all flair templates"
-msgstr ""
+msgstr "ล้างเทมเพลทไอคอนผู้ใช้ทั้งหมด"
 
 #: r2/templates/flairtemplatelist.html:55
 msgid "cleared"
-msgstr ""
+msgstr "ล้างเรียบร้อยแล้ว"
 
 #: r2/templates/frametoolbar.html:66
 msgid "show url"
-msgstr ""
+msgstr "โชว์ url"
 
 #: r2/templates/frametoolbar.html:69
 msgid "hide url"
-msgstr ""
+msgstr "ซ่อน url"
 
 #: r2/templates/frametoolbar.html:73
 msgid "load a random link"
-msgstr ""
+msgstr "โหลดลิงค์แบบสุ่ม"
 
 #: r2/templates/frametoolbar.html:80 r2/templates/interestbar.html:40
 msgid "serendipity"
-msgstr ""
+msgstr "ชะตาพาลิขิต"
 
 #: r2/templates/frametoolbar.html:88
 msgid "visit your userpage"
-msgstr ""
+msgstr "ไปยังหน้าผู้ใช้ของคุณ"
 
 #: r2/templates/frametoolbar.html:92
 msgid "login / register"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้ / สมัครสมาชิก"
 
 #: r2/templates/frametoolbar.html:100
 msgid "new mail"
-msgstr ""
+msgstr "มีข้อความใหม่"
 
 #: r2/templates/frametoolbar.html:113 r2/templates/frametoolbar.html:114
 msgid "visit this link without the toolbar"
-msgstr ""
+msgstr "ชิมลิงค์โดยไม่ใช้ toolbar"
 
 #: r2/templates/frametoolbar.html:121
 msgid "click to visit the main page for this submission"
-msgstr ""
+msgstr "คลิกเพื่อเยี่ยมชมหน้าหลักของกระทู้นี้"
 
 #: r2/templates/frametoolbar.html:133
 msgid "click to submit this link to reddit"
-msgstr ""
+msgstr "คลิกที่นี่เพื่อส่งลิงค์ให้กับพิกุล"
 
 #: r2/templates/frametoolbar.html:170
 #, python-format
 msgid "vote %(direction)s"
-msgstr ""
+msgstr "คะแนน %(direction)s"
 
 #: r2/templates/frametoolbar.html:185
 msgid "like"
-msgstr ""
+msgstr "ถูกฝข"
 
 #: r2/templates/frametoolbar.html:186
 msgid "dislike"
-msgstr ""
+msgstr "ไม่ถูกใจ"
 
 #: r2/templates/frametoolbar.html:194 r2/templates/printablebuttons.html:189
 #: r2/templates/printablebuttons.html:191
 #: r2/templates/printablebuttons.html:263
 #: r2/templates/printablebuttons.html:267
 msgid "unsave"
-msgstr ""
+msgstr "ยกเลิกการบันทึก"
 
 #: r2/templates/frametoolbar.html:195
 msgid "unsaved"
-msgstr ""
+msgstr "ยกเลิกการบันทึกแล้ว"
 
 #: r2/templates/frametoolbar.html:204 r2/templates/printablebuttons.html:195
 msgid "unhide"
-msgstr ""
+msgstr "ยกเลิกการซ่อน"
 
 #: r2/templates/frametoolbar.html:205 r2/templates/printablebuttons.html:196
 msgid "unhidden"
-msgstr ""
+msgstr "ยกเลิกการซ่อนเรียบร้อยแล้ว"
 
 #: r2/templates/frametoolbar.html:216
 msgid "toggle the comments panel"
-msgstr ""
+msgstr "เปิดแถบความคิดเห็น"
 
 #: r2/templates/gold.html:89
 msgid "Buy for yourself, as an ongoing subscription"
-msgstr ""
+msgstr "ซื้อให้ตัวเอง แล้วต่อบรรณาศักดิเมื่อหมดอายุ"
 
 #: r2/templates/gold.html:91
 msgid "Buy for yourself, as a one-time purchase"
-msgstr ""
+msgstr "ซื้อให้ตัวเอง เพียงครั้งเดียว"
 
 #: r2/templates/gold.html:93
 msgid "Give reddit gold to someone else"
-msgstr ""
+msgstr "มอบกลีบพิกุลทองให้คนพิเศษ"
 
 #: r2/templates/gold.html:95
 msgid "Buy reddit gold \"creddits\""
-msgstr ""
+msgstr "ซื้อกลีบพิกุลทอง"
 
 #: r2/templates/gold.html:103
 #, python-format
 msgid "%s / month"
-msgstr ""
+msgstr "% ต่อเดือน"
 
 #: r2/templates/gold.html:104
 #, python-format
 msgid "%s / year (which works out to just %s / month!)"
-msgstr ""
+msgstr "%s ต่อปี (ไม่ต่างจาก %s  ต่อเดือนนะจ๊ะ)"
 
 #: r2/templates/gold.html:107 r2/templates/subreddit.html:64
 msgid "subscribe"
-msgstr ""
+msgstr "ติดตาม"
 
 #: r2/templates/gold.html:113
 msgid "How many months?"
-msgstr ""
+msgstr "จำนวนเดือนที่ต้องการ"
 
 #: r2/templates/gold.html:115 r2/templates/gold.html:176
 msgid "buy"
-msgstr ""
+msgstr "ซื้อ"
 
 #: r2/templates/gold.html:121
 msgid "How much gold do you wish to bestow?"
-msgstr ""
+msgstr "คุณต้องการส่งกลีบพิกุลกี่ดอก"
 
 #: r2/templates/gold.html:132
 #, python-format
@@ -4670,68 +4674,78 @@ msgid ""
 "Note: If you want to give more than %(number)d, you'll need to buy more "
 "creddits."
 msgstr ""
+"หมายเหตุ: หากคุณต้องการส่งพิกุลทองมากกว่า %(number)d คุณต้องซื้อ"
+"กลีบพิกุลเพิ่ม"
 
 #: r2/templates/gold.html:139
 msgid "To whom are you giving said gold?"
-msgstr ""
+msgstr "คุณต้องการส่งพิกุลทองให้ผู้ใช้ท่านใด?"
 
 #: r2/templates/gold.html:150
 msgid "Do you want them to know it came from you?"
-msgstr ""
+msgstr "คุณต้องการบอกให้ผู้รับทราบว่าได้รับจากคุณหรือไม่"
 
 #: r2/templates/gold.html:152
 msgid "yes, include my username"
-msgstr ""
+msgstr "ได้เลย แนบชื่อผู้ใช้ของฉันไปด้วย"
 
 #: r2/templates/gold.html:156
 msgid "no, make it anonymous"
-msgstr ""
+msgstr "ไม่ ส่งแบบนิรนาม"
 
 #: r2/templates/gold.html:162
 msgid "Gift message (optional):"
-msgstr ""
+msgstr "ข้อความแนบพร้อมของขวัญ (ไม่จำเป็น):"
 
 #: r2/templates/gold.html:167 r2/templates/goldpayment.html:92
 msgid "give"
-msgstr ""
+msgstr "มอบ"
 
 #: r2/templates/gold.html:174
 msgid ""
 "How many creddits would you like to buy? (each will allow you to give one "
 "month of reddit gold)"
 msgstr ""
+"คุณต้องการซื้อกลีบพิกุลกี่ดอก? (หนึ่งดอกจะเลื่อนบรรณาศักดิ์ให้"
+"หนึ่งเดือน)"
 
 #: r2/templates/goldinfopage.html:39
 msgid "New!"
-msgstr ""
+msgstr "ใหม่!"
 
 #: r2/templates/goldinfopage.html:50
 msgid "Make reddit better."
-msgstr ""
+msgstr "ช่วยสนับสนุนให้พิกุลพัฒนา"
 
 #: r2/templates/goldinfopage.html:51
 msgid ""
 "reddit gold adds shiny extra features to your account that are made possible"
 " thanks to support from people like you."
 msgstr ""
+"ดอกพิกุลทองเพิ่มความสง่างามแก่บัญชีผู้ใช้ของคุณ และเพิ่มฟีเจอร์พิเศษเฉพาะผู้มีบรรณาศักดิ์"
+"ขอกราบขอบพระคุณงามๆแก่ผู้ช่วยเหลือ"
+
 
 #: r2/templates/goldinfopage.html:53 r2/templates/goldinfopage.html:103
 msgid "buy reddit gold"
-msgstr ""
+msgstr "ซื้อกลีบพิกุลทอง"
 
 #: r2/templates/goldinfopage.html:54 r2/templates/goldinfopage.html:106
 msgid "or"
-msgstr ""
+msgstr "หรือ"
 
 #: r2/templates/goldinfopage.html:55
 msgid "send us a postcard"
-msgstr ""
+msgstr "ส่งไปรษณีย์บัตรมาหาพวกเรา!"
 
 #: r2/templates/goldinfopage.html:59
 msgid ""
 "# Filter specific subreddits from /r/all.\n"
 "Are there subreddits you don't want to see? Customize /r/all by removing them with a url like /r/all-operative-badger (up to ~300 removals - limited by maximum url length)."
 msgstr ""
+"# คัดกลีบพิกุลที่ต้องการออกจาก กลีบเหมา"
+"มีกลีบพิกุลที่คุณไม่ต้องการจะอ่าน? แก้ไข กลีบเหมา โดยการเอาออกจาก url เช่น /r/เหมา-สาวแว่น-อาหาร"
+"(เอาออกได้ไม่เกินประมาณ 300 ห้อง ซึ่งถูกกำหนดโดยความยาวสูงสุดของ url มาตรฐาน)"
 
 #: r2/templates/goldinfopage.html:64
 msgid ""
