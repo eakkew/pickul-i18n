@@ -3990,41 +3990,41 @@ msgstr ""
 
 #: r2/templates/bookmarklets.html:35
 msgid "in Firefox"
-msgstr ""
+msgstr "บน Firefox"
 
 #: r2/templates/bookmarklets.html:37 r2/templates/bookmarklets.html:66
 msgid "click and drag"
-msgstr ""
+msgstr "คลิกและลาก"
 
 #: r2/templates/bookmarklets.html:43 r2/templates/bookmarklets.html:72
 msgid "to your bookmark bar."
-msgstr ""
+msgstr "เพิ่มลงไปในแถบ bookmark ของคุณ"
 
 #: r2/templates/bookmarklets.html:51
 msgid "in Internet Explorer"
-msgstr ""
+msgstr "บน Internet Explorer"
 
 #: r2/templates/bookmarklets.html:53
 msgid "right-click on"
-msgstr ""
+msgstr "คลิกขวาบน"
 
 #: r2/templates/bookmarklets.html:59
 msgid "then choose \"Add to Favorites\" and add to the \"Links\" folder."
-msgstr ""
+msgstr "ทีนี้ก็เลือก \"เพิ่มลงรายการโปรด\" และเพิ่มลงไปในแฟ้ม \"folder\""
 
 #: r2/templates/bookmarklets.html:64
 msgid "in Safari"
-msgstr ""
+msgstr "บน Safari"
 
 #: r2/templates/bookmarklets.html:78
 #, python-format
 msgid "voila! now you have all the functionality of %(site)s in your toolbar."
-msgstr ""
+msgstr "เย้! ตอนนี้คุณสามารถใช้งาน %(site)s บนtoolbarของคุณแล้ว"
 
 #: r2/templates/buttondemopanel.html:30
 #, python-format
 msgid "put %(site)s buttons on your site"
-msgstr ""
+msgstr "ใส่ปุ่ม %(site)s บนเวบไซต์ของคุณ"
 
 #: r2/templates/buttondemopanel.html:31
 msgid ""
@@ -4032,286 +4032,294 @@ msgid ""
 " discussed on reddit.  pick the button you like from below, and then      "
 "copy/paste the code into your HTML editor."
 msgstr ""
+"ปุ่มพิกุลเป็นทางเลือกพิเศษที่ คุณสามารถตั้งกระทู้และแสดงความคิดเห็น"
+"บนพิกุล เลือกปุ่มที่คุนชอบข้างล่าง แล้ว"
+"copy and paste โค๊ดไปยัง HTML editor ของคุณ"
 
 #: r2/templates/buttondemopanel.html:35
 msgid "commonly used buttons"
-msgstr ""
+msgstr "ปุ่มที่ใช้บ่อยๆ"
 
 #: r2/templates/buttondemopanel.html:36
 msgid ""
 "use one of these buttons to quickly add reddit links to your site, or       "
 "see below for more options."
 msgstr ""
+"ใช้ปุ่มเหล่านี้เพื่อใส่ ลิงค์พิกุลบนไซท์ของคุณ หรือ"
+"ดูข้างล่างเพื่อดูตัวเลือกเพิ่มเติม"
 
 #: r2/templates/buttondemopanel.html:47
 msgid "buttons with points"
-msgstr ""
+msgstr "ปุ่มพร้อมคะแนน"
 
 #: r2/templates/buttondemopanel.html:53
 msgid "customizing the look of your buttons"
-msgstr ""
+msgstr "ปรับรูปลักษณ์ของปุ่มของคุณ"
 
 #: r2/templates/buttondemopanel.html:54
 msgid "the buttons with points have three additional options."
-msgstr ""
+msgstr "ปุ่มพร้อมคะแนนจะมีตัวเลือกให้อีกสามอย่าง"
 
 #: r2/templates/buttondemopanel.html:57
 msgid "no styles will be added, so you can style it yourself"
-msgstr ""
+msgstr "รูปแบบจะไม่ถูกใส่เข้าไป เพื่อที่คุณจะได้สร้างรูปแบบของปุ่มเอง"
 
 #: r2/templates/buttondemopanel.html:59
 msgid "specify a url to use instead of the current url"
-msgstr ""
+msgstr "ระบุ url ที่จะใช้แทน url ปัจจุบัน"
 
 #: r2/templates/buttondemopanel.html:61
 msgid "opens links in a new window"
-msgstr ""
+msgstr "เปิดลิงค์ในหน้าใหม่"
 
 #: r2/templates/buttondemopanel.html:63 r2/templates/buttondemopanel.html:115
 msgid "Example:"
-msgstr ""
+msgstr "ตัวอย่าง:"
 
 #: r2/templates/buttondemopanel.html:69
 msgid "simple interactive button"
-msgstr ""
+msgstr "ปุ่มโต้ตอบแบบง่าย"
 
 #: r2/templates/buttondemopanel.html:70
 msgid "put this code on your page:"
-msgstr ""
+msgstr "ใส่โค๊ดนี้บนหน้าของคุณ"
 
 #: r2/templates/buttondemopanel.html:74
 msgid "and you'll get something like this:"
-msgstr ""
+msgstr "และคุณจะได้ปุ่มประมาณนี้:"
 
 #: r2/templates/buttondemopanel.html:79
 msgid "more interactive buttons"
-msgstr ""
+msgstr "ดูปุ่มโต้ตอบมากกว่านี้"
 
 #: r2/templates/buttondemopanel.html:86
 msgid "interactive button advanced settings"
-msgstr ""
+msgstr "การตั้งค่าขั้นสูงของปุ่มโต้ตอบ"
 
 #: r2/templates/buttondemopanel.html:90
 msgid "specify a url"
-msgstr ""
+msgstr "ระบุ url"
 
 #: r2/templates/buttondemopanel.html:91
 msgid ""
 "useful in places like blogs, where you want to link to the post's permalink"
 msgstr ""
+"มีประโยชน์สำหรับการใช้เช่น บนblog ซึ่งคุณสามารถลิงค์โพสนั้นไปเป็น permalink"
 
 #: r2/templates/buttondemopanel.html:95
 msgid "specify a community to target"
-msgstr ""
+msgstr "ระบุเป้าหมายชุมชน"
 
 #: r2/templates/buttondemopanel.html:99
 msgid "specify a title"
-msgstr ""
+msgstr "ระบุหัวข้อกระทู้"
 
 #: r2/templates/buttondemopanel.html:103 r2/templates/prefoptions.html:110
 msgid "open links in a new window"
-msgstr ""
+msgstr "เปิดลิงค์บนหน้าใหม่"
 
 #: r2/templates/buttondemopanel.html:107
 msgid "specify the color"
-msgstr ""
+msgstr "เลือกสี"
 
 #: r2/templates/buttondemopanel.html:111
 msgid "specify a border color"
-msgstr ""
+msgstr "เลือกสีของขอบ"
 
 #: r2/templates/buttondemopanel.html:116
 msgid "to make this button:"
-msgstr ""
+msgstr "สร้างปุ่มนี้:"
 
 #: r2/templates/buttondemopanel.html:118
 msgid "use this code:"
-msgstr ""
+msgstr "ใช้รหัสนี้:"
 
 #: r2/templates/buttondemopanel.html:128
 msgid "more badges and buttons"
-msgstr ""
+msgstr "ดูตราและปุ่ม"
 
 #: r2/templates/buttondemopanel.html:159
 msgid "view code"
-msgstr ""
+msgstr "แสดงรหัส"
 
 #: r2/templates/buttondemopanel.html:160
 msgid "hide code"
-msgstr ""
+msgstr "ซ่อนรหัส"
 
 #: r2/templates/captcha.html:49
 msgid "(sorry)"
-msgstr ""
+msgstr "(ขอโทษค่ะ)"
 
 #: r2/templates/captcha.html:49
 msgid "are you human?"
-msgstr ""
+msgstr "คุณเป็นมนุษย์ใช่ไหม"
 
 #: r2/templates/captcha.html:75
 msgid "human?"
-msgstr ""
+msgstr "มนุษย์"
 
 #: r2/templates/clickgadget.html:31
 msgid "clear"
-msgstr ""
+msgstr "ล้าง"
 
 #: r2/templates/comment.html:65
 msgid "in"
-msgstr ""
+msgstr "ใน"
 
 #: r2/templates/comment.html:96
 msgid "deleted comment from"
-msgstr ""
+msgstr "ลบความคิดเห็นจาก"
 
 #: r2/templates/comment.html:111 r2/templates/comment.htmllite:46
 #: r2/templates/commentvisitsbox.html:38 r2/templates/useriphistory.html:52
 #: r2/templates/utils.html:607
 msgid "ago"
-msgstr ""
+msgstr "ที่แล้ว"
 
 #: r2/templates/comment.html:127
 msgid "child"
 msgid_plural "children"
-msgstr[0] ""
+msgstr[0] "ความเห็นย่อย"
 
 #: r2/templates/comment.html:136
 msgid "show replies"
-msgstr ""
+msgstr "แสดงข้่อความตอบรับ"
 
 #: r2/templates/commentspanel.html:38
 msgid "This sidebar will automatically appear when there are comments."
-msgstr ""
+msgstr "แถบด้านข้างจะไม่ปรากฏเมื่อมีความคิดเห็น"
 
 #: r2/templates/commentspanel.html:40
 msgid "This sidebar will not be shown automatically."
-msgstr ""
+msgstr "แถบด้านข้างนี้จะไม่แสดงอย่างอัตโนมัติ"
 
 #: r2/templates/commentvisitsbox.html:25
 msgid ""
 "You've been here before. To highlight comments that were posted since one of"
 " your visits, select it below:"
 msgstr ""
+"คุณเคยเข้ามาหน้านี้แล้ว ถ้าคุณต้องการเน้นข้อความที่ถูกตั้งหลังจากที่คุณ"
+"เข้ามาชม โปรดเลือกจากด้านล่าง"
 
 #: r2/templates/commentvisitsbox.html:48
 msgid "no highlighting"
-msgstr ""
+msgstr "ไม่มีการเน้นคำ"
 
 #: r2/templates/confirmawardclaim.html:31
 #, python-format
 msgid "# Claim this award for /u/%s? #"
-msgstr ""
+msgstr "# รับรางวัลสำหรับ /u/%sเลยหรือไม่? #"
 
 #: r2/templates/confirmawardclaim.html:35
 msgid "Yes, please!"
-msgstr ""
+msgstr "เอาเลย!"
 
 #: r2/templates/createsubreddit.html:43
 msgid "no spaces, e.g., slashdot"
-msgstr ""
+msgstr "ห้ามเว้นวรรค เช่น batmanbegin"
 
 #: r2/templates/createsubreddit.html:43 r2/templates/goldpayment.html:159
 #: r2/templates/prefapps.html:118 r2/templates/prefapps.html:305
 msgid "name"
-msgstr ""
+msgstr "ชื่อ"
 
 #: r2/templates/createsubreddit.html:56
 msgid "e.g., slashdot: news for nerds, stuff that matters"
-msgstr ""
+msgstr "เช่น drama-addict: แหล่งรวมดราม่าเด็ดๆ สดร้อนตลอดเวลา"
 
 #: r2/templates/createsubreddit.html:68
 msgid "publicly describe your subreddit for all to see. 500 characters max."
-msgstr ""
+msgstr "คำอธิบายกลีบพิกุลให้ผู้อื่นได้เห็น สูงสุด 500 ตัวอักษร"
 
 #: r2/templates/createsubreddit.html:82
 msgid "shown in the sidebar of your subreddit. 5120 characters max."
-msgstr ""
+msgstr "แสดงบนแถบด้านข้างของกลีบพิกุล สูงสุด 5120 ตัวอักษร"
 
 #: r2/templates/createsubreddit.html:120
 msgid "public"
-msgstr ""
+msgstr "สาธารณะ"
 
 #: r2/templates/createsubreddit.html:121
 msgid "anyone can view and submit"
-msgstr ""
+msgstr "ทุกคนสามารถอ่านและโพสได้"
 
 #: r2/templates/createsubreddit.html:123
 msgid "restricted"
-msgstr ""
+msgstr "จำกัดการเข้าถึง"
 
 #: r2/templates/createsubreddit.html:124
 msgid "anyone can view, but only some are approved to submit links"
-msgstr ""
+msgstr "ทุกคนสามารถอ่านห้องนี้ได้ แต่เฉพาะผู้ที่ได้รับอนุญาติเท่านั้นถึงจะโพสลิงค์ได้"
 
 #: r2/templates/createsubreddit.html:126 r2/templates/subreddit.html:93
 msgid "private"
-msgstr ""
+msgstr "ห้องปิด"
 
 #: r2/templates/createsubreddit.html:127
 msgid "only approved members can view and submit"
-msgstr ""
+msgstr "สมาชิกเท่านั้ันที่สามารถิอ่านและโพสกระทู้ได้"
 
 #: r2/templates/createsubreddit.html:132
 msgid "archived"
-msgstr ""
+msgstr "เก็บเข้าคลังไว้"
 
 #: r2/templates/createsubreddit.html:133
 msgid "anyone can view, but submissions are no longer accepted"
-msgstr ""
+msgstr "ทุกคนสามารถอ่านได้ แต่ไม่รับการส่งโพสกระทู้แล้ว"
 
 #: r2/templates/createsubreddit.html:141 r2/templates/prefoptions.html:246
 msgid "content options"
-msgstr ""
+msgstr "ตัวเลือกเนื้อหา"
 
 #: r2/templates/createsubreddit.html:144
 msgid "any"
-msgstr ""
+msgstr "ทุกประเภท"
 
 #: r2/templates/createsubreddit.html:145
 msgid "any link type is allowed"
-msgstr ""
+msgstr "ลิงค์ประเภทไหนก็ได้"
 
 #: r2/templates/createsubreddit.html:147
 msgid "links only"
-msgstr ""
+msgstr "ลิงค์เท่านั้น"
 
 #: r2/templates/createsubreddit.html:148
 msgid "only links to external sites are allowed"
-msgstr ""
+msgstr "อนุญาติเฉพาะลิงค์จากที่อื่น"
 
 #: r2/templates/createsubreddit.html:150
 msgid "text posts only"
-msgstr ""
+msgstr "เฉพาะกระทู้ความคิดเห็นเท่านั้น"
 
 #: r2/templates/createsubreddit.html:151
 msgid "only text/self posts are allowed"
-msgstr ""
+msgstr "อนุญาติเฉพาะกระทู้ความคิดเห็นเท่านั้น"
 
 #: r2/templates/createsubreddit.html:158
 msgid "Custom label for submit link button (blank for default):"
-msgstr ""
+msgstr "ป้ายกำกับบนปุ่นสำหรับส่งลิงค์ (เว้นว่างเพื่อใช้ค่าตั้งต้น)"
 
 #: r2/templates/createsubreddit.html:166
 msgid "Custom label for submit text post button (blank for default):"
-msgstr ""
+msgstr "ป้ายกำกับบนปุ่มสำหรับส่งกระทู้ความคิดเห็น (เว้นว่างเพื่อใช้ค่าตั้งต้น)"
 
 #: r2/templates/createsubreddit.html:178
 msgid "disabled"
-msgstr ""
+msgstr "ปิดการใช้"
 
 #: r2/templates/createsubreddit.html:179
 msgid "Wiki is disabled for all users except mods"
-msgstr ""
+msgstr "ผู้ใช้ทั่วไปไม่สามารถใช้ wiki ได้ ยกเว้นผู้ดูแล"
 
 #: r2/templates/createsubreddit.html:181
 msgid "mod editing"
-msgstr ""
+msgstr "การแก้ไขโดยผู้ดูแล"
 
 #: r2/templates/createsubreddit.html:182
 msgid ""
 "Only mods, approved wiki contributors, or those on a page's edit list may "
 "edit"
-msgstr "เฉพาะผู้ดูแล และผู้ที่ได้รับอนุญาติเท่านั้น ในการที่จะแก้ไขได้"
+msgstr "เฉพาะผู้ดูแล และผู้ที่ได้รับอนุญาติเท่านั้น ที่จะแก้ไขได้"
 
 
 #: r2/templates/createsubreddit.html:184
@@ -4793,7 +4801,7 @@ msgstr ""
 
 #: r2/templates/goldinfopage.html:94
 msgid "The Lounge."
-msgstr "ห้องสังสรรค์"
+msgstr "ห้องพิกุลทอง"
 
 #: r2/templates/goldinfopage.html:94
 msgid ""
