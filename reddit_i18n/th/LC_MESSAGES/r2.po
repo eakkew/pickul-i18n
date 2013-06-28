@@ -2029,7 +2029,7 @@ msgstr "ห้องกลีบพิกุลนี้เป็นแบบป
 msgid ""
 "the moderators of this subreddit have set it to private. you must be a "
 "moderator or approved submitter to view its contents."
-msgstr ""
+msgstr "ผู้ดูแลของห้องกลีบพิกุลนี้ได้ตั้งค่าห้องเป็นแบบปิด ในการเรียกดูข้อมูลคุณต้องมีสถานะเป็นผู้ดูแลหรือเป็นสมาชิกของห้อง"
 
 #: r2/lib/strings.py:120
 #, python-format
@@ -2039,12 +2039,18 @@ msgid ""
 " by clicking the link's title (in the middle of the toolbar, to the right of"
 " the comments button)."
 msgstr ""
+"ตัวอย่างต่อไปนี้เป็นข้อความที่ขาวพิกุลได้พูดถึงห้องกลีบพิกุลนี้"
+"การอภิปรายแบบเต็มสามารถเข้าถึงได้ [ที่นี่](%(fd_link)s); นอกจากนั้นแล้วคุณยังสามารถไปที่หน้านั้นได้"
+"โดยการคลิกที่ลิงค์ของหัวข้อ (อยู่กลาง toolbar, ด้านขวาของ"
+" ปุ่มแสดงความคิดเห็น)."
 
 #: r2/lib/strings.py:122
 msgid ""
 "You are submitting a link. The key to a successful submission is interesting"
 " content and a descriptive title."
 msgstr ""
+"คุณกำลังส่งลิงค์ขึ้นไปแบ่งปันบนพิกุล กุญแจของความสำเร็จของการแบ่งปันลิงค์อยู่ที่ความน่าสนใจของเนื้อหา"
+" และข้อความพาดหัวข้อที่โดนใจ"
 
 #: r2/lib/strings.py:123
 msgid ""
@@ -2052,14 +2058,17 @@ msgid ""
 "but expanding further in the text field is not. Beginning your title with "
 "\"vote up if\" is violation of intergalactic law."
 msgstr ""
+"คุณกำลังส่งกระทู้ที่เป็นข้อความขึ้น พูดสิ่งที่อยู่ในใจของคุณ ชื่อกระทู้เป็นฟิลล์ที่บังคับ, "
+"แต่ไม่ต้องใส่รายละเอียดให้ลึกมากนัก การเริ่มชื่อกระทู้ของคุณด้วย "
+"\"โหวตถ้า\" เป็นการผิดกฎหมายระหว่างจักรวาลนะคะ"
 
 #: r2/lib/strings.py:124
 msgid "Submit a new link"
-msgstr ""
+msgstr "ตั้งกระทู้แบบลิงค์"
 
 #: r2/lib/strings.py:125
 msgid "Submit a new text post"
-msgstr ""
+msgstr "ตั้งกระทู้แบบข้อความ"
 
 #: r2/lib/strings.py:126
 #, python-format
@@ -2067,23 +2076,26 @@ msgid ""
 "Looks like you're browsing on a small screen. Would you like to try "
 "[reddit's mobile interface](%(url)s)?"
 msgstr ""
+"เหมือนกับว่าคุณกำลังพิกุลอยู่บนจอเล็ก ลองพิกุลบนโมบายไซต์ของเราสิ "
+"[Pickul mobile interface](%(url)s)?"
 
 #: r2/lib/strings.py:127
 msgid "we're going to need to verify your email address for you to proceed."
-msgstr ""
+msgstr "เราต้องการตรวจสอบอีเมลของคุณเพื่อดำเนินการต่อ"
 
 #: r2/lib/strings.py:128
 msgid ""
 "you'll be able to submit more frequently once you verify your email address"
 msgstr ""
+"คุณสามารถตั้งกระทู้ได้บ่อยขึ้นถ้าคุณทำการยืนยันที่อยู่อีเมลเรียบร้อยแล้ว"
 
 #: r2/lib/strings.py:129
 msgid "your email address has been verfied"
-msgstr ""
+msgstr "อีเมลของคุณได้ถูกยืนยันเรียบร้อย"
 
 #: r2/lib/strings.py:130
 msgid "Verification failed.  Please try that again"
-msgstr ""
+msgstr "การตรวจสอบล้มเหลว กรุณาลองใหม่อีกครั้ง"
 
 #: r2/lib/strings.py:131
 msgid ""
@@ -2091,6 +2103,9 @@ msgid ""
 "now. :( Sorry for the inconvenience. Try again in a little bit -- but please"
 " don't mash reload; that only makes the problem worse."
 msgstr ""
+"เครื่องจักรค้นหาของเราอยู่ในภาวะที่ทำงานหนักมาก จึงไม่สามารถตอบสนองการค้นหาของคุณได้"
+"ขณะนี้ :( ต้องขอโทษด้วยจริงๆค่ะ สักครู่กรุณาลองใหม่อีกครั้ง -- แต่ว่า"
+" อย่ากด reload รัวๆนะคะ; มันจะทำให้เครื่องจักรยิ่งทำงานหนักขึ้น"
 
 #: r2/lib/strings.py:132
 #, python-format
@@ -2098,10 +2113,12 @@ msgid ""
 "I couldn't understand your query, so I simplified it and searched for "
 "\"%(clean_query)s\" instead."
 msgstr ""
+"พิกุลไม่เข้าใจคำที่คุณค้นหาค่ะ ดังนั้นพิกุลเลยเดาว่าคุณหมายถึง "
+"\"%(clean_query)s\" และทำการค้นหาคำนี้แทนค่ะ"
 
 #: r2/lib/strings.py:133
 msgid "I couldn't understand your search query. Please try again."
-msgstr ""
+msgstr "พิกุลไม่เข้าใจคำที่คุณค้นหาค่ะ กรุณาลองใหม่อีกครั้ง"
 
 #: r2/lib/strings.py:134
 #, python-format
@@ -2109,6 +2126,8 @@ msgid ""
 "You may also want to check the [search help page](%(search_help)s) for more "
 "information."
 msgstr ""
+"คุณอาจจะหาข้อมูลเพิ่มได้ที่หน้า [วิธีใช้เครื่องมือค้นหา](%(search_help)s) สำหรับรายละเอียด"
+"วิธีการค้นหาทั้งหมดค่ะ"
 
 #: r2/lib/strings.py:135
 msgid ""
@@ -2118,6 +2137,11 @@ msgid ""
 "page](/wiki/commenting) for more detailed help and solutions to common "
 "issues."
 msgstr ""
+"พิกุลใช้รุ่นที่ปรับปรุงเล็กน้อยของ "
+"[Markdown](http://daringfireball.net/projects/markdown/syntax) สำหรับ"
+"การจัดรูปแบบ รายละเอียดด้านล่างเป็นตัวอย่างพื้นฐานวิธีการใช้ หรือไปที่ [the commenting wiki "
+"page](/wiki/commenting) สำหรับข้อมูลช่วยเหลือที่ลึกขึ้นและรายละเอียดวิธีการแก้ปัญหา"
+"เบื้องต้น"
 
 #: r2/lib/strings.py:137
 #, python-format
@@ -2127,6 +2151,10 @@ msgid ""
 "feel free to [check out the reddiquette](%(reddiquette)s) or join the "
 "conversation in a different thread."
 msgstr ""
+"ดูเหมือนว่าคุณเป็นชาวพิกุลหน้าใหม่หรือกระทู้ของคุณช่วงนี้ไม่ค่อยมีใครสนใจ "
+"คุณอาจจะต้องรอสักครู่เพื่อให้สามารถตั้งกระทู้ได้ใหม่ ในระหว่างนี้"
+"คุณอาจจะอ่าน [จรรยาการเป็นชาวพิกุลที่ดี](%(reddiquette)s) หรือไปร่วมสนทนา"
+"ในกระทู้อื่นๆ"
 
 #: r2/lib/strings.py:138
 #, python-format
@@ -2137,16 +2165,23 @@ msgid ""
 "conversation in a different thread, or [verify your email "
 "address](%(verify)s)."
 msgstr ""
+"ดูเหมือนว่าคุณเป็นชาวพิกุลหน้าใหม่หรือกระทู้ของคุณช่วงนี้ไม่ค่อยมีใครสนใจ "
+"คุณอาจจะต้องรอสักครู่เพื่อให้สามารถตั้งกระทู้ได้ใหม่ ในระหว่างนี้"
+"คุณอาจจะอ่าน [จรรยาการเป็นชาวพิกุลที่ดี](%(reddiquette)s) หรือไปร่วมสนทนา"
+"ในกระทู้อื่นๆ หรือ [ทำการยืนยันอีเมล"
+"ของคุณ](%(verify)s)."
 
 #: r2/lib/strings.py:139
 msgid ""
 "reddit is in \"emergency read-only mode\" right now. :( you won't be able to"
 " log in. we're sorry, and are working frantically to fix the problem."
 msgstr ""
+"ขณะนี้พิกุลอยู่ในโหมดฉุกเฉิน \"อ่านอย่างเดียว\". :( คุณจึงไม่สามารถเข้าสู่"
+"ระบบได้ ต้องขออภัยด้วยค่ะ ทีมงานกำลังทำงานหนักกว่ารัฐบาลเพื่อแก้ปัญหานี้ค่ะ"
 
 #: r2/lib/strings.py:140
 msgid "this page is temporarily in read-only mode due to heavy traffic."
-msgstr ""
+msgstr "หน้านี้อยู่ในโหมดอ่านอย่างเดียวเป็นการชั่วคราวค่ะ เนื่องจากมีผู้ใช้งานเป็นจำนวนมาก"
 
 #: r2/lib/strings.py:141
 msgid ""
@@ -2155,11 +2190,15 @@ msgid ""
 "the bottom of [your preferences page](/prefs), and take a look at [the about"
 " gold page](/gold/about) to see what else is available!"
 msgstr ""
+"การมีบรรณาศักดิ์เป็นพิกุลทองจะช่วยให้คุณสามารถเข้าถึงความสามารถใหม่ๆของพิกุลก่อนใคร "
+"และยังมีสิทธิประโยชน์อีกมากมาย อย่าลืมไปเยี่ยมชมตัวเลือกใหม่ๆในกล่องทองที่"
+"ข้างล่างของ [หน้าตั้งค่าส่วนตัว](/prefs) และเยี่ยมชมหน้า [เกี่ยวกับ"
+"เหรียญทองพิกุล](/gold/about) เผื่อพิกุลมีข้อเสนอใหม่ๆมาให้คุณ!"
 
 #: r2/lib/strings.py:142
 #, python-format
 msgid "please grab a drink and join us in [the lounge](%(link)s)."
-msgstr ""
+msgstr "กรุณาหยิบเครื่องดื่มและมาร่วมสนทนากับเราใน [ห้องพิกุลทอง](%(link)s)"
 
 #: r2/lib/strings.py:143
 msgid ""
@@ -2167,6 +2206,9 @@ msgid ""
 "our refrigerator, we might one day auction off the stuff that people sent "
 "in. Is it okay if we include your thing?"
 msgstr ""
+"เราได้รับไปรณียบัตรของคุณแล้ว! (หรืออะไรก็ตามที่ดูคล้ายๆ) วันหนึ่งถ้าพื้นที่บนตู้เย็นเราไม่เหลือแล้ว"
+"เราอาจจะทำการประมูลสิ่งของที่ชาวพิกุลส่งมาให้เรา "
+"จะโอเคไหมถ้าเราเอาของของคุณไปประมูลด้วย?"
 
 #: r2/lib/strings.py:144
 #, python-format
@@ -2174,16 +2216,18 @@ msgid ""
 "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe"
 " to reddit gold, it goes up to %(goldmax)d.)"
 msgstr ""
+"ขออภัยค่ะ, จำนวนความคิดเห็นสูงสุดคือ %(max)d (อย่างไรก็ตาม ถ้าคุณมีบรรณาศักดิ์"
+"เป็นระดับพิกุลทอง จำนวนความคิดเห็นสูงสุดจะเป็น %(goldmax)d.)"
 
 #: r2/lib/strings.py:145
 #, python-format
 msgid "Sorry, the maximum number of comments is %d."
-msgstr ""
+msgstr "ขอโทษค่ะ จำนวนความคิดเห็นสูงสุดคือ %d"
 
 #: r2/lib/strings.py:146
 #, python-format
 msgid "%(sender)s just sent you %(amount)s of reddit gold! Wasn't that nice?"
-msgstr ""
+msgstr "%(sender)s เพิ่งส่งเหรียญพิกุลทองจำนวน %(amount)s มาให้คุณ! ดีจังเลยค่ะ"
 
 #: r2/lib/strings.py:147
 msgid ""
@@ -4038,7 +4082,7 @@ msgstr ""
 
 #: r2/templates/buttondemopanel.html:35
 msgid "commonly used buttons"
-msgstr "ปุ่มที่ใช้บ่อยๆ"
+msgstr "ปุ่มที่ใช้บ่อยๆ"
 
 #: r2/templates/buttondemopanel.html:36
 msgid ""
