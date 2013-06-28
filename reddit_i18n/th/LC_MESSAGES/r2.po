@@ -4740,12 +4740,17 @@ msgid ""
 "Subscribe to up to 100 subreddits on your front page.  \n"
 "Read comment threads 1500 comments at a time."
 msgstr ""
+"# อ่านกลีบพิกุลและคอมเมนต์ได้มากขึ้นต่อหน้า"
+"สามารถอ่านกลีบพิกุลจากหน้าแรกได้ถึง 100 ห้่อง"
+"อ่านความคิดเห็นในกระทู้ได้ 1500 ความเห็นต่อครั้ง"
 
 #: r2/templates/goldinfopage.html:71
 msgid ""
 "# New comment highlighting.\n"
 "What's new? Highlight which comments are new since the last time you viewed a thread."
 msgstr ""
+"# เน้นความคิดเห็นใหม่\n"
+"มีอะไรใหม่? เน้นความคิดเห็นใหม่หลังจากที่คุณเข้ามาเยี่ยมชมกระทู้นั้นๆ"
 
 #: r2/templates/goldinfopage.html:76
 msgid ""
@@ -4753,57 +4758,65 @@ msgid ""
 "Save the great comments you'd like to revisit later.  \n"
 "Filter your favorite posts and comments by subreddit."
 msgstr ""
+"เก็บความคิดเห็นที่คุณถูกใจเพื่อกลับมาอ่านอีก"
+"กรองโพสและความเห็นที่คุณถูกใจตามกลีบพิกุล"
 
 #: r2/templates/goldinfopage.html:82
 msgid ""
 "# Turn off ads.\n"
 "Advertisements are optional to gold members."
 msgstr ""
+"# ปิดโฆษณา"
+"ชาวพิกุลทองไม่จำเป็นต้องรับชมโฆษณา"
 
 #: r2/templates/goldinfopage.html:87
 msgid ""
 "# Friends with benefits.\n"
 "Add notes to keep track of them all."
 msgstr ""
+"# เพื่อนคน'พิเศษ'"
+"อย่าลืมจดรายละเอียดพวกเขา เพื่อจะได้ไม่ลืม"
 
 #: r2/templates/goldinfopage.html:94
 msgid "The Lounge."
-msgstr ""
+msgstr "ห้องสังสรรค์"
 
 #: r2/templates/goldinfopage.html:94
 msgid ""
 "Access to a super-secret members-only community that may or may not exist."
 msgstr ""
+"มีสิทธิการเข้าถึงกลีบพิกุลลับหรือ ลับเฉพาะชาวพิกุลที่ อาจจะหรือ อาจจะไม่มีอยู่จริง ;)"
 
 #: r2/templates/goldinfopage.html:95
 msgid "Beta test new features."
-msgstr ""
+msgstr "ทดลองใช้งานฟีเจอร์ใหม่"
 
 #: r2/templates/goldinfopage.html:95
 msgid "We occasionally invite gold members to try out new features first."
-msgstr ""
+msgstr "เรามักจะเชิญชวนให้ผู้ใช้พิกุลทองทดลองฟีเจอร์ใหม่ๆของเราก่อน"
 
 #: r2/templates/goldinfopage.html:96
 msgid "A trophy on your user page."
-msgstr ""
+msgstr "ถ้วยรางวัลบนหน้าผู้ใช้ของคุณ"
 
 #: r2/templates/goldinfopage.html:96
 msgid "As thanks for supporting reddit gold."
-msgstr ""
+msgstr "ขอบคุณที่สนับสนุนระบบพิกุลทอง"
 
 #: r2/templates/goldinfopage.html:97
 msgid "More to come."
-msgstr ""
+msgstr "อีกมากมาย"
 
 #: r2/templates/goldinfopage.html:97
 msgid ""
 "We have many more ideas for gold features, and will add to this list in the "
 "future."
 msgstr ""
+"เรามีไอเดียเพิ่มการใช้งานของชนชั้นพิกุลทอง เราจะเพิ่มฟีเจอร์เรื่อยๆในอนาคต"
 
 #: r2/templates/goldinfopage.html:101
 msgid "become a member today."
-msgstr ""
+msgstr "เลือนยศวันนี้"
 
 #: r2/templates/goldinfopage.html:102
 #, python-format
@@ -4811,98 +4824,103 @@ msgid ""
 "reddit gold is %(gold_month_price)s / month, or %(gold_year_price)s for a "
 "year."
 msgstr ""
+"พิกุลทองราคา %(gold_month_price)s ต่อเดือน หรือ %(gold_year_price)s ต่อ"
+"หนึ่งปี"
 
 #: r2/templates/goldinfopage.html:117
 msgid "send us a postcard | for | 1 free month | of | reddit gold"
-msgstr ""
+msgstr "ส่งไปรษณียบัตร | เพื่อ | แลก | ดอกพิกุลทอง | เป็นเวลา | หนึ่งเดือน"
 
 #: r2/templates/goldinfopage.html:130
 msgid "view the postcard gallery"
-msgstr ""
+msgstr "ชมหน้าไปรษณีย์บัตร"
 
 #: r2/templates/goldpayment.html:33
 msgid "close"
-msgstr ""
+msgstr "ปิด"
 
 #: r2/templates/goldpayment.html:45
 msgid "The following gift note will be attached:"
-msgstr ""
+msgstr "ข้อความที่จะแนบไปกับของขวัญคือ:"
 
 #: r2/templates/goldpayment.html:54
 msgid "Please select a payment method."
-msgstr ""
+msgstr "โปรดเลือกวิธีชำระเงิน"
 
 #: r2/templates/goldpayment.html:79
 msgid ""
 "Note: Google Checkout does not support ongoing subscriptions at this time."
-msgstr ""
+msgstr "หมายเหตุ: Google Checkout ไม่สนับสนุนการระบบชำระเงินอัตโนมัติในขณะนี้"
 
 #: r2/templates/goldpayment.html:122
 msgid "Google Checkout"
-msgstr ""
+msgstr "Google Checkout"
 
 #: r2/templates/goldpayment.html:136
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: r2/templates/goldpayment.html:141
 msgid "Credit Card"
-msgstr ""
+msgstr "บัตรเครดิต"
 
 #: r2/templates/goldpayment.html:155
 msgid ""
 "Stripe is PCI compliant and your credit card information is sent directly to"
 " them."
 msgstr ""
+"แถบนี้คือ PCI compliant และข้อมูลบัตรของคุณจะถูกส่งไปยังพวกเขา"
+"โดยตรง"
+
 
 #: r2/templates/goldpayment.html:163 r2/templates/paymentform.html:127
 msgid "card number"
-msgstr ""
+msgstr "เลขบัตรเครดิต"
 
 #: r2/templates/goldpayment.html:167
 msgid "cvc"
-msgstr ""
+msgstr "cvc"
 
 #: r2/templates/goldpayment.html:171 r2/templates/paymentform.html:128
 msgid "expiration date"
-msgstr ""
+msgstr "วันหมดอายุ"
 
 #: r2/templates/goldpayment.html:192
 msgid "address line 1"
-msgstr ""
+msgstr "ที่อยู่ บรรทัดที่ 1"
 
 #: r2/templates/goldpayment.html:196
 msgid "address line 2"
-msgstr ""
+msgstr "ที่อยู่ บรรทัดที่ 2"
 
 #: r2/templates/goldpayment.html:200 r2/templates/paymentform.html:122
 msgid "city"
-msgstr ""
+msgstr "จังหวัด"
 
 #: r2/templates/goldpayment.html:204
 msgid "state/province"
-msgstr ""
+msgstr "รัฐ/เขต"
 
 #: r2/templates/goldpayment.html:208 r2/templates/paymentform.html:125
 msgid "country"
-msgstr ""
+msgstr "ประเทศ"
 
 #: r2/templates/goldpayment.html:212 r2/templates/paymentform.html:124
 msgid "zip"
-msgstr ""
+msgstr "รหัสไปรษณีย์"
 
 #: r2/templates/goldpayment.html:221
 msgid "Submit"
-msgstr ""
+msgstr "ส่ง"
 
 #: r2/templates/goldpayment.html:232
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: r2/templates/interestbar.html:27
 #, python-format
 msgid "ready for something new? %s subscribe %s to some new subreddits."
-msgstr ""
+msgstr "พร้อมจะลองอะไรใหม่ๆไหม? ลองติดตามกลีบพิกุลใหม่ๆดูครับ"
 
 #: r2/templates/interestbar.html:29
 #, python-format
@@ -4910,138 +4928,144 @@ msgid ""
 "it looks like you haven't %s subscribed %s to any subreddits yet. want some "
 "ideas?"
 msgstr ""
+"ดูเหมือนว่าคุณจะยังไม่ได้ติดตามกลีบพิกุลไหนเลย"
+"ต้องการให้เราแนะนำไหม?"
 
 #: r2/templates/interestbar.html:35
 msgid "what are you interested in?"
-msgstr ""
+msgstr "คุณสนใจในเรื่องใดบ้าง?"
 
 #: r2/templates/interestbar.html:37
 msgid "try these:"
-msgstr ""
+msgstr "ลอง:"
 
 #: r2/templates/languagetrafficsummary.html:27
 msgid "language traffic statistics"
-msgstr ""
+msgstr "สถิติ traffic ตามภาษาผู้ใช้"
 
 #: r2/templates/languagetrafficsummary.html:30
 msgid "traffic by language"
-msgstr ""
+msgstr "traffic ตามภาษาผู้ใช้"
 
 #: r2/templates/link.html:69
 msgid "Adult content: Not Safe For Work"
-msgstr ""
+msgstr "เนื้อหาสำหรับผู้ใหญ่: ไม่ปลอดภัยสำหรับที่สาธารณะ"
 
 #: r2/templates/link.html:70
 msgid "NSFW"
-msgstr ""
+msgstr "ไม่ปลอดภัยสำหรับที่สาธารณะ"
 
 #: r2/templates/link.html:100
 msgid ""
 "(no need to click for this info; just hover over the checkmark next time)"
 msgstr ""
+"(ไม่จำเป็นต้องกดเพื่อดูข้อมูลนี้ เพียงแค่เลื่อนเมาส์มาที่สัญลักษษณ์พอครับ)"
 
 #: r2/templates/linkcommentssettings.html:27
 msgid "disable contest mode"
-msgstr ""
+msgstr "หยุดใช้ระบบแข่งขัน"
 
 #: r2/templates/linkcommentssettings.html:27
 msgid "contest mode disabled"
-msgstr ""
+msgstr "หยุดการใช้งานระบบแข่งขันแล้ว"
 
 #: r2/templates/linkcommentssettings.html:30
 msgid "enable contest mode"
-msgstr ""
+msgstr "ใช้งานระบบแข่งขัน"
 
 #: r2/templates/linkcommentssettings.html:30
 msgid "contest mode enabled"
-msgstr ""
+msgstr "ระบบแข่งขันถูกใช้งาน"
 
 #: r2/templates/linkcommentssettings.html:34
 msgid "contest mode: scores hidden"
 msgstr ""
+"อยู่ในช่วงการแข่งขัน: คะแนนจะถูกซ่อนไว้"
 
 #: r2/templates/linkcommentssettings.html:38
 msgid ""
 "contest mode randomizes sorting and hides scores. this feature is "
 "temporarily available to assist best of 2012 contests."
 msgstr ""
+"ระบบแข่งขันจะทำการเรียงแบบสุ่มและซ่อนคะแนน ระบบนี้"
+"สร้างขึ้นสำหรับช่วยเหลือการแข่งขัน สุดยอดของปี"
 
 #: r2/templates/linkinfobar.html:37
 msgid "this post was submitted on"
-msgstr ""
+msgstr "กระทู้นี้ถูกส่งมาเมื่อ"
 
 #: r2/templates/linkinfobar.html:50
 msgid "like it"
-msgstr ""
+msgstr "กดถูกใจ"
 
 #: r2/templates/linkinfobar.html:55
 msgid "up vote"
 msgid_plural "up votes"
-msgstr[0] ""
+msgstr[0] "คะแนนบวก"
 
 #: r2/templates/linkinfobar.html:61
 msgid "down vote"
 msgid_plural "down votes"
-msgstr[0] ""
+msgstr[0] "คะแนนลบ"
 
 #: r2/templates/linkinfopage.htmllite:28
 #, python-format
 msgid "comments from %(site)s"
-msgstr ""
+msgstr "ควมคิดเห็นจาก %(site)s"
 
 #: r2/templates/listing.html:39 r2/templates/promotedlinktraffic.html:111
 #: r2/templates/tablelisting.html:49
 msgid "view more:"
-msgstr ""
+msgstr "รับชมเพิ่ม:"
 
 #: r2/templates/listing.html:52 r2/templates/tablelisting.html:64
 msgid "there doesn't seem to be anything here"
-msgstr ""
+msgstr "ที่นี่ไม่มีอะไรครับ"
 
 #: r2/templates/login.html:34 r2/templates/register.html:34
 msgid "you are logged in. go use the site!"
-msgstr ""
+msgstr "คุณกำลังล๊อคอินอยู่"
 
 #: r2/templates/login.html:66 r2/templates/loginformwide.html:44
 #: r2/templates/password.html:38 r2/templates/prefdelete.html:54
 #: r2/templates/register.html:66
 msgid "username"
-msgstr ""
+msgstr "ชื่อผู้ใช้"
 
 #: r2/templates/login.html:71 r2/templates/register.html:71
 msgid "try another"
-msgstr ""
+msgstr "ลองชื่ออื่นดู"
 
 #: r2/templates/login.html:72 r2/templates/register.html:72
 msgid "available!"
-msgstr ""
+msgstr "ใช้ได้!"
 
 #: r2/templates/login.html:81 r2/templates/register.html:81
 msgid "account recovery email"
-msgstr ""
+msgstr "อีเมล์สำหรับการกู้บัญชีผู้ใช้"
 
 #: r2/templates/login.html:81 r2/templates/prefdelete.html:46
 #: r2/templates/register.html:81
 msgid "optional"
-msgstr ""
+msgstr "ไม่จำเป็น"
 
 #: r2/templates/login.html:85 r2/templates/register.html:85
 msgid "we will only send email at your request"
-msgstr ""
+msgstr "เราจะส่งอีเมล์หาคุณเมื่อคุณขอเท่านั้น"
 
 #: r2/templates/login.html:103 r2/templates/prefupdate.html:87
 #: r2/templates/register.html:103 r2/templates/resetpassword.html:45
 msgid "verify password"
-msgstr ""
+msgstr "ยืนยันรหัสผ่าน"
 
 #: r2/templates/login.html:120 r2/templates/loginformwide.html:51
 #: r2/templates/register.html:120
 msgid "remember me"
-msgstr ""
+msgstr "จดจำฉัน"
 
 #: r2/templates/login.html:126 r2/templates/register.html:126
 msgid "recover password"
-msgstr ""
+msgstr "กู้รหัสผ่าน"
 
 #: r2/templates/login.html:133 r2/templates/register.html:133
 msgid "create account"
