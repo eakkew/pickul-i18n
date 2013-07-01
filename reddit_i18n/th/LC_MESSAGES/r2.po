@@ -3659,7 +3659,7 @@ msgid "invited moderator"
 msgstr "ชวนให้เป็นผู้ดูแลแล้ว"
 
 #: r2/models/modaction.py:101
-msgid "uninvited moderator
+msgid "uninvited moderator"
 msgstr "ยกเลิกการเชิญชวนให้เป็นผู้ดูแลแล้ว"
 
 #: r2/models/modaction.py:102
