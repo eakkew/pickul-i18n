@@ -5053,7 +5053,7 @@ msgstr "Bitcoin"
 #: r2/templates/interestbar.html:27
 #, python-format
 msgid "ready for something new? %s subscribe %s to some new subreddits."
-msgstr "พร้อมจะลองอะไรใหม่ๆไหม? ลองติดตามกลีบพิกุลใหม่ๆดูครับ"
+msgstr "พร้อมจะลองอะไรใหม่ๆไหม? %s ลองติดตาม %s กลีบพิกุลใหม่ๆดูครับ"
 
 #: r2/templates/interestbar.html:29
 #, python-format
@@ -5061,7 +5061,7 @@ msgid ""
 "it looks like you haven't %s subscribed %s to any subreddits yet. want some "
 "ideas?"
 msgstr ""
-"ดูเหมือนว่าคุณจะยังไม่ได้ติดตามกลีบพิกุลไหนเลย"
+"ดูเหมือนว่าคุณจะยังไม่ได้ %s ติดตาม %s กลีบพิกุลไหนเลย"
 "ต้องการให้เราแนะนำไหม?"
 
 #: r2/templates/interestbar.html:35
