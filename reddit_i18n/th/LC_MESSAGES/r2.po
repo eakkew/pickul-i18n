@@ -2236,6 +2236,10 @@ msgid ""
 "----\n"
 "\n"
 msgstr ""
+"นี่คือข้อความที่ฝากมาด้วย:\n"
+"\n"
+"----\n"
+"\n"
 
 #: r2/lib/strings.py:148
 #, python-format
@@ -2243,6 +2247,8 @@ msgid ""
 "A redditor liked [your comment](%(url)s) so much, they gave you a month of "
 "reddit gold. Shiny!"
 msgstr ""
+"มีชาวพิกุลที่ชอบ[ความคิดเห็นของคุณ](%(url)s)มาก ถึงระดับที่เขาได้มอบดอกพิกุลทอง"
+"ให้แก่ท่าน ขอแสดงความชื่นชมด้วยค่ะ"
 
 #: r2/lib/strings.py:149
 #, python-format
@@ -2250,6 +2256,8 @@ msgid ""
 "You're about to set up an ongoing, autorenewing subscription to reddit gold "
 "for yourself (%(user)s)."
 msgstr ""
+"คุณกำลังเลื่อนขั้นเป็นชาวพิกุลทองโดยใช้ระบบต่ออายุอัตโนมัติ"
+"สำหรับตัวคุณเอง (%(user)s)"
 
 #: r2/lib/strings.py:150
 #, python-format
@@ -2257,6 +2265,8 @@ msgid ""
 "You're about to make a one-time purchase of %(amount)s of reddit gold for "
 "yourself (%(user)s)."
 msgstr ""
+"คุณกำลังจะซื้อดอกพิกุลทองจำนวน %(amount)s สำหรับ"
+"ไว้ใช้เอง​ (%(user)s)"
 
 #: r2/lib/strings.py:151
 #, python-format
@@ -2265,6 +2275,8 @@ msgid ""
 "gift certificates: each creddit you have will allow you to give one month of"
 " reddit gold to someone else."
 msgstr ""
+"คุณกำลังจะซื้อดอกพิกุลทองจำนวน %(amount)s ดอกพิกุลทองทำงานเหมือนเป็นบัตรกำนัน"
+"แต่ละดอกนั้นจะมีสิทธิให้คุณมอบดอกพิกุลทองให้กับผู้ใช้ท่านอื่นได้"
 
 #: r2/lib/strings.py:152
 #, python-format
@@ -2272,6 +2284,8 @@ msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s, who will be"
 " told that it came from you."
 msgstr ""
+"คุณกำลังมอบดอกพิกุลทองจำนวน %(amount)s ให้กับ %(recipient)s"
+"ซึ่งจะแสดงว่าคุณเป็นคนมอบให้"
 
 #: r2/lib/strings.py:153
 #, python-format
@@ -2279,6 +2293,8 @@ msgid ""
 "You're about to give %(amount)s of reddit gold to %(recipient)s. It will be "
 "an anonymous gift."
 msgstr ""
+"คุณกำลังมอบดอกพิกุลทองจำนวน  %(amount)s ให้แก่​ %(recipient)s"
+"ซึ่งจะเป็นของขวัญนิรนาม"
 
 #: r2/lib/strings.py:154
 #, python-format
@@ -2286,16 +2302,19 @@ msgid ""
 "Want to say thanks to *%(recipient)s* for this comment? Give them a month of"
 " [reddit gold](/gold/about)."
 msgstr ""
+"อยากจะแสดงความขอบคุณกับ *%(recipient)s* สำหรับความเห็นนี้? มอบ[ดอกพิกุลทอง](/gold/about)"
+"เป็นเวลาหนึ่งเดือนให้กับเขาสิ"
 
 #: r2/lib/strings.py:155
 #, python-format
 msgid ""
 "Give *%(recipient)s* a month of [reddit gold](/gold/about) for this comment:"
 msgstr ""
+"มอบ *%(recipient)s* [ดอกพิกุลทอง](/gold/about) ให้เป็นเวลาหนึ่งเดือนสำหรับความคิดเห็นนี้:"
 
 #: r2/lib/strings.py:156
 msgid "sorry, this has been archived and can no longer be voted on"
-msgstr ""
+msgstr "ขออภัยค่ะ กระทู้นี้ได้ถูกเก็บเข้าคลังและไม่สามารถโหวตได้แล้ว"
 
 #: r2/lib/strings.py:157
 msgid ""
@@ -2306,11 +2325,15 @@ msgid ""
 "private-use addresses (starting with 10.) sometimes show up erroneously in "
 "this list after regular use of the site."
 msgstr ""
+"หน้านี้จะทำการแสดงประวัติของการเคลื่อนไหวของบัญชีของคุณ ถ้าคุณสังเกตุเห็นถึงความเคลื่อนไหวผิดปกติ "
+"คุณควรจะเปลี่ยนรหัสผ่านทันที ข้อมูลสถานที่ที่เราเดาจาก IP address ของคุณอาจจะผิดพลาดได้"
+"โดยเฉพาะเวลาที่คุณเยี่ยมชมผ่านทางอุปกรณ์มือถือ หมายเหตุ: เนื่องจากบ๊คของ private-use adress บางครั้ง"
+"อาจจะแสดงผลผิดพลาดจากการเยี่ยมชมพิกุลตามปกติ"
 
 #: r2/lib/strings.py:158
 #, python-format
 msgid "You are currently accessing reddit from this IP address: %(address)s."
-msgstr ""
+msgstr "คุณกำลังใช้งานพิกุลด้วงย IP address นี้: %(address)s"
 
 #: r2/lib/strings.py:159
 msgid ""
@@ -2319,6 +2342,10 @@ msgid ""
 "will revoke access from all apps. You may also revoke access from individual\n"
 "apps below.\n"
 msgstr ""
+"\n"
+"โปรแกรมเหล่านี้ได้ถูกอนุมัติให้ใช้บัญชีผู้ใช้ของคุณ การลงชื่อออกจากการใช้งานทั้งหมด"
+"จะยกเลิกสิทธิการเข้าถึงจากโปรแกรมทุกตัว หรือคุณสามารถยกเลิกสิทธิการเข้าถึงจากแต่ละโปรแกรม"
+"ได้ข้างล่างข้อความนี้\n"
 
 #: r2/lib/strings.py:165 r2/templates/promotraffic.html:25
 msgid ""
@@ -2327,6 +2354,9 @@ msgid ""
 " three hours, and that daily totals will be preliminary until 24 hours after"
 " the link has finished its run."
 msgstr ""
+"ข้างล่างข้อความนี้ คุณจะเห็น impression และ click traffic ต่อชั่วโมง ของโปรโมชั่นของคุณ"
+"โปรดทราบว่า traffic เหล่านี้จะช้ากว่าข้อมูลจริงเป็นเวลา สองถึงสามชั่วโมง และยอดรวมต่อวันจะ"
+"เป็นทางการ 24 ชั่วโมงหลังจากที่ลิงค์ได้ถูกโปรโมทเสร็จแล้ว"
 
 #: r2/lib/strings.py:166
 #, python-format
@@ -2334,6 +2364,8 @@ msgid ""
 "Traffic processing is currently running slow. The latest data available is "
 "from %(date)s. This page will be updated as new data becomes available."
 msgstr ""
+"การประมวล traffic เกิดการล่าช้า ข้อมูลล่าสุดที่สามารถดูได้คือ"
+"เมื่อ​ %(date)s หน้านี้จะทำการอัพเดทเมื่อข้อมูลใหม่ถูกประมวลเสร็จแล้ว"
 
 #: r2/lib/strings.py:167
 #, python-format
@@ -2341,6 +2373,8 @@ msgid ""
 "Traffic processing occurs on an hourly basis. The latest data available is "
 "from %(date)s. This page will be updated as new data becomes available."
 msgstr ""
+"traffci จะทำการคำนวนทุกๆชั่วโมง. ข้อมูลล่าสุดที่สามารถดูได้คือ"
+"เมื่อ %(date)s หน้านี้จะทำการอัพเดทเมื่อข้อมูลใหม่ถูกประมวลเสร็จแล้ว"
 
 #: r2/lib/strings.py:169
 #, python-format
@@ -2354,192 +2388,207 @@ msgid ""
 "\n"
 "Note: there are a couple of places outside of your subreddit where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
 msgstr ""
+"\n"
+"ข้อความข้างล่างคือสถิติ traffic กลีบพิกุลของคุณ แต่ละกราฟแสดงหนึ่งในสิ่งเหล่านี้ต่อระยะเวลาที่กำหนด\n"
+"\n"
+"* **pageviews** คือจำนวนการกดทั้งหมดที่เข้ามายัง %(subreddit)s รวมไปถึงหน้ารายการ และหน้าความคิดเห็น\n"
+"* **uniques** คือจำนวนของ unique visitors (ซึ่งวัดจากสองอย่างคือ IP address กับ User Agent) ที่ได้มาจาก pageviews ข้างบน"
+"ระบบนี้ไม่นับว่าผู้ใช้จะลงชื่อเข้าใช้หรือไม่\n"
+"* **subscriptions** คือจำนวนผู้ติดตามใหม่ที่เข้ามาแต่ละวันตามที่กำหนด ตัวเลขนี้จะมีความแม่นยำน้อยกว่าตัววัดสองตัวข้างบัน แต่อย่างเราก็ตาม"
+"เราสามารถเช็คจำนวนผู้ติดตามใหม่ได้ แต่เราไม่สามารถติดตามจำนวนการเลิกติดตามได้\n"
+"\n"
+"หมายเหตุ: มีบางที่นอกเหนือจากพิกุลที่สามารถให้ผู้ใช้กดติดตามกลีบพิกุลได้ ดังนั้นจึงมีคามเป็นไปได้ว่า จำนวนผู้ติดตามอาจจะมากกว่าที่เราสามารถติดตามได้ในวันนั้นๆ"
 
 #: r2/lib/strings.py:179 r2/templates/flairlist.html:31
 #: r2/templates/promote_graph.html:82
 msgid "go"
-msgstr ""
+msgstr "ไปเลย!"
 
 #: r2/lib/strings.py:180
 msgid "view subreddit traffic"
-msgstr ""
+msgstr "ดู​ traffic ของกลีบพิกุล"
 
 #: r2/lib/strings.py:182
 #, python-format
 msgid "an error occurred (status: %(status)s)"
-msgstr ""
+msgstr "มีปัญหาเกิดขึ้นค่ะ (สถานะ: %(status)s)"
 
 #: r2/lib/strings.py:183
 #, python-format
 msgid "an error occurred. please try again later! (status: %(status)s)"
-msgstr ""
+msgstr "มีปัญหาเกิดขึ้นค่ะ กรุณาลองอีกครั้ง! (สถานะ: %(status)s)"
 
 #: r2/lib/strings.py:184
 msgid "please wait a few seconds and try again."
-msgstr ""
+msgstr "โปรดรอซักครู่แล้วลองอีกครั้ง"
 
 #: r2/lib/strings.py:185
 msgid "multireddit of your subscriptions"
-msgstr ""
+msgstr "กลีบพิกุลที่คุณติดตามอยู่"
 
 #: r2/lib/strings.py:186
 msgid "multireddit of subreddits you moderate"
-msgstr ""
+msgstr "กลีบพิกุลที่คุณดูแลอยู่"
 
 #: r2/lib/strings.py:188
 msgid ""
 "/r/all displays content from all of reddit, including subreddits you aren't "
 "subscribed to."
 msgstr ""
+"/r/สรรพสิ่ง แสดงเนื้อหาทุกอย่างจากพิกุล รวมไปถึงกลีบพิกุลที่คุณไม่ได้"
+"ติดตามอยู่ด้วย"
 
 #: r2/lib/strings.py:189
 msgid ""
 "Displaying content from /r/all of reddit, except the following subreddits:"
 msgstr ""
+"กำลังแสดงเนื้อหาจาก /r/สรรพสิ่ง ของพิกุล ยกเว้น กลีบพิกุลเหล่านี้:"
 
 #: r2/lib/strings.py:190
 msgid ""
 "Filtering /r/all is a feature only available to [reddit gold](/gold/about) "
 "subscribers. Displaying unfiltered results from /r/all."
 msgstr ""
+"กรอง /r/สรรพสิ่ง เป็น feature ที่มีเฉพาะสำหรับ [ชาวพิกุลทอง](/gold/about)"
+"เท่านั้น กำลังแสดง /r/สรรพสิ่ง แบบปกติ"
 
 #: r2/lib/strings.py:192
 msgid "missing name"
-msgstr ""
+msgstr "ไม่มีชื่อ"
 
 #: r2/lib/strings.py:193
 msgid "invalid credit card number"
-msgstr ""
+msgstr "เลขบัตรเครดิตไม่ถูกต้อง"
 
 #: r2/lib/strings.py:194
 msgid "invalid expiration date"
-msgstr ""
+msgstr "วันหมดอายุไม่ถูกต้อง"
 
 #: r2/lib/strings.py:195
 msgid "invalid cvc"
-msgstr ""
+msgstr "cvc ไม่ถูกต้อง"
 
 #: r2/lib/strings.py:196
 msgid "missing address"
-msgstr ""
+msgstr "ไม่มีที่อยู่"
 
 #: r2/lib/strings.py:197
 msgid "missing city"
-msgstr ""
+msgstr "ไม่มีจังหวัด"
 
 #: r2/lib/strings.py:198
 msgid "missing state or province"
-msgstr ""
+msgstr "ไม่มีจังหวัด"
 
 #: r2/lib/strings.py:199
 msgid "missing country"
-msgstr ""
+msgstr "ไม่มีประเทศ"
 
 #: r2/lib/strings.py:200
 msgid "missing zip code"
-msgstr ""
+msgstr "ไม่มีรหัสไปรษณีย์"
 
 #: r2/lib/strings.py:207
 msgid "full permissions"
-msgstr ""
+msgstr "ได้รับอำนาจเต็มที่"
 
 #: r2/lib/strings.py:208
 msgid "no permissions"
-msgstr ""
+msgstr "ไม่มีอำนาจ"
 
 #: r2/lib/strings.py:286 r2/lib/strings.py:291 r2/lib/template_helpers.py:212
 #: r2/models/modaction.py:321 r2/templates/subredditstylesheet.html:121
 msgid "comment"
 msgid_plural "comments"
-msgstr[0] ""
+msgstr[0] "ความคิดเห็น"
 
 #: r2/lib/strings.py:287 r2/templates/comment.htmllite:55
 #: r2/templates/linkinfobar.html:47
 msgid "point"
 msgid_plural "points"
-msgstr[0] ""
+msgstr[0] "คะแนน"
 
 #: r2/lib/strings.py:290 r2/models/modaction.py:306
 msgid "link"
 msgid_plural "links"
-msgstr[0] ""
+msgstr[0] "ลิ้งค์"
 
 #: r2/lib/strings.py:292 r2/lib/pages/pages.py:828
 #: r2/templates/messagecompose.html:74
 msgid "message"
 msgid_plural "messages"
-msgstr[0] ""
+msgstr[0] "ข้อความ"
 
 #: r2/lib/strings.py:293 r2/templates/sitewidetraffic.html:36
 msgid "subreddit"
 msgid_plural "subreddits"
-msgstr[0] ""
+msgstr[0] "กลีบพิกุล"
 
 #: r2/lib/strings.py:294
 msgid "creddit"
 msgid_plural "creddits"
-msgstr[0] ""
+msgstr[0] "ดอกพิกุลทอง"
 
 #: r2/lib/strings.py:297
 msgid "reader"
 msgid_plural "readers"
-msgstr[0] ""
+msgstr[0] "ผู้อ่าน"
 
 #: r2/lib/strings.py:298
 msgid "subscriber"
 msgid_plural "subscribers"
-msgstr[0] ""
+msgstr[0] "ผู้ติดตาม"
 
 #: r2/lib/strings.py:299 r2/templates/subreddit.html:81
 #: r2/templates/subreddit.html:82
 msgid "approved submitter"
 msgid_plural "approved submitters"
-msgstr[0] ""
+msgstr[0] "ผู้ที่ได้รับอนุญาติให้ตั้งกระทู้"
 
 #: r2/lib/strings.py:300 r2/templates/subreddit.html:75
 msgid "moderator"
 msgid_plural "moderators"
-msgstr[0] ""
+msgstr[0] "ผู้ดูแล"
 
 #: r2/lib/strings.py:301
 msgid "user here now"
 msgid_plural "users here now"
-msgstr[0] ""
+msgstr[0] "ผู้ใช้ ณ ตอนนี้"
 
 #: r2/lib/strings.py:304
 msgid "milliseconds"
 msgid_plural "milliseconds"
-msgstr[0] ""
+msgstr[0] "เสี้ยววินาที"
 
 #: r2/lib/strings.py:305 r2/templates/searchbar.html:39
 msgid "second"
 msgid_plural "seconds"
-msgstr[0] ""
+msgstr[0] "วินาที"
 
 #: r2/lib/strings.py:306
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] ""
+msgstr[0] "นาที"
 
 #: r2/lib/strings.py:307
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] ""
+msgstr[0] "ชั่วโมง"
 
 #: r2/lib/strings.py:309 r2/templates/goldpayment.html:179
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
+msgstr[0] "เดือน"
 
 #: r2/lib/strings.py:310 r2/templates/goldpayment.html:184
 msgid "year"
 msgid_plural "years"
-msgstr[0] ""
+msgstr[0] "ปี"
 
 #: r2/lib/system_messages.py:33
 #, python-format
 msgid "invitation to moderate %(url)s"
-msgstr ""
+msgstr "เชิญชวนให้มาดูแล %(url)s"
 
 #: r2/lib/system_messages.py:34
 #, python-format
@@ -2550,46 +2599,49 @@ msgid ""
 "\n"
 "*otherwise,* if you did not expect to receive this, you can simply ignore this invitation or report it."
 msgstr ""
+"**เย้! คุณได้ถูกเชิญให้เป็นผู้ดูแลของ [%(title)s](%(url)s)!**\n"
+"*ถ้าต้องการตอบรับ* โปรดเข้าไปเยี่ยม [หน้าผู้ดูแลของ %(url)s](%(url)s/about/moderators) และกด​ \"ตอบรับ\"\n"
+"*ไม่เช่นนั้น* ถ้าคุณไม่ได้รอคำเชิญนี้ คุณสามารถปล่อยมันทิ้งไว้ หรือรายงานเราได้"
 
 #: r2/lib/system_messages.py:39
 msgid "moderator invited"
-msgstr ""
+msgstr "ผู้ดูแลได้ถูกเชิญแล้ว"
 
 #: r2/lib/system_messages.py:40
 #, python-format
 msgid "%(user)s has been invited by %(author)s to moderate %(url)s."
-msgstr ""
+msgstr "%(user)s ได้ถูกเชิญชวนโดน %(author)s ให้มาดูแล %(url)s"
 
 #: r2/lib/system_messages.py:45
 msgid "moderator added"
-msgstr ""
+msgstr "เพิ่มผู้ดูแลแล้ว"
 
 #: r2/lib/system_messages.py:46
 #, python-format
 msgid "%(user)s has accepted an invitation to become moderator of %(url)s."
-msgstr ""
+msgstr "%(user)s ได้ตอบรับการเชิญชวนให้มาเป็นผู้ดูแลของ %(url)s"
 
 #: r2/lib/system_messages.py:51
 msgid "you are an approved submitter"
-msgstr ""
+msgstr "คุณเป็นผู้ได้รับอนุญาติในการตั้งกระทู้"
 
 #: r2/lib/system_messages.py:52
 #, python-format
 msgid "you have been added as an approved submitter to [%(title)s](%(url)s)."
-msgstr ""
+msgstr "คุณได้ถูกเพิ่มรายชื่อในผู้ที่ได้รับอนุญาติให้ตั้งกระทู้ยัง [%(title)s](%(url)s)"
 
 #: r2/lib/system_messages.py:57
 msgid "you've been banned"
-msgstr ""
+msgstr "คุณได้ถูกแบนแล้ว"
 
 #: r2/lib/system_messages.py:58
 #, python-format
 msgid "you have been banned from posting to [%(title)s](%(url)s)."
-msgstr ""
+msgstr "คุณได้ถูกแบนจากการตั้งกระทู้บน [%(title)s](%(url)s)"
 
 #: r2/lib/system_messages.py:63
 msgid "you can view traffic on a promoted link"
-msgstr ""
+msgstr "คุณสามารถอ่าน traffic บนลิงค์ที่โปรโมทได้"
 
 #: r2/lib/system_messages.py:64
 #, python-format
@@ -2597,30 +2649,32 @@ msgid ""
 "you have been added to the list of users able to see [traffic for the "
 "sponsored link \"%(title)s\"](%(traffic_url)s)."
 msgstr ""
+"คุณได้ถูกเพิ่มเข้าไปในรายชื่อของผู้ใช้ที่สามารถมองเห็น [traffic"
+"ของ link ผู้สนับสนุน \"%(title)s\"](%(traffic_url)s)"
 
 #: r2/lib/template_helpers.py:143
 msgid "fetching title..."
-msgstr ""
+msgstr "กำลังดึงหัวข้ออยู่..."
 
 #: r2/lib/template_helpers.py:145
 msgid "loading..."
-msgstr ""
+msgstr "กำลังโหลด..."
 
 #: r2/lib/template_helpers.py:208
 msgid "comment {verb}"
-msgstr ""
+msgstr "ความคิดเห็น {verb}"
 
 #: r2/lib/template_helpers.py:485 r2/models/builder.py:156
 msgid "friend"
-msgstr ""
+msgstr "เพื่อน"
 
 #: r2/lib/template_helpers.py:492
 msgid "submitter"
-msgstr ""
+msgstr "ผู้ตั้งกระทู้"
 
 #: r2/lib/template_helpers.py:506
 msgid "reddit admin, speaking officially"
-msgstr ""
+msgstr "admin พิกุล กล่าวประกาศอย่างเป็นทางการ"
 
 #: r2/lib/pages/pages.py:77
 #, python-format
@@ -2632,349 +2686,352 @@ msgid ""
 "imgur.com domain listings (including this one) are currently disabled to "
 "speed up vote processing."
 msgstr ""
+"imgur.com domain listing ตอนนี้ถูกระงับการใช้งาน"
+"เพื่อเพิ่มระบบการโหวต"
 
 #: r2/lib/pages/pages.py:236
 msgid "wiki tools"
-msgstr ""
+msgstr "tool ของ wiki"
 
 #: r2/lib/pages/pages.py:292
 msgid "moderation tools"
-msgstr ""
+msgstr "tool ของผู้ดูแล"
 
 #: r2/lib/pages/pages.py:331
 msgid "this subreddit is archived and no longer accepting submissions."
-msgstr ""
+msgstr "กลีบพิกุลนี้ได้ถูกเก็บเข้าคลังและไม่รับการตั้งกระทู้ใหม่แล้ว"
 
 #: r2/lib/pages/pages.py:333
 msgid "Submissions disabled"
-msgstr ""
+msgstr "ระบบการตั้งกระทู้ถูกปิดอยู่"
 
 #: r2/lib/pages/pages.py:339
 msgid "submission in this subreddit is restricted to approved submitters."
-msgstr ""
+msgstr "การตั้งกระทู้ในกลีบพิกุลนี้ถูกจำกัดไว้แค่ผู้ที่ได้รับอนุญาติเท่านั้น"
 
 #: r2/lib/pages/pages.py:341
 msgid "Submissions restricted"
-msgstr ""
+msgstr "จำกัดการตั้งกระทู้"
 
 #: r2/lib/pages/pages.py:376
 msgid "these subreddits"
-msgstr ""
+msgstr "กลีบพิกุลเหล่านี้"
 
 #: r2/lib/pages/pages.py:403
 msgid "Create your own subreddit"
-msgstr ""
+msgstr "สร้างกลีบพิกุลของคุณ"
 
 #: r2/lib/pages/pages.py:418
 msgid "message the admins"
-msgstr ""
+msgstr "ส่งข้อความหา admin"
 
 #: r2/lib/pages/pages.py:420
 msgid "message the moderators"
-msgstr ""
+msgstr "ส่งข้อความหาผู้ดูแล"
 
 #: r2/lib/pages/pages.py:423
 msgid "moderators"
-msgstr ""
+msgstr "ผู้ดูแล"
 
 #: r2/lib/pages/pages.py:434
 msgid "Recently viewed links"
-msgstr ""
+msgstr "ลิงค์ที่คุณพึ่งเยี่ยมชม"
 
 #: r2/lib/pages/pages.py:459
 msgid "turn admin off"
-msgstr ""
+msgstr "ปิดระบบ admin"
 
 #: r2/lib/pages/pages.py:463 r2/lib/pages/pages.py:927
 #: r2/templates/passwordverificationform.html:67
 msgid "turn admin on"
-msgstr ""
+msgstr "เปิดระบบ admin"
 
 #: r2/lib/pages/pages.py:591
 msgid "FAQ"
-msgstr ""
+msgstr "คำถามที่ถามบ่อยๆ"
 
 #: r2/lib/pages/pages.py:592
 msgid "reddiquette"
-msgstr ""
+msgstr "จริยธรรมการเป็นชาวพิกุลที่ดี"
 
 #: r2/lib/pages/pages.py:602
 msgid "firefox extension"
-msgstr ""
+msgstr "firefox extension"
 
 #: r2/lib/pages/pages.py:603
 msgid "chrome extension"
-msgstr ""
+msgstr "chrome extension"
 
 #: r2/lib/pages/pages.py:607
 msgid "tools"
-msgstr ""
+msgstr "เครื่องมือ"
 
 #: r2/lib/pages/pages.py:614
 msgid "redditgifts"
-msgstr ""
+msgstr "พิกุลแลกของขวัญ"
 
 #: r2/lib/pages/pages.py:615
 msgid "reddit.tv"
-msgstr ""
+msgstr "pickul.tv"
 
 #: r2/lib/pages/pages.py:616
 msgid "radio reddit"
-msgstr ""
+msgstr "พิกุลเรดิโอ"
 
 #: r2/lib/pages/pages.py:618
 msgid "<3"
-msgstr ""
+msgstr "<3"
 
 #: r2/lib/pages/pages.py:825
 #, python-format
 msgid "%(site)s mail"
-msgstr ""
+msgstr "%(site)s จดหมาย"
 
 #: r2/lib/pages/pages.py:892 r2/templates/redditheader.html:73
 msgid "login or register"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้หรือสมัคร"
 
 #: r2/lib/pages/pages.py:962
 msgid "request for permission"
-msgstr ""
+msgstr "ขอสิทธิการเข้าถึง"
 
 #: r2/lib/pages/pages.py:995
 msgid "bummer"
-msgstr ""
+msgstr "แหม เสียดายจัง"
 
 #: r2/lib/pages/pages.py:1007
 msgid "this page is no longer available due to a copyright claim."
-msgstr ""
+msgstr "หน้านี้ไม่มีอยู่แล้วเนื่องจากมีปัญหาเกี่ยวกับลิขสิทธิ"
 
 #: r2/lib/pages/pages.py:1343
 #, python-format
 msgid "about %(site)s"
-msgstr ""
+msgstr "เกี่ยวกับ %(site)s"
 
 #: r2/lib/pages/pages.py:1369
 msgid "search subreddits by name"
-msgstr ""
+msgstr "ค้นหากลีบพิกุลด้วยชื่อ"
 
 #: r2/lib/pages/pages.py:1406
 #, python-format
 msgid "your front page subreddits (%s)"
-msgstr ""
+msgstr "หน้าแรกกลีบพิกุลของคุณ (%s)"
 
 #: r2/lib/pages/pages.py:1475 r2/templates/createsubreddit.html:297
 #: r2/templates/spotlightlisting.html:51
 msgid "what's this?"
-msgstr ""
+msgstr "นี่คืออะไร?"
 
 #: r2/lib/pages/pages.py:1476
 msgid "trophy case"
-msgstr ""
+msgstr "ตู้เก็บถ้วยรางวัล"
 
 #: r2/lib/pages/pages.py:1525
 msgid "an unknown amount"
-msgstr ""
+msgstr "ไม่ทราบจำนวนที่แน่นอน"
 
 #: r2/lib/pages/pages.py:1533
 msgid "less than a day"
-msgstr ""
+msgstr "น้อยกว่าหนึ่งวัน"
 
 #: r2/lib/pages/pages.py:1543
 #, python-format
 msgid "%(creddits)s gold creddit to give"
 msgid_plural "%(creddits)s gold creddits to give"
-msgstr[0] ""
+msgstr[0] "%(creddits)s ดอกพิกุลทองที่คุณมอบได้"
 
 #: r2/lib/pages/pages.py:1551
 #, python-format
 msgid "give reddit gold to %(user)s to show your appreciation"
-msgstr ""
+msgstr "มอบดอกพิกุลทองให้ %(user)s เพื่อแสดงความชื่นชมแก่เขา"
 
 #: r2/lib/pages/pages.py:1555
 msgid "renew your reddit gold"
-msgstr ""
+msgstr "ต่อบรรณาศักดิ์พิกุลทอง"
 
 #: r2/lib/pages/pages.py:1558
 msgid ""
 "get extra features and help support reddit with a reddit gold subscription"
 msgstr ""
+"ใช้ feature เพิ่ม และช่วยสนับสนุนพิกุล ด้วยการเป็นชาวพิกุลทอง"
 
 #: r2/lib/pages/pages.py:1580
 msgid "reddit is a platform for internet communities"
-msgstr ""
+msgstr "พิกุลคือเวทีชุมชนบนอินเตอร์เนท"
 
 #: r2/lib/pages/pages.py:1581
 msgid "where your votes shape what the world is talking about."
-msgstr ""
+msgstr "ที่ๆคะแนนโหวตของคุณจะสร้างสรรค์โลกที่พวกเราต้องการจะให้เป็น"
 
 #: r2/lib/pages/pages.py:1747
 #, python-format
 msgid "raise it to %s"
-msgstr ""
+msgstr "raise it to %s"
 
 #: r2/lib/pages/pages.py:1749 r2/lib/pages/pages.py:1758
 #, python-format
 msgid "%s visible"
-msgstr ""
+msgstr "%s มองเห็นได้"
 
 #: r2/lib/pages/pages.py:1756
 #, python-format
 msgid "%(bonus)s bonus subreddits"
-msgstr ""
+msgstr "%(bonus)s bonus กลีบพิกุล"
 
 #: r2/lib/pages/pages.py:2013
 msgid "try entering those letters again"
-msgstr ""
+msgstr "ลองใส่ตัวอักษรพวกนั้นใหม่นะคะ"
 
 #: r2/lib/pages/pages.py:2072
 msgid "previous search"
-msgstr ""
+msgstr "การค้นหาครั้งที่แล้ว"
 
 #: r2/lib/pages/pages.py:2098
 #, python-format
 msgid "%(site_title)s via %(domain)s"
-msgstr ""
+msgstr "%(site_title)s ทาง ​%(domain)s"
 
 #: r2/lib/pages/pages.py:2568
 msgid "grant flair"
-msgstr ""
+msgstr "มอบไอคอน"
 
 #: r2/lib/pages/pages.py:2570
 msgid "user flair templates"
-msgstr ""
+msgstr "template ไอคอนผู้ใช้"
 
 #: r2/lib/pages/pages.py:2572
 msgid "link flair templates"
-msgstr ""
+msgstr "template ลิงค์ไอคอน"
 
 #: r2/lib/pages/pages.py:2882
 msgid "user"
-msgstr ""
+msgstr "ผู้ใช้"
 
 #: r2/lib/pages/pages.py:2882
 msgid "note"
-msgstr ""
+msgstr "หมายเหตุ"
 
 #: r2/lib/pages/pages.py:2882
 msgid "friendship"
-msgstr ""
+msgstr "เพื่อน"
 
 #: r2/lib/pages/pages.py:2888
 msgid "add a friend"
-msgstr ""
+msgstr "เพิ่มเป็นเพื่อนของคุณ"
 
 #: r2/lib/pages/pages.py:2892
 msgid "your friends"
-msgstr ""
+msgstr "เพื่อนของคุณ"
 
 #: r2/lib/pages/pages.py:2920
 msgid "blocked users"
-msgstr ""
+msgstr "ผู้ใช้ที่ถูกบล๊อค"
 
 #: r2/lib/pages/pages.py:2936
 msgid "add approved submitter"
-msgstr ""
+msgstr "เพิ่มผู้สร้างกระทู้"
 
 #: r2/lib/pages/pages.py:2940
 #, python-format
 msgid "approved submitters for %(reddit)s"
-msgstr ""
+msgstr "อนุมัติผู้สร้างกระทู้สำหรับ %(reddit)s แล้ว"
 
 #: r2/lib/pages/pages.py:2955 r2/models/modaction.py:67
 msgid "add moderator"
-msgstr ""
+msgstr "เพิ่มผู้ดูแล"
 
 #: r2/lib/pages/pages.py:2956 r2/models/modaction.py:69
 msgid "invite moderator"
-msgstr ""
+msgstr "เชิญชวนให้เป็นผู้ดูแล"
 
 #: r2/lib/pages/pages.py:2957 r2/templates/modlist.html:33
 #, python-format
 msgid "you are a moderator of this subreddit. %(action)s"
-msgstr ""
+msgstr "คุณเป็นผู้ดูแลของกลีบพิกุลนี้ ​%(action)s"
 
 #: r2/lib/pages/pages.py:2971
 #, python-format
 msgid "moderators of /r/%(reddit)s"
-msgstr ""
+msgstr "ผู้ดูแลของ /r/%(reddit)s"
 
 #: r2/lib/pages/pages.py:2975
 msgid "invited"
-msgstr ""
+msgstr "เชิญชวนแล้ว"
 
 #: r2/lib/pages/pages.py:3046
 msgid "banned users"
-msgstr ""
+msgstr "ผู้ใช้ที่ถูกแบน"
 
 #: r2/lib/pages/pages.py:3064
 msgid "add a wiki contributor"
-msgstr ""
+msgstr "เพิ่มผู้มีส่วนร่วมการแก้ไข"
 
 #: r2/lib/pages/pages.py:3068
 msgid "wiki page contributors"
-msgstr ""
+msgstr "ผู้มีส่วนร่วมการแก้ไขหน้า wiki"
 
 #: r2/lib/pages/pages.py:3641
 #, python-format
 msgid "cost per 1k impressions ($%(avg).2f average)"
-msgstr ""
+msgstr "ราคาต่อ 1000 impression (฿%(avg).2f โดยเฉลี่ย)"
 
 #: r2/lib/pages/pages.py:3642
 #, python-format
 msgid "cost per click ($%(avg).2f average)"
-msgstr ""
+msgstr "ราคาต่อการกด (฿%(avg).2f โดยเฉลี่ย)"
 
 #: r2/lib/pages/pages.py:3649
 msgid "historical performance"
-msgstr ""
+msgstr "ประวัติการเคลื่อนไหว"
 
 #. TRANSLATORS: Advertising term: "cost per mille"
 #: r2/lib/pages/pages.py:3653 r2/templates/promote_graph.html:125
 msgid "CPM"
-msgstr ""
+msgstr "CPM"
 
 #. TRANSLATORS: Advertising term: "cost per click"
 #: r2/lib/pages/pages.py:3656 r2/templates/promote_graph.html:142
 msgid "CPC"
-msgstr ""
+msgstr "CPC"
 
 #: r2/lib/pages/pages.py:3749 r2/templates/accountactivitybox.html:24
 msgid "account activity"
-msgstr ""
+msgstr "การเคลื่อนไหวของบัญชีผู้ใช้"
 
 #: r2/lib/pages/trafficpages.py:129
 #, python-format
 msgid "uniques by %s"
-msgstr ""
+msgstr "จำนวน unique ตาม ​%s"
 
 #: r2/lib/pages/trafficpages.py:130 r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34
 #: r2/templates/reddittraffic.html:90 r2/templates/sitewidetraffic.html:37
 msgid "uniques"
-msgstr ""
+msgstr "จำนวน unique"
 
 #: r2/lib/pages/trafficpages.py:132
 #, python-format
 msgid "pageviews by %s"
-msgstr ""
+msgstr "pageviews ตาม %s"
 
 #: r2/lib/pages/trafficpages.py:133
 #: r2/templates/languagetrafficsummary.html:35
 #: r2/templates/reddittraffic.html:91 r2/templates/sitewidetraffic.html:38
 msgid "pageviews"
-msgstr ""
+msgstr "pageviews"
 
 #: r2/lib/pages/trafficpages.py:138
 #, python-format
 msgid "traffic by %s"
-msgstr ""
+msgstr "traffic ตาม %s"
 
 #: r2/lib/pages/trafficpages.py:208
 msgid "[frontpage]"
-msgstr ""
+msgstr "[หน้าแรก]"
 
 #: r2/lib/pages/trafficpages.py:256
 msgid "total impressions by day"
-msgstr ""
+msgstr "ยอด impressions ตามวัน"
 
 #: r2/lib/pages/trafficpages.py:257 r2/lib/pages/trafficpages.py:381
 #: r2/templates/adverttrafficsummary.html:36
@@ -2982,340 +3039,341 @@ msgstr ""
 #: r2/templates/promolinktrafficsummary.html:72
 #: r2/templates/promotedlinktraffic.html:55
 msgid "impressions"
-msgstr ""
+msgstr "impressions"
 
 #: r2/lib/pages/trafficpages.py:259
 msgid "total clicks by day"
-msgstr ""
+msgstr "ยอดการกดตามวัน"
 
 #: r2/lib/pages/trafficpages.py:260
 #: r2/templates/promocampaigntraffictable.html:44
 #: r2/templates/promolinktrafficsummary.html:73
 #: r2/templates/promotedlinktraffic.html:56
 msgid "clicks"
-msgstr ""
+msgstr "จำนวนการกด"
 
 #: r2/lib/pages/trafficpages.py:264
 msgid "ad totals"
-msgstr ""
+msgstr "จำนวนโฆษณารวม"
 
 #: r2/lib/pages/trafficpages.py:301
 msgid "frontpage"
-msgstr ""
+msgstr "หน้าแรก"
 
 #: r2/lib/pages/trafficpages.py:380
 #, python-format
 msgid "impressions by %s"
-msgstr ""
+msgstr "impressions ตาม %s"
 
 #: r2/lib/pages/trafficpages.py:384 r2/lib/pages/trafficpages.py:563
 #: r2/templates/promolinktrafficsummary.html:80
 #: r2/templates/promotedlinktraffic.html:63
 msgid "unique clicks"
-msgstr ""
+msgstr "unique การกด"
 
 #: r2/lib/pages/trafficpages.py:386
 #, python-format
 msgid "clicks by %s"
-msgstr ""
+msgstr "จำนวนการกดตาม %s"
 
 #: r2/lib/pages/trafficpages.py:387 r2/lib/pages/trafficpages.py:564
 #: r2/templates/promolinktrafficsummary.html:81
 #: r2/templates/promotedlinktraffic.html:64
 msgid "total clicks"
-msgstr ""
+msgstr "ยอดการกด"
 
 #: r2/lib/pages/trafficpages.py:414
 msgid "subscriptions by day"
-msgstr ""
+msgstr "ผู้ติดตามโดยวัน"
 
 #: r2/lib/pages/trafficpages.py:415
 msgid "subscriptions"
-msgstr ""
+msgstr "ผู้ติดตาม"
 
 #: r2/lib/pages/trafficpages.py:560
 msgid "date and time (UTC)"
-msgstr ""
+msgstr "เวลาและวันทืี่ (+7 GMT)"
 
 #: r2/lib/pages/trafficpages.py:561
 #: r2/templates/promolinktrafficsummary.html:78
 #: r2/templates/promotedlinktraffic.html:61
 msgid "unique impressions"
-msgstr ""
+msgstr "unique impressions"
 
 #: r2/lib/pages/trafficpages.py:562
 #: r2/templates/promolinktrafficsummary.html:79
 #: r2/templates/promotedlinktraffic.html:62
 msgid "total impressions"
-msgstr ""
+msgstr "ยอด impressions"
 
 #: r2/lib/pages/trafficpages.py:565
 msgid "unique click-through rate (%)"
-msgstr ""
+msgstr "unique click-through rate (%)"
 
 #: r2/lib/pages/trafficpages.py:566
 msgid "total click-through rate (%)"
-msgstr ""
+msgstr "ยอดรวม click-through rate (%)"
 
 #: r2/lib/pages/trafficpages.py:587
 msgid "share traffic"
-msgstr ""
+msgstr "แชร์ traffic"
 
 #: r2/lib/pages/trafficpages.py:591
 msgid "current viewers"
-msgstr ""
+msgstr "ผู้ชม ณ ตอนนี้"
 
 #: r2/lib/pages/wiki.py:94
 msgid "view"
-msgstr ""
+msgstr "จำนวนผู้ชม"
 
 #: r2/lib/pages/wiki.py:96 r2/templates/paymentform.html:191
 #: r2/templates/prefapps.html:76 r2/templates/printablebuttons.html:177
 #: r2/templates/printablebuttons.html:209
 #: r2/templates/printablebuttons.html:297 r2/templates/wrappeduser.html:57
 msgid "edit"
-msgstr ""
+msgstr "การแก้ไข"
 
 #: r2/lib/pages/wiki.py:97
 msgid "history"
-msgstr ""
+msgstr "ประวัติ"
 
 #: r2/lib/pages/wiki.py:98
 msgid "talk"
-msgstr ""
+msgstr "พูดคุย"
 
 #: r2/lib/pages/wiki.py:100 r2/lib/pages/wiki.py:160
 msgid "settings"
-msgstr ""
+msgstr "การตั้งค่า"
 
 #: r2/lib/pages/wiki.py:107
 msgid "this wiki is currently disabled, only mods may interact with this wiki"
-msgstr ""
+msgstr "หน้านี้ถูกระงับการใช้งาน "
 
 #: r2/lib/pages/wiki.py:130
 msgid "this page is empty, edit it to add some content."
-msgstr ""
+msgstr "หน้านี้ว่างอยู่ แก้ไขเพื่อเพิ่มหน้านี้ลงไป"
 
 #: r2/lib/pages/wiki.py:138 r2/lib/pages/wiki.py:144
 #, python-format
 msgid "page %s does not exist in this subreddit"
-msgstr ""
+msgstr "หน้า %s ไม่มีอยู่บนกลีบพิกุลนี้"
 
 #: r2/lib/pages/wiki.py:152
 msgid "editing"
-msgstr ""
+msgstr "กำลังแก้ไข"
 
 #: r2/lib/pages/wiki.py:159
 msgid "This page is restricted, only moderators may edit it."
-msgstr ""
+msgstr "หน้านี้ถูกจำกัดการแก้ไขไว้ ผู้ดูแลสามารถแก้ไขได้เท่านั้น"
 
 #: r2/lib/pages/wiki.py:166
 msgid "revisions"
-msgstr ""
+msgstr "การแก้ไข"
 
 #: r2/lib/pages/wiki.py:172
 #, python-format
 msgid "Viewing recent revisions for /r/%s"
-msgstr ""
+msgstr "กำลังอ่านการแก้ไขล่าสุดของ /r/%s"
 
 #: r2/lib/pages/wiki.py:178
 #, python-format
 msgid "Viewing pages for /r/%s"
-msgstr ""
+msgstr "กำลังอ่านหน้าของ /r/%s"
 
 #: r2/lib/pages/wiki.py:179
 msgid ""
 "Below is a list of pages in this wiki visible to you in this subreddit."
 msgstr ""
+"ข้างล่างข้อความนี้คือรายกาาของหน้าบน wiki ของกลีบพิกุลที่คุณสามารถอ่านได้"
 
 #: r2/lib/pages/wiki.py:185
 msgid "discussions"
-msgstr ""
+msgstr "กระทู้แสดงความคิดเห็น"
 
 #: r2/lib/pages/wiki.py:186
 msgid "Discussions are site-wide links to this wiki page."
-msgstr ""
+msgstr "ลิงค์การแสดงความคิดเห็นของหน้า wiki นี้สามารถเข้าถึงได้ทุกคน"
 
 #: r2/lib/pages/wiki.py:187
 msgid ""
 "Submit a link to this wiki page or see other discussions about this wiki "
 "page."
-msgstr ""
+msgstr "ส่งลิงค์ไปยังหน้า wiki นี้หรือดูกระทู้เกี่ยวกับหน้า wiki นี้"
 
 #: r2/lib/validator/validator.py:1307
 #, python-format
 msgid "%(min)d to any"
-msgstr ""
+msgstr "%(min)d ถึง เท่าไหร่ก็ได้"
 
 #: r2/lib/validator/validator.py:1309
 #, python-format
 msgid "any to %(max)d"
-msgstr ""
+msgstr "เท่าไหร่ก็ได้ ถึง %(max)d"
 
 #: r2/lib/validator/validator.py:1311
 #, python-format
 msgid "%(min)d to %(max)d"
-msgstr ""
+msgstr "%(min)d ถึง​ %(max)d"
 
 #: r2/lib/validator/validator.py:1820
 msgid "please provide a first name"
-msgstr ""
+msgstr "โปรดใส่ชื่อจริง"
 
 #: r2/lib/validator/validator.py:1822
 msgid "please provide a last name"
-msgstr ""
+msgstr "โปรดใส่นามสกุล"
 
 #: r2/lib/validator/validator.py:1824
 msgid "please provide an address"
-msgstr ""
+msgstr "โปรดใส่ที่อยู่"
 
 #: r2/lib/validator/validator.py:1826
 msgid "please provide your city"
-msgstr ""
+msgstr "โปรดใส่จังหวัด"
 
 #: r2/lib/validator/validator.py:1828
 msgid "please provide your state"
-msgstr ""
+msgstr "โปรดใส่เขต"
 
 #: r2/lib/validator/validator.py:1830
 msgid "please provide your zip or post code"
-msgstr ""
+msgstr "โปรดใส่รหัสไปรษณีย์"
 
 #: r2/lib/validator/validator.py:1832
 msgid "please pick a country"
-msgstr ""
+msgstr "โปรดเลือกประเทศ"
 
 #: r2/lib/validator/validator.py:1836
 msgid "Our ToS don't cover your country (yet). Sorry."
-msgstr ""
+msgstr "ข้อตกลงการใช้งานของเราไม่ครอบคุมถึงประเทศของคุณ ขออภัยด้วยค่ะ"
 
 #: r2/lib/validator/validator.py:1852
 #, python-format
 msgid "max length %d characters"
-msgstr ""
+msgstr "จำนวนตัวอักษรสูงสุด %d ตัว"
 
 #: r2/lib/validator/validator.py:1875
 msgid "credit card numbers should be 13 to 16 digits"
-msgstr ""
+msgstr "เลขเครดิตการ์ดต้องมี 13 หรือ 16 ตัว"
 
 #: r2/lib/validator/validator.py:1880
 msgid "dates should be YYYY-MM"
-msgstr ""
+msgstr "วันที่ควรจะเป็นรูปแบบ YYYY-MM"
 
 #: r2/lib/validator/validator.py:1888
 msgid "month must be in the range 01..12"
-msgstr ""
+msgstr "เดือนต้องอยู่ในเลข 01 ถึง 12"
 
 #: r2/lib/validator/validator.py:1891
 msgid "expiration date must be in the future"
-msgstr ""
+msgstr "วันที่หมดอายุต้องไม่หมดอายุแล้ว"
 
 #: r2/lib/validator/validator.py:1895
 msgid "card verification codes should be 3 or 4 digits"
-msgstr ""
+msgstr "รหัสการยืนยันบัตรควรจะมี 3 หรือ 4 ตัวเลข"
 
 #: r2/lib/validator/validator.py:2038
 msgid "an app"
-msgstr ""
+msgstr "โปรแกรม"
 
 #: r2/lib/validator/validator.py:2055
 msgid "an app developed by the user"
-msgstr ""
+msgstr "โปรแกรมที่ถูกพัฒนาโดยผู้ใช้"
 
 #: r2/lib/validator/wiki.py:271
 msgid "the name of an existing wiki page"
-msgstr ""
+msgstr "ชื่อของหน้า wiki ที่มีอยู่แล้ว"
 
 #: r2/lib/validator/wiki.py:287
 msgid "a wiki revision ID"
-msgstr ""
+msgstr "id การปรับปรุงหน้า wiki"
 
 #: r2/lib/validator/wiki.py:336
 msgid "the name of an existing page or a new page to create"
-msgstr ""
+msgstr "ชื่อของหน้าที่มีอยู่แล้วหรือหน้าใหม่เพื่อสร้าง"
 
 #: r2/lib/validator/wiki.py:338
 msgid "the starting point revision for this edit"
-msgstr ""
+msgstr "จุดเริ่มต้อนการปรับปรุงของการแก้ไขนี้"
 
 #: r2/models/account.py:208
 msgid "ancient history"
-msgstr ""
+msgstr "อดีตชาติก่อน"
 
 #: r2/models/account.py:209
 msgid "really obscure karma from before it was cool to track per-subreddit"
-msgstr ""
+msgstr "คะแนนไร้สาระก่อนที่มันจะฮิตที่จะวัดจากแต่ละกลีบพิกุล"
 
 #: r2/models/builder.py:117
 #, python-format
 msgid "moderator of /r/%(reddit)s, speaking officially"
-msgstr ""
+msgstr "ผู้ดูแลของ /r/%(reddit)s ประกาศอย่างเป็นทางการ"
 
 #: r2/models/builder.py:179
 msgid "label_template"
-msgstr ""
+msgstr "label_template"
 
 #: r2/models/link.py:554
 #, python-format
 msgid "approved by %s"
-msgstr ""
+msgstr "อนุมัติโดย %s"
 
 #: r2/models/link.py:556
 msgid "approved by a moderator"
-msgstr ""
+msgstr "อนุมัติโดยผู้ดูแลแล้ว"
 
 #: r2/models/link.py:566
 #, python-format
 msgid "by %(author)s to %(reddit)s"
-msgstr ""
+msgstr "โดย %(author)s บน %(reddit)s"
 
 #: r2/models/link.py:569
 #, python-format
 msgid "by %(author)s"
-msgstr ""
+msgstr "โดย %(author)s"
 
 #: r2/models/link.py:573
 #, python-format
 msgid "%(score)s submitted %(when)s ago%(lastedited)s"
-msgstr ""
+msgstr "%(score)s ตั้งเมื่อ %(when)s ที่แล้ว​%(lastedited)s"
 
 #: r2/models/link.py:578
 #, python-format
 msgid "submitted %(when)s ago%(lastedited)s by %(author)s to %(reddit)s"
-msgstr ""
+msgstr "ตั้งเมื่อ %(when)s ที่แล้ว%(lastedited)s โดย %(author)s บน %(reddit)s"
 
 #: r2/models/link.py:581
 #, python-format
 msgid "submitted %(when)s ago%(lastedited)s by %(author)s"
-msgstr ""
+msgstr "ตั้งเมื่อ %(when)s ที่แล้ว%(lastedited)s โดย %(author)s"
 
 #: r2/models/link.py:586
 #, python-format
 msgid "%(score)s submitted %(when)s ago"
-msgstr ""
+msgstr "%(score)s ส่งเมื่อ %(when)s ที่แล้ว"
 
 #: r2/models/link.py:590
 #, python-format
 msgid "submitted %(when)s ago by %(author)s to %(reddit)s"
-msgstr ""
+msgstr "ตั้งเมื่อ %(when)s ที่แล้วโดย %(author)s บน %(reddit)s"
 
 #: r2/models/link.py:593
 #, python-format
 msgid "submitted %(when)s ago by %(author)s"
-msgstr ""
+msgstr "ตั้งเมื่อ %(when)s ที่แล้วโดย %(author)s"
 
 #: r2/models/link.py:667 r2/templates/comment.html:102
 #: r2/templates/comment.htmllite:46 r2/templates/comment.xml:31
 #: r2/templates/comment.xml:32
 msgid "[deleted]"
-msgstr ""
+msgstr "[หายสาบสูญ]"
 
 #: r2/models/link.py:670
 #, python-format
 msgid "a redditor gifted you a month of reddit gold for this comment."
 msgid_plural ""
 "redditors have gifted you %(months)d months of reddit gold for this comment."
-msgstr[0] ""
+msgstr[0] "ชาวพิกุลทองได้มอบพิกุลทองเป็นเวลาหนึ่งเดือนสำหรับความเห็นนี้"
 
 #: r2/models/link.py:677
 #, python-format
@@ -3323,7 +3381,7 @@ msgid "you have gifted reddit gold to %(recipient)s for this comment."
 msgid_plural ""
 "you and other redditors have gifted %(months)d months of reddit gold to "
 "%(recipient)s for this comment."
-msgstr[0] ""
+msgstr[0] "คุณได้รับมอบพิกุลทองจาก %(recipient)s สำหรับความเห็นนี้"
 
 #: r2/models/link.py:684
 #, python-format
@@ -3332,705 +3390,714 @@ msgid_plural ""
 "redditors have gifted %(months)d months of reddit gold to %(recipient)s for "
 "this comment."
 msgstr[0] ""
+"ชาวพิกุลได้มอบดอกพิกุลทองให้ %(recipient)s สำหรับความเห็นนี้"
+""
 
 #: r2/models/link.py:1021
 msgid "comment score below threshold"
-msgstr ""
+msgstr "คะแนนความคิดเห็นที่น้อยกว่าเกณฑ์"
 
 #: r2/models/link.py:1026
 msgid "blocked user"
-msgstr ""
+msgstr "ผู้ใช้ที่ถูกบล๊อค"
 
 #: r2/models/link.py:1368
 msgid "comment reply"
-msgstr ""
+msgstr "ความคิดเห็นโต้ตอบ"
 
 #: r2/models/link.py:1374
 msgid "post reply"
-msgstr ""
+msgstr "ส่งข้อความตอบกลับ"
 
 #: r2/models/link.py:1397
 msgid "[message from blocked user]"
-msgstr ""
+msgstr "[ข้อความจากผู้ใช้ที่ถูกบล๊อค]"
 
 #: r2/models/link.py:1398
 msgid "[unblock user to see this message]"
-msgstr ""
+msgstr "[ยกเลิกการบล๊อคผู้ใช้เพื่ออ่านข้อความนี้]"
 
 #: r2/models/link.py:1401
 #, python-format
 msgid "subreddit message %(author)s sent %(when)s ago"
-msgstr ""
+msgstr "ข้อความบนกลีบพิกุลจาก %(author)s ส่งเมื่อ %(when)s ที่แล้ว"
 
 #: r2/models/link.py:1403
 #, python-format
 msgid "to %(dest)s sent %(when)s ago"
-msgstr ""
+msgstr "ถึง %(dest)s ส่งเมื่อ %(when)s ที่แล้ว"
 
 #: r2/models/link.py:1405
 #, python-format
 msgid "from %(author)s sent %(when)s ago"
-msgstr ""
+msgstr "จาก %(author)s ส่งเมื่อ %(when)s ที่แล้ว"
 
 #: r2/models/link.py:1407
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s ago"
-msgstr ""
+msgstr "ถึง %(dest)s จาก %(author)s ส่งเมื่อ %(when)s ที่แล้ว"
 
 #: r2/models/link.py:1412
 #, python-format
 msgid "via %(subreddit)s"
-msgstr ""
+msgstr "ผ่านทาง %(subreddit)s"
 
 #: r2/models/link.py:1414
 #, python-format
 msgid "%(author)s via %(subreddit)s"
-msgstr ""
+msgstr "%(author)s ผ่านทาง %(subreddit)s"
 
 #: r2/models/mail_queue.py:309
 #, python-format
 msgid "[reddit] %(user)s has shared a link with you"
-msgstr ""
+msgstr "[พิกุล] %(user)s ได้แชร์ลิงค์ให้กับคุณ"
 
 #: r2/models/mail_queue.py:310
 #, python-format
 msgid "[feedback] feedback from '%(user)s'"
-msgstr ""
+msgstr "[เสียงตอบรับ] เสียงตอบรับจากผู้ใช้ '%(user)s'"
 
 #: r2/models/mail_queue.py:311
 #, python-format
 msgid "[ad_inq] feedback from '%(user)s'"
-msgstr ""
+msgstr "[โฆษณา] เสียงตอบรับจากผู้ใช้ '%s(user)s'"
 
 #: r2/models/mail_queue.py:312
 msgid "[reddit] email removal notice"
-msgstr ""
+msgstr "[พิกุล] แจ้งการลบอีเมล์ออก"
 
 #: r2/models/mail_queue.py:313
 msgid "[reddit] email addition notice"
-msgstr ""
+msgstr "[พิกุล] แจ้งการเพิ่มอีเมล์"
 
 #: r2/models/mail_queue.py:314
 msgid "[reddit] reset your password"
-msgstr ""
+msgstr "[พิกุล] กรุณาเปลี่ยนรหัสผ่าน"
 
 #: r2/models/mail_queue.py:315
 msgid "[reddit] verify your email address"
-msgstr ""
+msgstr "[พิกุล] กรุณายืนยันอีเมล์ของคุณ"
 
 #: r2/models/mail_queue.py:316
 msgid "[reddit] your bid has been accepted"
-msgstr ""
+msgstr "[พิกุล] การประมูลของคุณได้ถูกอนุมัติแล้ว"
 
 #: r2/models/mail_queue.py:317
 msgid "[reddit] your promotion has been accepted"
-msgstr ""
+msgstr "[พิกุล] โปรโมชั่นของคุณได้ถูกอนุมัติแล้ว"
 
 #: r2/models/mail_queue.py:318
 msgid "[reddit] your promotion has been rejected"
-msgstr ""
+msgstr "[พิกุล] โปรโมชั่นของคุณถูกปฏิเสธ"
 
 #: r2/models/mail_queue.py:319
 msgid "[reddit] your promotion has been charged"
-msgstr ""
+msgstr "[พิกุล] โปรโมชั่นของคุณได้ถูกคิดเงินแล้ว"
 
 #: r2/models/mail_queue.py:320
 msgid "[reddit] your promotion is now live"
-msgstr ""
+msgstr "[พิกุล] โปรโมชั่นของคุณได้เริ่มแล้ว"
 
 #: r2/models/mail_queue.py:321
 msgid "[reddit] your promotion has finished"
-msgstr ""
+msgstr "[พิกุล] โปรโมชั่นของคุณได้จบลงแล้ว"
 
 #: r2/models/mail_queue.py:322
 msgid "[reddit] your promotion has been created"
-msgstr ""
+msgstr "[พิกุล] โปรโมชั่นของคุณได้ถูกสร้างแล้ว"
 
 #: r2/models/mail_queue.py:323
 msgid "[reddit] hey, nerd!"
-msgstr ""
+msgstr "[พิกุล] คุณนายครับ"
 
 #: r2/models/mail_queue.py:324
 msgid "[reddit] reddit gold activation link"
-msgstr ""
+msgstr "[พิกุล] ลิงค์ไปยังหน้า 'ใช้ดอกพิกุลทอง'"
 
 #: r2/models/modaction.py:61
 msgid "ban user"
-msgstr ""
+msgstr "แบนผู้ใช้"
 
 #: r2/models/modaction.py:62
 msgid "unban user"
-msgstr ""
+msgstr "ยกเลิกการแบนผู้ใช้"
 
 #: r2/models/modaction.py:63
 msgid "remove post"
-msgstr ""
+msgstr "ลบกระทู้"
 
 #: r2/models/modaction.py:64
 msgid "approve post"
-msgstr ""
+msgstr "อนุมัติกระทู้"
 
 #: r2/models/modaction.py:65
 msgid "remove comment"
-msgstr ""
+msgstr "ลบความคิดเห็น"
 
 #: r2/models/modaction.py:66
 msgid "approve comment"
-msgstr ""
+msgstr "อนุมัติความคิดเห็น"
 
 #: r2/models/modaction.py:68
 msgid "remove moderator"
-msgstr ""
+msgstr "ปลดสิทธิผู้ดูแล"
 
 #: r2/models/modaction.py:70
 msgid "uninvite moderator"
-msgstr ""
+msgstr "ยกเลิกการเชิญเป็นผู้ดูแล"
 
 #: r2/models/modaction.py:71
 msgid "accept moderator invite"
-msgstr ""
+msgstr "ตอบรับการเป็นผูดูแล"
 
 #: r2/models/modaction.py:72
 msgid "add contributor"
-msgstr ""
+msgstr "เพิ่มผู้มีสิทธิแก้ไข"
 
 #: r2/models/modaction.py:73
 msgid "remove contributor"
-msgstr ""
+msgstr "ปลดผู้มีสิทธิแก้ไข"
 
 #: r2/models/modaction.py:74
 msgid "edit settings"
-msgstr ""
+msgstr "แก้ไขการตั้งค่า"
 
 #: r2/models/modaction.py:76 r2/templates/printablebuttons.html:87
 msgid "distinguish"
-msgstr ""
+msgstr "จำแนก"
 
 #: r2/models/modaction.py:77
 msgid "mark nsfw"
-msgstr ""
+msgstr "ตั้งให้เป็นหน้าที่ไม่ปลอดภัยสำหรับที่สาธารณะ"
 
 #: r2/models/modaction.py:78
 msgid "ban from wiki"
-msgstr ""
+msgstr "แบนจากวิกิ"
 
 #: r2/models/modaction.py:79
 msgid "unban from wiki"
-msgstr ""
+msgstr "ยกเลิกการแบนบน wiki"
 
 #: r2/models/modaction.py:80
 msgid "add wiki contributor"
-msgstr ""
+msgstr "เพิ่มผู้มีสิทธิในการแก้ไข"
 
 #: r2/models/modaction.py:81
 msgid "remove wiki contributor"
-msgstr ""
+msgstr "ปลดสิทธิการแก้ไขของผู้่ใช้"
 
 #: r2/models/modaction.py:82
 msgid "wiki revise page"
-msgstr ""
+msgstr "หน้ากันตรวจทาน wiki"
 
 #: r2/models/modaction.py:83
 msgid "wiki page permissions"
-msgstr ""
+msgstr "สิทธิการแก้ไขบนหน้า wiki"
 
 #: r2/models/modaction.py:84 r2/models/modaction.py:159
 #: r2/templates/printablebuttons.html:126
 msgid "ignore reports"
-msgstr ""
+msgstr "เมินรายงาน"
 
 #: r2/models/modaction.py:85
 msgid "unignore reports"
-msgstr ""
+msgstr "ยกเลิกการเมินรายงาน"
 
 #: r2/models/modaction.py:86
 msgid "permissions"
-msgstr ""
+msgstr "สิทธิการเข้าถึง"
 
 #: r2/models/modaction.py:88 r2/templates/subredditinfobar.html:94
 #: r2/templates/subscriptionbox.html:62
 msgid "banned"
-msgstr ""
+msgstr "แบนแล้ว"
 
 #: r2/models/modaction.py:89
 msgid "wiki banned"
-msgstr ""
+msgstr "แบนจากวิกิแล้ว"
 
 #: r2/models/modaction.py:90
 msgid "unbanned from wiki"
-msgstr ""
+msgstr "ยกเลิกการแบนจากวิกิ"
 
 #: r2/models/modaction.py:91
 msgid "added wiki contributor"
-msgstr ""
+msgstr "เพิ่มผู้มีสิทธิแก้ไข wiki"
 
 #: r2/models/modaction.py:92
 msgid "removed wiki contributor"
-msgstr ""
+msgstr "ปลดสถานะผู้มีสิทธิแก้ไข wiki แล้ว"
 
 #: r2/models/modaction.py:93
 msgid "unbanned"
-msgstr ""
+msgstr "ยกเลิกการแบนแล้ว"
 
 #: r2/models/modaction.py:94 r2/models/modaction.py:96
 #: r2/templates/printablebuttons.html:43
 #: r2/templates/printablebuttons.html:158 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67
 msgid "removed"
-msgstr ""
+msgstr "ลบออกแล้ว"
 
 #: r2/models/modaction.py:95 r2/models/modaction.py:97
 #: r2/templates/printablebuttons.html:50
 #: r2/templates/printablebuttons.html:161
 #: r2/templates/subredditinfobar.html:86
 msgid "approved"
-msgstr ""
+msgstr "อนุมัติแล้ว"
 
 #: r2/models/modaction.py:98
 msgid "added moderator"
-msgstr ""
+msgstr "เพิ่มผู้ดูแลแล้ว"
 
 #: r2/models/modaction.py:99
 msgid "removed moderator"
-msgstr ""
+msgstr "ปลดสถานะผู้ดูแลแล้ว"
 
 #: r2/models/modaction.py:100
 msgid "invited moderator"
-msgstr ""
+msgstr "ชวนให้เป็นผู้ดูแลแล้ว"
 
 #: r2/models/modaction.py:101
-msgid "uninvited moderator"
-msgstr ""
+msgid "uninvited moderator
+msgstr "ยกเลิกการเชิญชวนให้เป็นผู้ดูแลแล้ว"
 
 #: r2/models/modaction.py:102
 msgid "accepted moderator invitation"
-msgstr ""
+msgstr "รับการเชิญชวนให้เป็นผู้ดูแลแล้ว"
 
 #: r2/models/modaction.py:103
 msgid "added approved contributor"
-msgstr ""
+msgstr "เพิ่มผู้มีสิทธิโพสแล้ว"
 
 #: r2/models/modaction.py:104
 msgid "removed approved contributor"
-msgstr ""
+msgstr "ลบผู้มีสิทธิโพสออกแล้ว"
 
 #: r2/models/modaction.py:105
 msgid "edited settings"
-msgstr ""
+msgstr "แก้ไขการตั้งค่าแล้ว"
 
 #: r2/models/modaction.py:106
 msgid "edited flair"
-msgstr ""
+msgstr "แก้ไขไอคอนแล้ว"
 
 #: r2/models/modaction.py:107
 msgid "edited wiki page"
-msgstr ""
+msgstr "แก้ไขหน้า wiki แล้ว"
 
 #: r2/models/modaction.py:108
 msgid "changed wiki page permission level"
-msgstr ""
+msgstr "เปลี่ยนสิทธิการเข้าถึงของหน้าwiki"
 
 #: r2/models/modaction.py:109
 msgid "distinguished"
-msgstr ""
+msgstr "จำแนกแล้ว"
 
 #: r2/models/modaction.py:110
 msgid "marked nsfw"
-msgstr ""
+msgstr "ทำให้เป็นกระทู้ไม่ปลอดภัยสำหรับที่สาธารณะ"
 
 #: r2/models/modaction.py:111
 msgid "ignored reports"
-msgstr ""
+msgstr "เมินการรายงาน"
 
 #: r2/models/modaction.py:112
 msgid "unignored reports"
-msgstr ""
+msgstr "ยกเลิกการเมินการรายงาน"
 
 #: r2/models/modaction.py:113
 msgid "changed permissions on"
-msgstr ""
+msgstr "เปลี่ยนการอนุญาติเมื่อ"
 
 #: r2/models/modaction.py:116
 msgid "unspam"
-msgstr ""
+msgstr "unspam"
 
 #: r2/models/modaction.py:117
 msgid "confirmed ham"
-msgstr ""
+msgstr "ยืนยันว่าไม่ใช่spam"
 
 #: r2/models/modaction.py:119
 msgid "confirmed spam"
-msgstr ""
+msgstr "ยืนยันว่าเป็นspam"
 
 #: r2/models/modaction.py:120
 msgid "removed not spam"
-msgstr ""
+msgstr "ลบกระทู้ที่ไม่ใช่spamแล้ว"
 
 #: r2/models/modaction.py:121
 msgid "removed spam"
-msgstr ""
+msgstr "spam ถูกลบแล้ว"
 
 #: r2/models/modaction.py:123
 msgid "removed self"
-msgstr ""
+msgstr "ลบตัวเองออก"
 
 #: r2/models/modaction.py:125 r2/templates/createsubreddit.html:56
 #: r2/templates/newlink.html:61 r2/templates/promotelinkform.html:265
 msgid "title"
-msgstr ""
+msgstr "ไตเติล"
 
 #: r2/models/modaction.py:126 r2/templates/createsubreddit.html:68
 #: r2/templates/prefapps.html:125 r2/templates/prefapps.html:312
 msgid "description"
-msgstr ""
+msgstr "รายละเอียด"
 
 #: r2/models/modaction.py:127 r2/templates/createsubreddit.html:82
 msgid "sidebar"
-msgstr ""
+msgstr "แถบด้านข้่าง"
 
 #: r2/models/modaction.py:128 r2/templates/createsubreddit.html:106
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
-msgstr ""
+msgstr "ภาษา"
 
 #: r2/models/modaction.py:129 r2/templates/createsubreddit.html:117
 msgid "type"
-msgstr ""
+msgstr "ประเภท"
 
 #: r2/models/modaction.py:130
 msgid "link type"
-msgstr ""
+msgstr "ประเภทของลิงค์"
 
 #: r2/models/modaction.py:131
 msgid "submit link button label"
-msgstr ""
+msgstr "ชื่อปุ่มการตั้งกระทู้ลิงค์"
 
 #: r2/models/modaction.py:132
 msgid "submit text post button label"
-msgstr ""
+msgstr "ชื่อปุ่มการตั้งกระทู้ความคิดเห็น"
 
 #: r2/models/modaction.py:133
 msgid "toggle viewers must be over 18"
-msgstr ""
+msgstr "เปิด/ปิด การเข้าชมของผู้ใช้ที่อายุต่ำกว่า​ 18"
 
 #: r2/models/modaction.py:134
 msgid "toggle allow in default set"
-msgstr ""
+msgstr "เปิด/ปิด การอนุญาติในกลุ่มค่าเริ่มต้น"
 
 #: r2/models/modaction.py:135
 msgid "toggle show thumbnail images of content"
-msgstr ""
+msgstr "เปิด/ปิด การแสดงรูปขนาดเล็กของกระทู้"
 
 #: r2/models/modaction.py:136 r2/templates/createsubreddit.html:265
 msgid "domain"
-msgstr ""
+msgstr "domain"
 
 #: r2/models/modaction.py:137
 msgid "toggle show sidebar from cname"
-msgstr ""
+msgstr "ใช้การแสดงแถบด้านข้างจาก cname"
 
 #: r2/models/modaction.py:138
 msgid "toggle custom CSS from cname"
-msgstr ""
+msgstr "ใช้ custom css จาก cname"
 
 #: r2/models/modaction.py:139
 msgid "header title"
-msgstr ""
+msgstr "ข้อความบนหัวเรื่อง"
 
 #: r2/models/modaction.py:141
 msgid "delete header image"
-msgstr ""
+msgstr "ลบรูปเฮดเดอร์"
 
 #: r2/models/modaction.py:142
 msgid "delete image"
-msgstr ""
+msgstr "ลบรูป"
 
 #: r2/models/modaction.py:143 r2/templates/createsubreddit.html:325
 msgid "upload header image"
-msgstr ""
+msgstr "อัพโหลดเฮดเดอร์"
 
 #: r2/models/modaction.py:144
 msgid "upload image"
-msgstr ""
+msgstr "อัพโหลดรูป"
 
 #: r2/models/modaction.py:146
 msgid "add/edit flair"
-msgstr ""
+msgstr "เพิ่ม/แก้ ไอคอน"
 
 #: r2/models/modaction.py:147
 msgid "delete flair"
-msgstr ""
+msgstr "ลบไอคอน"
 
 #: r2/models/modaction.py:148
 msgid "edit by csv"
-msgstr ""
+msgstr "แก้ไขโดย csv"
 
 #: r2/models/modaction.py:149
 msgid "toggle flair enabled"
-msgstr ""
+msgstr "เปิดการใช้งานไอคอนแล้ว"
 
 #: r2/models/modaction.py:150
 msgid "toggle user flair position"
-msgstr ""
+msgstr "เลือกตำแหน่งไอคอนของผู้ใช้"
 
 #: r2/models/modaction.py:151
 msgid "toggle link flair position"
-msgstr ""
+msgstr "เลือกตำแหน่งไอคอนลิงค์"
 
 #: r2/models/modaction.py:152
 msgid "toggle user assigned flair enabled"
-msgstr ""
+msgstr "เปิดการใช้งานไอคอนที่ผู้ใช้เลือกเองแล้ว"
 
 #: r2/models/modaction.py:153
 msgid "toggle submitter assigned link flair enabled"
-msgstr ""
+msgstr "เปิดการใช้งานระบบไอคอนของผู้ตั้งกระทู้แล้ว"
 
 #: r2/models/modaction.py:154
 msgid "add/edit flair templates"
-msgstr ""
+msgstr "เพิ่ม/แก้ไขไอคอนเทมเพลท"
 
 #: r2/models/modaction.py:155
 msgid "delete flair template"
-msgstr ""
+msgstr "ลบไอคอนเทมเพลท"
 
 #: r2/models/modaction.py:156
 msgid "clear flair templates"
-msgstr ""
+msgstr "เอาไอคอนเทมเพลทออก"
 
 #: r2/models/modaction.py:158 r2/templates/prefapps.html:65
 #: r2/templates/printablebuttons.html:43
 #: r2/templates/printablebuttons.html:139 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67 r2/templates/usertableitem.html:55
 msgid "remove"
-msgstr ""
+msgstr "ลบ"
 
 #: r2/models/modaction.py:161
 msgid "set permissions on moderator"
-msgstr ""
+msgstr "ตั้งค่าการเข้าถึงของผู้ดูแล"
 
 #: r2/models/modaction.py:162
 msgid "set permissions on moderator invitation"
-msgstr ""
+msgstr "ตั้งค่าการเข้าถึงของการเชิญผู้ดูแลเพิ่ม"
 
 #: r2/models/modaction.py:308 r2/models/modaction.py:322
 #: r2/templates/comment.html:62
 msgid "by"
-msgstr ""
+msgstr "โดย"
 
 #: r2/models/modaction.py:324 r2/templates/comment.xml:42
 msgid "on"
-msgstr ""
+msgstr "เมื่อ"
 
 #: r2/models/subreddit.py:1026
 #, python-format
 msgid "%s (filtered)"
-msgstr ""
+msgstr "%s (ถูกกรองออก)"
 
 #: r2/models/subreddit.py:1287
 msgid "on reddit.com"
-msgstr ""
+msgstr "บน pickul.com"
 
 #: r2/models/token.py:103
 msgid "Edit Posts"
-msgstr ""
+msgstr "แก้ไขกระทู้"
 
 #: r2/models/token.py:104
 msgid "Edit and delete my comments and submissions."
-msgstr ""
+msgstr "แก้ไขและลบความคิดเห็นและกระทู้ของฉัน"
 
 #: r2/models/token.py:108
 msgid "My Identity"
-msgstr ""
+msgstr "ตัวตนของฉัน"
 
 #: r2/models/token.py:109
 msgid "Access my reddit username and signup date."
-msgstr ""
+msgstr "เข้าชมชื่อผู้ใช้ของฉันและวันที่สมัคร"
 
 #: r2/models/token.py:113
 msgid "Moderate Flair"
-msgstr ""
+msgstr "ดูแลไอคอน"
 
 #: r2/models/token.py:114
 msgid "Manage and assign flair in subreddits I moderate."
-msgstr ""
+msgstr "บริหารและใส่ไอคอนบนกลีบพิกุลที่ฉันดูแลอยู่"
 
 #: r2/models/token.py:119
 msgid "Moderate Posts"
-msgstr ""
+msgstr "ดูแลกระทู้"
 
 #: r2/models/token.py:120
 msgid ""
 "Approve, remove, mark nsfw, and distinguish content in subreddits I "
 "moderate."
 msgstr ""
+"อนุมัติ ลบ ตั้งnsfw และจัดการเนื้อหาบนกลีบพิกุลที่"
+"ฉันดูแลอยู่"
 
 #: r2/models/token.py:126
 msgid "Moderate Subreddit Configuration"
-msgstr ""
+msgstr "การตั้งค่าการดูแลของกลีบพิกุล"
 
 #: r2/models/token.py:127
 msgid "Manage the configuration, sidebar, and CSS of subreddits I moderate."
-msgstr ""
+msgstr "บริหารการตั้งค่า แถบด้านข้างและ css บนกลีบพิกุลที่ฉันดูแล"
 
 #: r2/models/token.py:133
 msgid "Moderation Log"
-msgstr ""
+msgstr "บันทึกการดูแล"
 
 #: r2/models/token.py:134
 msgid "Access the moderation log in subreddits I moderate."
-msgstr ""
+msgstr "เข้าชมบันทึกการดูแลในกลีบพิกุลที่ฉันดูแล"
 
 #: r2/models/token.py:139
 msgid "Subreddit Traffic"
-msgstr ""
+msgstr "traffic ของกลีบพิกุล"
 
 #: r2/models/token.py:140
 msgid "Access traffic stats in subreddits I moderate."
-msgstr ""
+msgstr "เข้าชมสถิติ traffic ในกลีบพิกุลทีฉันดูแล"
 
 #: r2/models/token.py:144
 msgid "My Subreddits"
-msgstr ""
+msgstr "กลีบพิกุลของฉัน"
 
 #: r2/models/token.py:145
 msgid ""
 "Access the list of subreddits I moderate, contribute to, and subscribe to."
 msgstr ""
+"เข้าชมรายการของกลีบพิกุลที่คุณดูแล, มีส่วนร่วมและติดตามอยู่"
 
 #: r2/models/token.py:151
 msgid "Private Messages"
-msgstr ""
+msgstr "ข้อความส่วนตัว"
 
 #: r2/models/token.py:152
 msgid "Access my inbox and send private messages to other users."
-msgstr ""
+msgstr "เข้าชมกล่องข้อความและส่งข้อความส่วนตัวหาผู้ใข้ท่านอื่น"
 
 #: r2/models/token.py:157
 msgid "Read Content"
-msgstr ""
+msgstr "อ่านกระทู้"
 
 #: r2/models/token.py:158
 msgid "Access posts and comments through my account."
-msgstr ""
+msgstr "เข้าชมกระทู้และความคิดเห็นผ่านบัญชีของคุณ"
 
 #: r2/models/token.py:162
 msgid "Submit Content"
-msgstr ""
+msgstr "ส่งเนื้อหา"
 
 #: r2/models/token.py:163
 msgid "Submit links and comments from my account."
-msgstr ""
+msgstr "ส่งลิงค์และความคิดเห็นจากบัญชีของคุณ"
 
 #: r2/models/token.py:167
 msgid "Edit My Subscriptions"
-msgstr ""
+msgstr "แก้ไขการติดตามของคุณ"
 
 #: r2/models/token.py:168
 msgid "Manage my subreddit subscriptions."
-msgstr ""
+msgstr "บริหารการติดตามกลีบพิกุลของคุณ"
 
 #: r2/models/token.py:172
 msgid "Vote"
-msgstr ""
+msgstr "โหวต"
 
 #: r2/models/token.py:174
 msgid "Submit and change my votes on comments and submissions."
-msgstr ""
+msgstr "ส่งและเปลี่ยนโหวตบนความคิดเห็นและกระทู้"
 
 #: r2/templates/adminbar.html:45
 msgid "status"
-msgstr ""
+msgstr "สถาณะ"
 
 #: r2/templates/adminbar.html:46
 msgid "admin mode enabled"
-msgstr ""
+msgstr "เปิดระบบ admin"
 
 #: r2/templates/adminbar.html:48
 msgid "admin off"
-msgstr ""
+msgstr "ปิดระบบ admin"
 
 #: r2/templates/adminbar.html:50
 msgid "debug mode"
-msgstr ""
+msgstr "ดีบั๊กโหมด"
 
 #: r2/templates/adminbar.html:51
 msgid "secure"
-msgstr ""
+msgstr "ความปลอดภัย"
 
 #: r2/templates/adminbar.html:52
 msgid "development statics"
-msgstr ""
+msgstr "สถิติการพัฒนา"
 
 #: r2/templates/adminbar.html:53
 msgid "production statics"
-msgstr ""
+msgstr "สถิติของผลิตภัณฑ์"
 
 #: r2/templates/adminbar.html:54
 msgid "ads disabled"
-msgstr ""
+msgstr "ปิดการใช้โฆษณา"
 
 #: r2/templates/adminbar.html:55
 msgid "captcha disabled"
-msgstr ""
+msgstr "ปิดการใช้ captcha"
 
 #: r2/templates/adminbar.html:56
 msgid "ratelimit disabled"
-msgstr ""
+msgstr "ปิดการใช้ ratelimit"
 
 #: r2/templates/adminbar.html:61
 msgid "timings"
-msgstr ""
+msgstr "???"
 
 #: r2/templates/adminbar.html:62 r2/templates/frametoolbar.html:208
 #: r2/templates/frametoolbar.html:209 r2/templates/printablebuttons.html:198
 msgid "hide"
-msgstr ""
+msgstr "ซ่อน"
 
 #: r2/templates/adverttrafficsummary.html:31
 msgid "top adverts"
-msgstr ""
+msgstr "โฆษณายอดนิยม"
 
 #: r2/templates/adverttrafficsummary.html:34
 msgid "ad"
-msgstr ""
+msgstr "โฆษณา"
 
 #: r2/templates/allinfobar.html:37
 msgid "Exclude your subscribed subreddits"
-msgstr ""
+msgstr "ไม่นับรวมกลีบพิกุลที่คุณติดตาม"
 
 #: r2/templates/allinfobar.html:43
 msgid "See gilded comments"
-msgstr ""
+msgstr "ดูความคิดเห็นเคลือบทอง"
 
 #: r2/templates/awardreceived.html:27
 msgid "you already have that trophy!"
-msgstr ""
+msgstr "คุณมีถ้วยรางวัลนั้นแล้ว!"
 
 #: r2/templates/awardreceived.html:29
 msgid "trophy claimed!"
-msgstr ""
+msgstr "ได้รับถ้วยรางวัลแล้ว!"
 
 #: r2/templates/base.html:49
 msgid ""
 "/* Custom css: use this block to insert special translation-dependent css in"
 " the page header */"
 msgstr ""
+"/* Custom css: ใช้โค๊ดเหล่านี้ในการใส่ special translation-dependent css ใน"
+"header ของหน้า*/"
 
 #: r2/templates/base.htmllite:89
 #, python-format
 msgid "links from %(site)s"
-msgstr ""
+msgstr "ลิงค์จาก %(site)s"
 
 #: r2/templates/bookmarklets.html:32
 #, python-format
 msgid "install the %(site)s bookmarklet set"
-msgstr ""
+msgstr "ติดตั้ง %(site)s ชุด​bookmarklet"
 
 #: r2/templates/bookmarklets.html:34
 msgid ""
 "once added to your bookmark bar, you can click these buttons from any site "
 "to get quick access to reddit functionality."
 msgstr ""
+"เมื่อคุณเพิ่มแถบ bookmark แล้ว คุณสามารถกดปุ่มเหล่านี้จากไซท์ไหนก็ได้"
+"เพื่อที่จะเข้ามาใช้ระบบพิกุลได้ทันใจ"
 
 #: r2/templates/bookmarklets.html:35
 msgid "in Firefox"
