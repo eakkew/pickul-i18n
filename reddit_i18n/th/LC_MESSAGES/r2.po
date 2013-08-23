@@ -5358,7 +5358,7 @@ msgid ""
 "please be mindful of reddit's %(few_rules)s and practice "
 "%(good_reddiquette)s."
 msgstr ""
-"โปรดทราบว่าพิกุลมี %(few_rule)s และปฏิบัติ"
+"โปรดทราบว่าพิกุลมี %(few_rules)s และปฏิบัติ"
 "%(good_reddiquette)s"
 
 #: r2/templates/newlink.html:125
