@@ -4572,14 +4572,14 @@ msgstr "บันทึก"
 #: r2/templates/promotedlinktraffic.html:113
 #: r2/templates/spotlightlisting.html:46 r2/templates/tablelisting.html:53
 msgid "prev"
-msgstr "หน้าก่อน"
+msgstr ""
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:47
 #: r2/templates/promotedlinktraffic.html:119
 #: r2/templates/promotelinkform.html:407 r2/templates/spotlightlisting.html:47
 #: r2/templates/tablelisting.html:59
 msgid "next"
-msgstr "หน้าต่อไป"
+msgstr ""
 
 #: r2/templates/flairpane.html:25
 msgid "flair settings"
