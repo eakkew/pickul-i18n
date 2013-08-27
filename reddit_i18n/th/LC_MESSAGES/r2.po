@@ -2435,7 +2435,7 @@ msgid ""
 "/r/all displays content from all of reddit, including subreddits you aren't "
 "subscribed to."
 msgstr ""
-"/r/สรรพสิ่ง แสดงเนื้อหาทุกอย่างจากพิกุล รวมไปถึงกลีบพิกุลที่คุณไม่ได้"
+"/r/all แสดงเนื้อหาสรรพสิ่งจากพิกุล รวมไปถึงกลีบพิกุลที่คุณไม่ได้"
 "ติดตามอยู่ด้วย"
 
 #: r2/lib/strings.py:189
