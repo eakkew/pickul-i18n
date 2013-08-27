@@ -2789,7 +2789,7 @@ msgstr "%(site)s จดหมาย"
 
 #: r2/lib/pages/pages.py:892 r2/templates/redditheader.html:73
 msgid "login or register"
-msgstr "ลงชื่อเข้าใช้หรือสมัคร"
+msgstr "เข้าสู่ระบบ/สมัครสมาชิก"
 
 #: r2/lib/pages/pages.py:962
 msgid "request for permission"
