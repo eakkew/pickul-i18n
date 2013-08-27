@@ -1380,7 +1380,7 @@ msgstr "สุ่ม"
 
 #: r2/lib/menus.py:58
 msgid "saved {toolbar}"
-msgstr "บันทึก {toolbar} แล้ว"
+msgstr "คลัง"
 
 #: r2/lib/menus.py:59
 msgid "recommended"
@@ -1515,7 +1515,7 @@ msgstr "ส่งออก"
 
 #: r2/lib/menus.py:110
 msgid "comments {toolbar}"
-msgstr "ความคิดเห็น {toolbar}"
+msgstr "ความคิดเห็น"
 
 #: r2/lib/menus.py:112 r2/templates/prefoptions.html:275
 #: r2/templates/prefoptions.html:284 r2/templates/prefoptions.html:293
@@ -1667,11 +1667,11 @@ msgstr "ที่ไม่ถูกใจ"
 
 #: r2/lib/menus.py:157
 msgid "hidden {toolbar}"
-msgstr "ที่ถูกซ่อน {toolbar}"
+msgstr "ซ่อนไว้"
 
 #: r2/lib/menus.py:159 r2/templates/printablebuttons.html:56
 msgid "reported"
-msgstr "ที่ถูกแจ้ง"
+msgstr "ถูกแจ้ง"
 
 #: r2/lib/menus.py:161
 msgid "self-serve advertising"
@@ -2662,7 +2662,7 @@ msgstr "กำลังโหลด..."
 
 #: r2/lib/template_helpers.py:208
 msgid "comment {verb}"
-msgstr "ความคิดเห็น {verb}"
+msgstr "ความคิดเห็น"
 
 #: r2/lib/template_helpers.py:485 r2/models/builder.py:156
 msgid "friend"
@@ -6252,7 +6252,7 @@ msgstr "มอบพิกุลทอง"
 #: r2/templates/printablebuttons.html:313
 #: r2/templates/printablebuttons.html:355
 msgid "reply {verb}"
-msgstr "ตอบกลับ {verb}"
+msgstr "ตอบกลับ"
 
 #: r2/templates/printablebuttons.html:344
 msgid "block user"
@@ -6602,11 +6602,11 @@ msgstr ""
 
 #: r2/templates/redditfooter.html:50
 msgid "User Agreement {Genitive}"
-msgstr "ข้อตกลงของผู้ใช้งาน {Genitive}"
+msgstr "ข้อตกลงของผู้ใช้งาน"
 
 #: r2/templates/redditfooter.html:52
 msgid "Privacy Policy {Genitive}"
-msgstr "นโยบายสิทธิส่วนบุคคล {Genitive}"
+msgstr "นโยบายสิทธิส่วนบุคคล"
 
 #: r2/templates/redditfooter.html:54
 #, python-format
@@ -6736,7 +6736,7 @@ msgstr "อีเมล์ของคุณ"
 
 #: r2/templates/sharelink.html:96
 msgid "message {share form}"
-msgstr "ข้อความ {share form}"
+msgstr "ข้อความ"
 
 #: r2/templates/sitewidetraffic.html:33
 msgid "top subreddits"
