@@ -6225,7 +6225,7 @@ msgstr "traffic"
 #: r2/templates/printablebuttons.html:259
 #: r2/templates/printablebuttons.html:337
 msgid "permalink"
-msgstr "เปอร์มาลิงค์"
+msgstr "ลิงค์ถาวร"
 
 #: r2/templates/printablebuttons.html:272
 #: r2/templates/printablebuttons.html:333 r2/templates/starkcomment.html:34
