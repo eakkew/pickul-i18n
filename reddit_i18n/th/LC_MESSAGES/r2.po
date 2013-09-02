@@ -3746,7 +3746,7 @@ msgstr "รายละเอียด"
 
 #: r2/models/modaction.py:127 r2/templates/createsubreddit.html:82
 msgid "sidebar"
-msgstr "แถบด้านข้่าง"
+msgstr "แถบด้านข้าง"
 
 #: r2/models/modaction.py:128 r2/templates/createsubreddit.html:106
 #: r2/templates/languagetrafficsummary.html:33
