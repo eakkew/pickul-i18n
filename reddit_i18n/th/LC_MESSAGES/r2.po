@@ -392,7 +392,7 @@ msgstr "ยืนยันอีเมล"
 
 #: r2/controllers/front.py:1217 r2/templates/loginformwide.html:52
 msgid "reset password"
-msgstr "ล้างรหัสผ่าน"
+msgstr "ตั้งรหัสผ่านใหม่"
 
 #: r2/controllers/front.py:1312 r2/controllers/post.py:157
 msgid "opt out"
@@ -3472,7 +3472,7 @@ msgstr "[พิกุล] แจ้งการเพิ่มอีเมล์
 
 #: r2/models/mail_queue.py:314
 msgid "[reddit] reset your password"
-msgstr "[พิกุล] กรุณาเปลี่ยนรหัสผ่าน"
+msgstr "[พิกุล] ตั้งรหัสผ่านใหม่"
 
 #: r2/models/mail_queue.py:315
 msgid "[reddit] verify your email address"
@@ -5198,7 +5198,7 @@ msgstr "จดจำฉัน"
 
 #: r2/templates/login.html:126 r2/templates/register.html:126
 msgid "recover password"
-msgstr "กู้รหัสผ่าน"
+msgstr "ลืมรหัสผ่าน"
 
 #: r2/templates/login.html:133 r2/templates/register.html:133
 msgid "create account"
