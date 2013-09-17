@@ -1673,6 +1673,10 @@ msgstr "ซ่อนไว้"
 msgid "reported"
 msgstr "ถูกแจ้ง"
 
+#: r2/lib/menus.py:160
+msgid "short_description"
+msgstr "พิกุล.com - บอกเล่า แบ่งปัน ทุกสิ่ง"
+
 #: r2/lib/menus.py:161
 msgid "self-serve advertising"
 msgstr "สร้างโฆษณาด้วยตัวเอง"
