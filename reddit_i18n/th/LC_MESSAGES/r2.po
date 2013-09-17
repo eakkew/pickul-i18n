@@ -2600,7 +2600,9 @@ msgid ""
 "*otherwise,* if you did not expect to receive this, you can simply ignore this invitation or report it."
 msgstr ""
 "**เย้! คุณได้ถูกเชิญให้เป็นผู้ดูแลของ [%(title)s](%(url)s)!**\n"
-"*ถ้าต้องการตอบรับ* โปรดเข้าไปเยี่ยม [หน้าผู้ดูแลของ %(url)s](%(url)s/about/moderators) และกด​ \"ตอบรับ\"\n"
+"\n"
+"*ถ้าต้องการตอบรับ* โปรดเข้าไปเยี่ยม [หน้าผู้ดูแลของ %(url)s](%(url)s/about/moderators) และกด \"ตอบรับ\"\n"
+"\n"
 "*ไม่เช่นนั้น* ถ้าคุณไม่ได้รอคำเชิญนี้ คุณสามารถปล่อยมันทิ้งไว้ หรือรายงานเราได้"
 
 #: r2/lib/system_messages.py:39
