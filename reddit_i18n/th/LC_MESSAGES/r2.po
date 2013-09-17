@@ -5290,7 +5290,7 @@ msgstr "คุณได้ถูกเชิญชวนมาเป็นผู
 
 #: r2/templates/modlist.html:56
 msgid "invite"
-msgstr "คำเชิญ"
+msgstr "เชิญ"
 
 #: r2/templates/modlist.html:61
 msgid "pending invitations"
