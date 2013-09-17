@@ -3886,7 +3886,7 @@ msgstr "เมื่อ"
 msgid "%s (filtered)"
 msgstr "%s (ถูกกรองออก)"
 
-#: r2/templates/subreddit.html:1107
+#: r2/templates/subreddit.py:1107
 msgid "short_description"
 msgstr "พิกุล.com - บอกเล่า แบ่งปัน ทุกสิ่ง"
 
