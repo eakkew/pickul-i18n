@@ -1135,140 +1135,140 @@ msgstr ""
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:22
 msgid "Reason to create a reddit 1"
-msgstr ""
+msgstr "เพื่อการรณรงค์การรักษาสิ่งแวดล้อม"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:24
 msgid "Reason to create a reddit 2"
-msgstr ""
+msgstr "เพื่อความฟินของชนชั้นกลาง"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:26
 msgid "Reason to create a reddit 3"
-msgstr ""
+msgstr "เพื่อเอาไว้รวมรุ่นมัธยม"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:28
 msgid "Reason to create a reddit 4"
-msgstr ""
+msgstr "เพื่อกิลragnarokของคุณ"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:30
 msgid "Reason to create a reddit 5"
-msgstr ""
+msgstr "เพื่อหาเพื่อนที่ชอบเหมือนๆกัน"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:32
 msgid "Reason to create a reddit 6"
-msgstr ""
+msgstr "สำหรับเกมส์ที่คุณชอบ"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:34
 msgid "Reason to create a reddit 7"
-msgstr ""
+msgstr "สำหรับดาราสุดหล่อของคุณ"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:36
 msgid "Reason to create a reddit 8"
-msgstr ""
+msgstr "เพื่อพัฒนาชุมชนของคุณ"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:38
 msgid "Reason to create a reddit 9"
-msgstr ""
+msgstr "สำหรับอาหารจานโปรด"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:40
 msgid "Reason to create a reddit 10"
-msgstr ""
+msgstr "เพื่ออนาคตทางการเงิน"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:42
 msgid "Reason to create a reddit 11"
-msgstr ""
+msgstr "สำหรับบริษัทของคุณ"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:44
 msgid "Reason to create a reddit 12"
-msgstr ""
+msgstr "เพื่อความเป็นธรรมในหมู่มวลชน"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:46
 msgid "Reason to create a reddit 13"
-msgstr ""
+msgstr "เพื่อให้เมืองไทยน่าอยู่ขึ้น"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:48
 msgid "Reason to create a reddit 14"
-msgstr ""
+msgstr "เพื่อสิ่งที่คุณรัก"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:50
 msgid "Reason to create a reddit 15"
-msgstr ""
+msgstr "สำหรับสิ่งที่กำลังสูญพันธ์"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:52
 msgid "Reason to create a reddit 16"
-msgstr ""
+msgstr "เพื่อความสะดวกสบายในการใช้ชีวิต"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:54
 msgid "Reason to create a reddit 17"
-msgstr ""
+msgstr "เพื่อพรรคการเมืองที่คุณชื่นชอบ"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:56
 msgid "Reason to create a reddit 18"
-msgstr ""
+msgstr "เพื่อผีแดง"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:58
 msgid "Reason to create a reddit 19"
-msgstr ""
+msgstr "เพื่อสถานที่ท่องเที่ยวสุดสัปดาห์"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant
 #. phrase
 #. (see the English version for ideas)
 #: r2/lib/generated_strings.py:60
 msgid "Reason to create a reddit 20"
-msgstr ""
+msgstr "เพื่อลูกหลานของคุณ"
 
 #: r2/lib/generated_strings.py:61
 msgid "uniques by hour"
