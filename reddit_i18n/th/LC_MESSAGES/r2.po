@@ -2753,7 +2753,7 @@ msgid "FAQ"
 msgstr "คำถามที่ถามบ่อยๆ"
 
 #: r2/lib/pages/pages.py:592
-msgid "reddiquette"
+msgid "pickutiquette"
 msgstr "จริยธรรมการเป็นชาวพิกุลที่ดี"
 
 #: r2/lib/pages/pages.py:602
