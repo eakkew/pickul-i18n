@@ -3890,7 +3890,7 @@ msgstr "%s (ถูกกรองออก)"
 
 #: r2/models/subreddit.py:1107
 msgid "pickul.com"
-msgstr "พิกุล.com - บอกเล่า แบ่งปัน ทุกสิ่ง"
+msgstr "บอกเล่า แบ่งปัน ทุกสิ่ง"
 
 #: r2/models/subreddit.py:1287
 msgid "on reddit.com"
