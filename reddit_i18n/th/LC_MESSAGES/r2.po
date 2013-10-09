@@ -2787,7 +2787,7 @@ msgstr "<3"
 #: r2/lib/pages/pages.py:825
 #, python-format
 msgid "%(site)s mail"
-msgstr "%(site)s ข้อความ"
+msgstr "ข้อความของ %(site)s"
 
 #: r2/lib/pages/pages.py:892 r2/templates/redditheader.html:73
 msgid "login or register"
