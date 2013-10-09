@@ -1558,7 +1558,7 @@ msgstr "ตั้งค่าผู้ดูแล"
 
 #: r2/lib/menus.py:123
 msgid "moderator mail"
-msgstr "อีเมลของผู้ดูแล"
+msgstr "ข้อความของผู้ดูแล"
 
 #: r2/lib/menus.py:124
 msgid "edit approved submitters"
@@ -2787,7 +2787,7 @@ msgstr "<3"
 #: r2/lib/pages/pages.py:825
 #, python-format
 msgid "%(site)s mail"
-msgstr "%(site)s จดหมาย"
+msgstr "%(site)s ข้อความ"
 
 #: r2/lib/pages/pages.py:892 r2/templates/redditheader.html:73
 msgid "login or register"
