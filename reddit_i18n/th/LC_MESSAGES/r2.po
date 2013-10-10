@@ -2722,7 +2722,7 @@ msgstr "ห้องพิกุลเหล่านี้"
 
 #: r2/lib/pages/pages.py:403
 msgid "Create your own subreddit"
-msgstr "สร้าห้องบพิกุลของคุณ"
+msgstr "สร้างห้องพิกุลของคุณ"
 
 #: r2/lib/pages/pages.py:418
 msgid "message the admins"
