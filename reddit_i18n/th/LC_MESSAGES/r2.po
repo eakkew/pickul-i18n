@@ -4336,6 +4336,10 @@ msgstr "เอาเลย!"
 msgid "no spaces, e.g., slashdot"
 msgstr "ห้ามเว้นวรรค เช่น batmanbegin"
 
+#: r2/templates/createsubreddit.html:264
+msgid "Minutes to hide comment scores:"
+msgstr "จำนวนเวลา (นาที) ที่จะซ่อนคะแนนของความเห็นเมื่อโพส"
+
 #: r2/templates/createsubreddit.html:43 r2/templates/goldpayment.html:159
 #: r2/templates/prefapps.html:118 r2/templates/prefapps.html:305
 msgid "name"
