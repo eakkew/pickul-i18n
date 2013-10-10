@@ -2518,6 +2518,7 @@ msgstr[0] "ลิ้งค์"
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "ข้อความ"
+msgstr[1] "ข้อความ"
 
 #: r2/lib/strings.py:293 r2/templates/sitewidetraffic.html:36
 msgid "subreddit"
