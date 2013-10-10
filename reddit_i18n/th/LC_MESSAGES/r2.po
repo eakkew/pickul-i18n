@@ -7055,6 +7055,10 @@ msgstr "แบนใครดี?"
 msgid "why the ban?"
 msgstr "แบนไมอะ?"
 
+#: r2/templates/userlist.html:42
+msgid "(will not be visible to user)"
+msgstr "(ผู้ที่ถูกแบนจะไม่เห็นข้อความนี้)"
+
 #: r2/templates/userlist.html:48 r2/templates/wikipagesettings.html:59
 msgid "add"
 msgstr "เพิ่ม"
