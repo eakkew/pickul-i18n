@@ -7047,6 +7047,14 @@ msgstr "ลบ session"
 msgid "Apps you have authorized"
 msgstr "แอปป์ที่คุณได้รับอนุญาติ"
 
+#: r2/templates/userlist.html:39
+msgid "who to ban?"
+msgstr "แบนใครดี?"
+
+#: r2/templates/userlist.html:42
+msgid "why the ban?"
+msgstr "แบนไมอะ?"
+
 #: r2/templates/userlist.html:48 r2/templates/wikipagesettings.html:59
 msgid "add"
 msgstr "เพิ่ม"
