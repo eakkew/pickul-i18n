@@ -298,7 +298,7 @@ msgstr "ทั้งหมด"
 
 #: r2/controllers/front.py:494
 msgid "filter by action"
-msgstr "แสดงเฉพาะ Action"
+msgstr "แสดง Action แบบ"
 
 #: r2/controllers/front.py:496
 msgid "filter by moderator"
@@ -2949,7 +2949,7 @@ msgstr "เชิญชวนให้เป็นผู้ดูแล"
 #: r2/lib/pages/pages.py:2957 r2/templates/modlist.html:33
 #, python-format
 msgid "you are a moderator of this subreddit. %(action)s"
-msgstr "คุณเป็นผู้ดูแลของห้องพิกุลนี้ ​%(action)s"
+msgstr "คุณเป็นผู้ดูแลของห้องพิกุลนี้ %(action)s"
 
 #: r2/lib/pages/pages.py:2971
 #, python-format
