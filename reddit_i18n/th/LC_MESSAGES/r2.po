@@ -304,6 +304,14 @@ msgstr "แสดง Action แบบ"
 msgid "filter by moderator"
 msgstr "แสดงเฉพาะผู้ดูแล"
 
+#: r2/controllers/front.py:666
+msgid "links and comments"
+msgstr "link และความคิดเห็น"
+
+#: r2/controllers/front.py:669
+msgid "show"
+msgstr "แสดง"
+
 #: r2/controllers/front.py:723 r2/lib/menus.py:144
 msgid "awards"
 msgstr "รางวัล"
