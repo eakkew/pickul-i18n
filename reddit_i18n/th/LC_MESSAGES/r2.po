@@ -3460,7 +3460,7 @@ msgstr "%(author)s ผ่านทาง %(subreddit)s"
 
 #: r2/models/mail_queue.py:309
 #, python-format
-msgid "[reddit] %(user)s has shared a link with you"
+msgid "[pickul] %(user)s has shared a link with you"
 msgstr "[พิกุล] %(user)s ได้แชร์ลิงค์ให้กับคุณ"
 
 #: r2/models/mail_queue.py:310
@@ -3474,55 +3474,55 @@ msgid "[ad_inq] feedback from '%(user)s'"
 msgstr "[โฆษณา] เสียงตอบรับจากผู้ใช้ '%s(user)s'"
 
 #: r2/models/mail_queue.py:312
-msgid "[reddit] email removal notice"
+msgid "[pickul] email removal notice"
 msgstr "[พิกุล] แจ้งการลบอีเมล์ออก"
 
 #: r2/models/mail_queue.py:313
-msgid "[reddit] email addition notice"
+msgid "[pickul] email addition notice"
 msgstr "[พิกุล] แจ้งการเพิ่มอีเมล์"
 
 #: r2/models/mail_queue.py:314
-msgid "[reddit] reset your password"
+msgid "[pickul] reset your password"
 msgstr "[พิกุล] ตั้งรหัสผ่านใหม่"
 
 #: r2/models/mail_queue.py:315
-msgid "[reddit] verify your email address"
+msgid "[pickul] verify your email address"
 msgstr "[พิกุล] กรุณายืนยันอีเมล์ของคุณ"
 
 #: r2/models/mail_queue.py:316
-msgid "[reddit] your bid has been accepted"
+msgid "[pickul] your bid has been accepted"
 msgstr "[พิกุล] การประมูลของคุณได้ถูกอนุมัติแล้ว"
 
 #: r2/models/mail_queue.py:317
-msgid "[reddit] your promotion has been accepted"
+msgid "[pickul] your promotion has been accepted"
 msgstr "[พิกุล] โปรโมชั่นของคุณได้ถูกอนุมัติแล้ว"
 
 #: r2/models/mail_queue.py:318
-msgid "[reddit] your promotion has been rejected"
+msgid "[pickul] your promotion has been rejected"
 msgstr "[พิกุล] โปรโมชั่นของคุณถูกปฏิเสธ"
 
 #: r2/models/mail_queue.py:319
-msgid "[reddit] your promotion has been charged"
+msgid "[pickul] your promotion has been charged"
 msgstr "[พิกุล] โปรโมชั่นของคุณได้ถูกคิดเงินแล้ว"
 
 #: r2/models/mail_queue.py:320
-msgid "[reddit] your promotion is now live"
+msgid "[pickul] your promotion is now live"
 msgstr "[พิกุล] โปรโมชั่นของคุณได้เริ่มแล้ว"
 
 #: r2/models/mail_queue.py:321
-msgid "[reddit] your promotion has finished"
+msgid "[pickul] your promotion has finished"
 msgstr "[พิกุล] โปรโมชั่นของคุณได้จบลงแล้ว"
 
 #: r2/models/mail_queue.py:322
-msgid "[reddit] your promotion has been created"
+msgid "[pickul] your promotion has been created"
 msgstr "[พิกุล] โปรโมชั่นของคุณได้ถูกสร้างแล้ว"
 
 #: r2/models/mail_queue.py:323
-msgid "[reddit] hey, nerd!"
+msgid "[pickul] hey, nerd!"
 msgstr "[พิกุล] คุณนายครับ"
 
 #: r2/models/mail_queue.py:324
-msgid "[reddit] reddit gold activation link"
+msgid "[pickul] reddit gold activation link"
 msgstr "[พิกุล] ลิงค์ไปยังหน้า 'ใช้ดอกพิกุลทอง'"
 
 #: r2/models/modaction.py:61
