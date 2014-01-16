@@ -7337,3 +7337,8 @@ msgstr "หน้านี้ไม่มีข้อมูล"
 #, python-format
 msgid "revision by&nbsp;%s"
 msgstr "แก้ไขโดย&nbsp;%s"
+
+#: r2/templates/wikiview.html:49
+#, python-format
+msgid "%(time)s&nbsp;ago"
+msgstr "%(time)s&nbsp;ที่แล้ว"
