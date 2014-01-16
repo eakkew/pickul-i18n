@@ -4533,7 +4533,7 @@ msgstr "ปรับ header ให้กลับเป็นค่าเริ�
 #: r2/templates/createsubreddit.html:358 r2/templates/flairpane.html:88
 #: r2/templates/prefoptions.html:324 r2/templates/promotelinkform.html:404
 msgid "save options"
-msgstr "ตัวเลือกการบันทึก"
+msgstr "บันทึกการแก้ไข"
 
 #: r2/templates/errorpage.html:41
 #, python-format
