@@ -6869,7 +6869,7 @@ msgstr "สร้างโดย&#32;%(user)s"
 
 #: r2/templates/subredditinfobar.html:79
 msgid "a community for"
-msgstr "เป็นสังคมมา"
+msgstr "ห้องพิกุลนี้เปิดมาแล้ว"
 
 #: r2/templates/subredditinfobar.html:85
 msgid "approve this subreddit"
