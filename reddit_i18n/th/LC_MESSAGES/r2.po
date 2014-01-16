@@ -4589,7 +4589,7 @@ msgstr "css calss"
 #: r2/templates/printablebuttons.html:267
 #: r2/templates/subredditstylesheet.html:87
 msgid "save"
-msgstr "บันทึก"
+msgstr "เก็บเข้าคลัง"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:41
 #: r2/templates/promotedlinktraffic.html:113
@@ -4750,11 +4750,11 @@ msgstr "ไม่ถูกใจ"
 #: r2/templates/printablebuttons.html:263
 #: r2/templates/printablebuttons.html:267
 msgid "unsave"
-msgstr "ยกเลิกการบันทึก"
+msgstr "ยกเลิกการเก็บเข้าคลัง"
 
 #: r2/templates/frametoolbar.html:195
 msgid "unsaved"
-msgstr "ยกเลิกการบันทึกแล้ว"
+msgstr "ยกเลิกการบเก็บเข้าคลังแล้ว"
 
 #: r2/templates/frametoolbar.html:204 r2/templates/printablebuttons.html:195
 msgid "unhide"
