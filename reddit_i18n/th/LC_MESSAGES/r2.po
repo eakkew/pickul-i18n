@@ -335,7 +335,7 @@ msgstr "อ่านแล้ว"
 #: r2/controllers/front.py:943 r2/lib/menus.py:77
 #: r2/templates/newlink.html:137
 msgid "submit"
-msgstr "ส่งข้อความ"
+msgstr "ตั้งกระทู้"
 
 #: r2/controllers/front.py:1064
 msgid "rules of reddit"
