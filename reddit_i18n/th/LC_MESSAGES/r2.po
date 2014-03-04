@@ -5343,7 +5343,7 @@ msgstr "ส่งไปยัง %(sr)s"
 
 #: r2/templates/newlink.html:70 r2/templates/promotelinkform.html:277
 msgid "url"
-msgstr "url"
+msgstr "ลิงค์ (url)"
 
 #: r2/templates/newlink.html:82
 msgid "suggest title"
