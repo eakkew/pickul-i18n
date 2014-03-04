@@ -3748,7 +3748,7 @@ msgstr "ลบตัวเองออก"
 #: r2/models/modaction.py:125 r2/templates/createsubreddit.html:56
 #: r2/templates/newlink.html:61 r2/templates/promotelinkform.html:265
 msgid "title"
-msgstr "ไตเติล"
+msgstr "หัวข้อ"
 
 #: r2/models/modaction.py:126 r2/templates/createsubreddit.html:68
 #: r2/templates/prefapps.html:125 r2/templates/prefapps.html:312
