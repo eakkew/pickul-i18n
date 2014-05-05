@@ -3142,7 +3142,7 @@ msgstr "จำนวนผู้ชม"
 #: r2/templates/printablebuttons.html:209
 #: r2/templates/printablebuttons.html:297 r2/templates/wrappeduser.html:57
 msgid "edit"
-msgstr "การแก้ไข"
+msgstr "แก้ไข"
 
 #: r2/lib/pages/wiki.py:97
 msgid "history"
@@ -3575,7 +3575,7 @@ msgstr "แก้ไขการตั้งค่า"
 
 #: r2/models/modaction.py:76 r2/templates/printablebuttons.html:87
 msgid "distinguish"
-msgstr "จำแนก"
+msgstr "ประกาศ"
 
 #: r2/models/modaction.py:77
 msgid "mark nsfw"
@@ -3703,7 +3703,7 @@ msgstr "เปลี่ยนสิทธิการเข้าถึงขอ
 
 #: r2/models/modaction.py:109
 msgid "distinguished"
-msgstr "จำแนกแล้ว"
+msgstr "เปลี่ยนเป็นประกาศแล้ว"
 
 #: r2/models/modaction.py:110
 msgid "marked nsfw"
@@ -3905,6 +3905,10 @@ msgstr "บอกเล่า แบ่งปัน ทุกสิ่ง"
 msgid "on reddit.com"
 msgstr "บน pickul.com"
 
+#: r2/models/subreddit.py:1014
+msgid "all subreddits"
+msgstr "พิกุลทั้งหมด"
+
 #: r2/models/token.py:103
 msgid "Edit Posts"
 msgstr "แก้ไขกระทู้"
@@ -4074,7 +4078,7 @@ msgstr "โฆษณา"
 
 #: r2/templates/allinfobar.html:37
 msgid "Exclude your subscribed subreddits"
-msgstr "ไม่นับรวมห้องพิกุลที่คุณติดตาม"
+msgstr "ไม่รวมห้องพิกุลที่คุณติดตาม"
 
 #: r2/templates/allinfobar.html:43
 msgid "See gilded comments"
@@ -6200,11 +6204,11 @@ msgstr "เอาเครื่องหมายออก"
 
 #: r2/templates/printablebuttons.html:85
 msgid "distinguishing..."
-msgstr "กำลังทำการจำแนก"
+msgstr "กำลังเปลี่ยนกระทู้เป็นประกาศ"
 
 #: r2/templates/printablebuttons.html:89
 msgid "distinguish this?"
-msgstr "จำแนกสิ่งนี้?"
+msgstr "เปลี่ยนลิงค์นี้เป็นประกาศ"
 
 #: r2/templates/printablebuttons.html:135
 msgid "confirm spam"
