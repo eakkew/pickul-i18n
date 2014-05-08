@@ -3909,6 +3909,10 @@ msgstr "บน pickul.com"
 msgid "all subreddits"
 msgstr "พิกุลทั้งหมด"
 
+#: r2/models/subreddit.py:1014
+msgid "all subreddits except "
+msgstr "พิกุลทั้งหมดยกเว้น"
+
 #: r2/models/token.py:103
 msgid "Edit Posts"
 msgstr "แก้ไขกระทู้"
